@@ -23,6 +23,11 @@
             <div class="m-4 hidden" id="passConfirmWrapper" >
                 <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="password" id="passConfirmInput" placeholder="Confirm Password">
             </div>
+            <div class="hidden m-4" id="leagueSelectWrapper">
+                <select id="leagueSelect" class="shadow-md w-full p-2 rounded-md text-center shadow-slate-900 bg-stone-600">
+                    <option selected disabled hidden>Select League</option>
+                </select>
+            </div>
             <button class="my-4 mx-5 bg-green-500 p-3 rounded-md shadow-slate-900  border-t-0 transition duration-300 border-y-4 border-green-800 shadow-md  font-bold text-lg [text-shadow:0_3px_3px_#000] hover:bg-green-700 text-slate-200 hover:shadow-green-500/50" id="signInButton">
                 Sign in
             </button>
@@ -31,7 +36,7 @@
     </div>
     <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
-    <script src="../src/index.js"></script>
-    
+    <script type="text/javascript" src="../src/index.js"></script>
+    <script type="text/javascript" src="../src/register.js"></script>
 </body>
 </html>
