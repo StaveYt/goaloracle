@@ -1,5 +1,6 @@
-let fullData = [];
-let user = localStorage.getItem('USER') !== null ? JSON.parse(localStorage.getItem('USER')) : nul;
+
+
+let user = localStorage.getItem('USER') !== null ? JSON.parse(localStorage.getItem('USER')) : null;
 
 const requestOptions = {
   method: 'GET',
@@ -23,8 +24,8 @@ const app = firebase.initializeApp(firebaseConfig);
 let database = app.firestore();
 
 function LoadInfo(){
+  console.log(user)
   let teamPic = user.favClubs[2];
-  let teamName = user.favClubs[1];
   let username = user.username;
   let teamElo = JSON.parse(localStorage.getItem('FAVTEAMELO'));
   teamElo = teamElo[teamElo.length-1]
@@ -39,6 +40,7 @@ function ShowSignForm(type){
 }
 
 function CheckUser(){
+  user = localStorage.getItem('USER') !== null ? JSON.parse(localStorage.getItem('USER')) : null;
   if(user!= null){
     window.location.href = "html/testaccpage.html";
   } else{

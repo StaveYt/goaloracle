@@ -5,11 +5,13 @@ signInButton.addEventListener("click", SignIn);
 let createAccountButton = document.getElementById('createAccount');
 createAccountButton.addEventListener('click', RegisterForm);
 
+let curruser = null;
+
 // if(user != null && window.location.href!="testaccpage.html"){
 //   document.getElementsByTagName('body')[0].children[0].removeChild(document.getElementById('signInContainer'));
 //   console.log(user)
-//   GetTeamElo();
-//   window.location.href="testaccpage.html";
+//   GetTeamElo(user);
+//   
 // }
 
 function RegisterForm(){
@@ -38,16 +40,18 @@ function SignIn(){
     
     database.collection("users").where("username", "==", username).where("password", "==", password).get().then((querySnapshot) => {
       querySnapshot.forEach((doc) => {
-        database.collection("users").doc(doc.id).get().then(doc => {curruser=doc.data(); localStorage.setItem('USER', JSON.stringify(curruser))})
-        
-        console.log(`tocna šifra`);
-        document.getElementsByTagName('body')[0].children[0].removeChild(document.getElementById('signInContainer'));
-        GetTeamElo();
-        window.location.href="../index.html"
-        });
-    });
+        database.collection("users").doc(doc.id).get().then(doc => {
+          curruser=doc.data(); 
+          localStorage.setItem('USER', JSON.stringify(curruser)); 
+          user={...curruser}; 
+          console.log(user, curruser); 
+          GetTeamElo(curruser)
+          console.log(`tocna šifra`);
+        })
+      });
+  });
 }
-  
+
 function SignUp(){
     let usernameTaken = false;
   
@@ -83,20 +87,23 @@ function SignUp(){
 }
 
 
-function GetTeamElo(){
-  fetch(`http://api.clubelo.com/${user.favClubs[0]}`, requestOptions)
+function GetTeamElo(usert){
+  fetch(`http://api.clubelo.com/${usert.favClubs[0]}`, requestOptions)
   .then(response => response.text())
-  .then(result => parseEloData(result))
+  .then(result => {
+    let fullData = [];
+    let dataRows = result.split('\n').slice(100)
+    dataRows.forEach(row => {
+      if (row!=""){fullData.push(row.split(',').slice(1))}
+    })
+    console.log(fullData)
+    localStorage.setItem("FAVTEAMELO", JSON.stringify(fullData))
+    window.location.href="testaccpage.html";})
   .catch(error => console.log('error', error));
 }
 
 function parseEloData(data){
-  let dataRows = data.split('\n').slice(100)
-  dataRows.forEach(row => {
-    if (row!=""){fullData.push(row.split(',').slice(1))}
-  })
-  localStorage.setItem("FAVTEAMELO", JSON.stringify(fullData))
-  console.log(fullData);
+
 }
 
 fetch(`https://api.sportmonks.com/v3/my/leagues?api_token=${sportMonksToken}&include=`).then(response => response.json()).then(data => GetAllLeagues(data.data))
