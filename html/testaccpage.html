@@ -8,11 +8,43 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <title>Document</title>
 </head>
-<body class="w-screen h-screen bg-slate-200 flex dark:bg-slate-700 font-serif" onload="LoadInfo()">
-    <div class="self-center m-auto dark:text-slate-300 text-2xl">
-        <p id="username" class="inline">Ime Korisnika</p>
-        <img src="..." id="teamPic" class="inline w-5" alt="NAJDRAŽI TIM">
-        <p id="teamelo" class="inline">ELO</p>
+<body class="w-screen h-screen bg-slate-200 flex dark:bg-[#001501] font-serif" onload="LoadInfo()">
+    <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200">
+        <div class="w-full"> <!--top menu-->
+            <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+                <a href="#" class=" ">Simulate</a>
+            </div>
+            <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+                <a href="#">Ranking</a>
+            </div>
+            <div class="text-center">
+                <button onclick="SignOut('signin')" class="bg-green-600 border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                    Sign Out
+                </button>
+            </div>
+        </div>
+        <div class="self-end w-full"> <!--bottom menu-->
+            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+                <a href="#" class=" ">Light UI</a>
+            </div>
+            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+                <a href="#">Collapse</a>
+            </div>
+            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+                <a href="#">Settings</a>
+            </div>
+            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+                <a href="#">Help</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-1">
+        <div class="m-10 dark:text-slate-300 text-2xl">
+            <p id="username" class="inline">Ime Korisnika</p>
+            <img src="..." id="teamPic" class="inline w-5" alt="NAJDRAŽI TIM">
+            <p id="teamelo" class="inline mx-5">ELO</p>
+        </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>

@@ -43,6 +43,7 @@ function SignIn(){
         console.log(`tocna šifra`);
         document.getElementsByTagName('body')[0].children[0].removeChild(document.getElementById('signInContainer'));
         GetTeamElo();
+        window.location.href="../index.html"
         });
     });
 }
