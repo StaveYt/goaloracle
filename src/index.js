@@ -33,9 +33,7 @@ function LoadInfo(){
 }
 
 
-function ShowSignForm(type){
-  window.location.href="html/register.html";
-}
+
 
 function CheckUser(){
   if(localStorage.getItem('USER') != null && localStorage.getItem('USER') != "undefined"){
