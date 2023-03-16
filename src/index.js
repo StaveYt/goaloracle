@@ -1,5 +1,3 @@
-
-
 let user = localStorage.getItem('USER') !== null ? JSON.parse(localStorage.getItem('USER')) : null;
 
 const requestOptions = {
@@ -52,3 +50,5 @@ function SignOut(){
   localStorage.setItem('USER', null);
   window.location.href="../signintest.html"
 }
+
+let loaded = true
