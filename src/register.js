@@ -1,7 +1,3 @@
-let isitloaded = undefined
-while(!(window.loaded)){
-  console.log("s")
-}
 
 let signInButton = document.getElementById("signInButton");
 
