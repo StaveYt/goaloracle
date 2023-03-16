@@ -15,7 +15,17 @@ let curruser = null;
 //   
 // }
 
+function ShowSignForm(type){
+  document.getElementById("signInBox").classList.toggle('hidden');
+  document.getElementById("navbar").classList.toggle('blur-lg');
+  document.getElementById("container").classList.toggle('blur-lg');
+  if(type == "signup"){
+    RegisterForm()
+  }
+}
+
 function RegisterForm() {
+  console.log("pritisnuto")
   document.getElementById('emailWrapper').classList.toggle('hidden');
   document.getElementById('passConfirmWrapper').classList.toggle('hidden');
   document.getElementById('leagueSelectWrapper').classList.toggle('hidden');
@@ -66,6 +76,7 @@ function SignUp() {
   let passConfirm = document.getElementById('passConfirmInput').value;
   let email = document.getElementById('emailInput').value;
   let team = document.getElementById('teamSelect').value.split('|');
+  console.log(team)
   let league = document.getElementById('leagueSelect').value.split('|');
 
   database.collection("users").where("username", "==", username).get().then((querySnapshot) => {
@@ -78,14 +89,15 @@ function SignUp() {
     alert('PASSWORDS NOT MATCHING');
   } else {
     database.collection("users").get().then((querySnapshot) => {
-      let newUser = database.collection("users").add({
+      database.collection("users").doc(username).set({
         username: username,
         password: password,
         email: email,
         flwLeague: league,
         favClubs: team
       });
-      database.collection("users").doc(newUser.id).get().then(doc => {
+      console.log()
+      database.collection("users").doc(username).get().then(doc => {
         curruser = doc.data();
         localStorage.setItem('USER', JSON.stringify(curruser));
         user = { ...curruser };

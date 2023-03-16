@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../assets/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <title>Document</title>
 </head>
+
 <body class="w-screen h-screen bg-slate-200 flex dark:bg-[#001501] font-serif" onload="GetTodayMatchups()">
-    <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200">
-        <div class="w-full"> <!--top menu-->
-            <div class="font-bold text-center my-2 w-full"> <!--nav items-->
-                <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
-            </div>
-            <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
-                <a href="#" class=" ">Simulate</a>
-            </div>
-            <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-                <a href="rankingtest.html">Ranking</a>
-            </div>
-            <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-                <a href="utakmicetest.html">Današnje Utakmice</a>
-            </div>
-            <div class="text-center">
-                <button onclick="SignOut('signin')" class="bg-green-600 border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-                    Sign Out
-                </button>
-            </div>
-        </div>
-        <div class="self-end w-full"> <!--bottom menu-->
-            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
-                <a href="#" class=" ">Light UI</a>
-            </div>
-            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-                <a href="#">Collapse</a>
-            </div>
-            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
-                <a href="#">Settings</a>
-            </div>
-            <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
-                <a href="#">Help</a>
-            </div>
-        </div>
+  <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200">
+    <div class="w-full"> <!--top menu-->
+      <div class="font-bold text-center my-2 w-full"> <!--nav items-->
+        <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
+      </div>
+      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+        <a href="#" class=" ">Simulate</a>
+      </div>
+      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html">Ranking</a>
+      </div>
+      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="utakmicetest.html">Današnje Utakmice</a>
+      </div>
+      <div class="text-center">
+        <button onclick="SignOut('signin')"
+          class="bg-green-600 border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          Sign Out
+        </button>
+      </div>
     </div>
-
-    <div class="flex-1">
-        <div class="m-10 dark:text-slate-300 text-2xl">
-            <div class="flex flex-col">
-                <div class="flex">
-
-                    <input type="radio" name="fav_language" value="HTML">
-                </div>
-                <div id="currentmatchupslist" class="my-5 w-[64rem] rounded border-[5px] border-slate-800">
-                </div>
-            </div>
-        </div>
+    <div class="self-end w-full"> <!--bottom menu-->
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+        <a href="#" class=" ">Light UI</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="#">Collapse</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+        <a href="#">Settings</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+        <a href="#">Help</a>
+      </div>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
-    <script type="text/javascript" src="../src/index.js"></script>
-    <script src="../src/matchups.js"></script>
+  </div>
+
+  <div class="flex-1">
+    <div class="m-10 dark:text-slate-300 text-2xl">
+      <div class="flex flex-col">
+        <div class="flex">
+          <select data-te-select-init data-te-select-placeholder="Example placeholder" multiple>
+          </select>
+        </div>
+        <div id="donematchupslist" class="my-5 w-[64rem] rounded border-[5px] max-h-96 overflow-auto border-slate-800">
+          <h2>Done</h2>
+        </div>
+        <div id="livematchupslist" class="my-5 w-[64rem] rounded border-[5px] max-h-96 overflow-auto border-slate-800">
+          <h2>Live</h2>
+        </div>
+        <div id="currentmatchupslist" class="my-5 w-[64rem] overflow-auto rounded border-[5px] max-h-96 border-slate-800">
+          <h2>Today</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
+  <script type="text/javascript" src="../src/index.js"></script>
+  <script src="../src/matchups.js"></script>
 </body>
+
 </html>
