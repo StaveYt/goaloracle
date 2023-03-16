@@ -1,4 +1,4 @@
-let user = localStorage.getItem('USER') !== null ? JSON.parse(localStorage.getItem('USER')) : null;
+let user = localStorage.getItem('USER') !== null && localStorage.getItem('USER') != "undefined" ? JSON.parse(localStorage.getItem('USER')) : null;
 
 const requestOptions = {
   method: 'GET',
@@ -38,7 +38,10 @@ function ShowSignForm(type){
 }
 
 function CheckUser(){
-  user = localStorage.getItem('USER') !== null ? JSON.parse(localStorage.getItem('USER')) : null;
+  if(localStorage.getItem('USER') != null && localStorage.getItem('USER') != "undefined"){
+    user = JSON.parse(localStorage.getItem('USER'))
+  }
+  user = null;
   if(user!= null){
     window.location.href = "html/testaccpage.html";
   } else{
