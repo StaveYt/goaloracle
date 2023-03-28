@@ -8,12 +8,12 @@ createAccountButton.addEventListener('click', RegisterForm);
 
 let curruser = null;
 
-// if(user != null && window.location.href!="testaccpage.html"){
-//   document.getElementsByTagName('body')[0].children[0].removeChild(document.getElementById('signInContainer'));
-//   console.log(user)
-//   GetTeamElo(user);
-//   
-// }
+if(user != null && window.location.href!="testaccpage.html"){
+  document.getElementsByTagName('body')[0].children[0].removeChild(document.getElementById('signInContainer'));
+  console.log(user)
+  GetTeamElo(user);
+  
+}
 
 function ShowSignForm(type){
   document.getElementById("signInBox").classList.toggle('hidden');
@@ -60,7 +60,7 @@ function SignIn() {
         localStorage.setItem('USER', JSON.stringify(curruser));
         user = { ...curruser };
         console.log(user, curruser);
-        GetTeamElo(curruser).then(elo => window.location.href = "testaccpage.html");
+        GetTeamElo(curruser).then(elo => window.location.href = "html/testaccpage.html");
       });
     });
 
@@ -101,7 +101,8 @@ function SignUp() {
         curruser = doc.data();
         localStorage.setItem('USER', JSON.stringify(curruser));
         user = { ...curruser };
-        GetTeamElo(curruser).then(elo => window.location.href = "testaccpage.html");
+        GetTeamElo(curruser)
+        //.then(elo => window.location.href = "html/testaccpage.html");
       });
     });
   }
@@ -117,7 +118,10 @@ async function GetTeamElo(usert) {
         if (row != "") { fullData.push(row.split(',').slice(1)); }
       });
       console.log(fullData);
+      
       localStorage.setItem("FAVTEAMELO", JSON.stringify(fullData));
+      console.log(JSON.parse(localStorage.getItem("FAVTEAMELO")))
+      
       return fullData;
     })
     .catch(error => console.log('error', error));
@@ -138,8 +142,8 @@ function GetAllLeagues(data) {
   }
 }
 
-GetAllTeams()
-function GetAllTeams() {
+CreateTeamSelect()
+function CreateTeamSelect() {
   let selectTeam = document.getElementById('teamSelect');
   for (let i = 1; i < 13; i++) {
     fetch(`https://api.sportmonks.com/v3/football/teams?api_token=${sportMonksToken}&page=${i}&filters=populate&per_page=1000&include=`).then(response => response.json()).then(data => {

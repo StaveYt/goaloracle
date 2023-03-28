@@ -1,5 +1,5 @@
 let user = localStorage.getItem('USER') !== null && localStorage.getItem('USER') != "undefined" ? JSON.parse(localStorage.getItem('USER')) : null;
-
+console.log(user)
 const requestOptions = {
   method: 'GET',
   redirect: 'follow',
@@ -28,18 +28,20 @@ function LoadInfo(){
   let teamElo = JSON.parse(localStorage.getItem('FAVTEAMELO'));
   teamElo = teamElo[teamElo.length-1]
   document.getElementById('teamPic').setAttribute('src', teamPic);
-  document.getElementById('teamelo').innerHTML = String(Number(parseFloat(teamElo[3]).toFixed(2)));
+  document.getElementById('teamElo').innerHTML = String(Number(parseFloat(teamElo[3]).toFixed(2)));
   document.getElementById('username').innerText = username;
 }
 
-
-
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function CheckUser(){
   if(localStorage.getItem('USER') != null && localStorage.getItem('USER') != "undefined"){
     user = JSON.parse(localStorage.getItem('USER'))
+  }else{
+    
   }
-  user = null;
   if(user!= null){
     window.location.href = "html/testaccpage.html";
   } else{
@@ -53,3 +55,8 @@ function SignOut(){
 }
 
 let loaded = true
+
+function GoToSimulator(){
+  window.location.href="simulator.html"
+}
+
