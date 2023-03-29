@@ -1,16 +1,17 @@
+<head>
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../assets/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
-<body class="w-screen h-screen bg-slate-200 flex dark:bg-[#001501] font-serif" onload="GetTodayMatchups()">
+<body class="w-screen h-screen bg-[#1bb198] flex dark:bg-[#001501] font-[poppins]" onload="GetTodayMatchups()">
   <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200">
     <div class="w-full"> <!--top menu-->
       <div class="font-bold text-center my-2 w-full"> <!--nav items-->
@@ -23,11 +24,10 @@
         <a href="rankingtest.html">Ranking</a>
       </div>
       <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="utakmicetest.html">Današnje Utakmice</a>
+        <a href="utakmicetest.html">Football games</a>
       </div>
       <div class="text-center">
-        <button onclick="SignOut('signin')"
-          class="bg-green-600 border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+        <button onclick="SignOut('signin')" class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
           Sign Out
         </button>
       </div>
@@ -47,26 +47,330 @@
       </div>
     </div>
   </div>
-
-  <div class="flex-1 overflow-auto">
-    <div class="m-10 dark:text-slate-300 text-2xl">
-      <div class="flex flex-col">
+  <!--
+  <div class="flex flex-row [padding-left:var(--navWidth)]">
+    <img src="assets\imgs\user-icon.jpg"  alt="user" class="h-20">
+    <p class="mt-6">Username</p>
+  </div>
+  -->
+        <!--
         <div class="flex">
           <select data-te-select-init data-te-select-placeholder="Example placeholder" multiple>
-          </select>
-        </div>
-        <div id="donematchupslist" class="my-5 w-[64rem] rounded border-[5px] max-h-96 overflow-auto border-slate-800">
-          <h2>Done</h2>
-        </div>
-        <div id="livematchupslist" class="my-5 w-[64rem] rounded border-[5px] max-h-96 overflow-auto border-slate-800">
-          <h2>Live</h2>
-        </div>
-        <div id="currentmatchupslist" class="my-5 w-[64rem] overflow-auto rounded border-[5px] max-h-96 border-slate-800">
-          <h2>Today</h2>
+          </select>-->
+        <div class="mx-auto my-5 w-full px-5 drop-shadow rounded-md">
+          <h1 class="text-3xl font-italic text-center text-white mb-10">Football games</h1>
+  
+          <!-- The First FAQ -->
+          <details class="bg-gray-300 open:bg-[#666666] duration-300">
+              <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Live games</summary>
+              <div id="livematchupslist" class="overflow-scroll max-h-96">
+                  <table class="table-auto w-full text-lg bg-[#222222] text-[#f1f5f9] text-center">
+                    <thead class="bg-[#666666]">
+                    <tr>
+                        <th>Players</th>
+                        <th>Current results</th>
+                        <th>Predictions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=" border-[#666666]">
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+        
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+        
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+        
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+              </div>
+        
+          </details>
+  
+          <!-- The Second FAQ -->
+          <details class="bg-gray-300 open:bg-[#666666] duration-300">
+              <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Finished games</summary>
+              <div id="donematchupslist" class="overflow-scroll max-h-96">
+                  <table class="table w-full text-lg bg-[#222222] text-[#f1f5f9] text-center">
+                    <thead class="bg-[#666666]">
+                    <tr>
+                        <th>Players</th>
+                        <th>Results</th>
+                        <th>Acuracy</th>
+                        <th>Moves</th>
+                        <th>Date</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=" border-[#666666]">
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                                <p>0%</p> 
+                                <p>100%</p> 
+                            </td>
+                            <td>
+                            90+12    
+                            </td>
+                            <td>
+                            Feb 6, 2023.
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                                <p>0%</p> 
+                                <p>100%</p> 
+                            </td>
+                            <td>
+                            90+12    
+                            </td>
+                            <td>
+                            Feb 6, 2023.
+                            </td>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                                <p>0%</p> 
+                                <p>100%</p> 
+                            </td>
+                            <td>
+                            90+12    
+                            </td>
+                            <td>
+                            Feb 6, 2023.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                                <p>0%</p> 
+                                <p>100%</p> 
+                            </td>
+                            <td>
+                            90+12    
+                            </td>
+                            <td>
+                            Feb 6, 2023.
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+                            <td class="">
+                                <p>0</p> 
+                                <p>4</p> 
+                            </td>
+                            <td class="">
+                                <p>0%</p> 
+                                <p>100%</p> 
+                            </td>
+                            <td>
+                            90+12    
+                            </td>
+                            <td>
+                            Feb 6, 2023.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+                </div>
+        
+          </details>
+  
+          <!-- The Third FAQ -->
+          <details class="bg-gray-300 open:bg-[#666666] duration-300">
+              <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Schedualed games</summary>
+              <div id="currentmatchupslist" class="overflow-scroll max-h-96">
+                  <table class="table-auto w-full text-lg bg-[#222222] text-[#f1f5f9] text-center">
+                    <thead class="bg-[#666666]">
+                    <tr>
+                        <th>Players</th>
+                        <th>Predictions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=" border-[#666666]">
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+        
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+        
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+        
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+        
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+        
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+        
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+        
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <p>Dinamo</p> 
+                                <p>Hajduk</p> 
+                            </td>
+        
+                            <td class="">
+                              <button
+                                class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+                                Simulate
+                              </button> 
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          </details>
+  
         </div>
       </div>
-    </div>
-  </div>
   <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
   <script type="text/javascript" src="../src/index.js"></script>
