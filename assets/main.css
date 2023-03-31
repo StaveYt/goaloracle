@@ -702,10 +702,13 @@ video {
   height: 5rem;
 }
 
+<<<<<<< HEAD
+=======
 .h-\[50\%\] {
   height: 50%;
 }
 
+>>>>>>> 906bb5c7d111f9a72ec564ca2512417132cf206a
 .h-full {
   height: 100%;
 }
@@ -714,8 +717,21 @@ video {
   height: 100vh;
 }
 
+<<<<<<< HEAD
+.h-0 {
+  height: 0px;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+=======
 .h-5 {
   height: 1.25rem;
+>>>>>>> 906bb5c7d111f9a72ec564ca2512417132cf206a
 }
 
 .h-\[128px\] {
@@ -868,18 +884,24 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+<<<<<<< HEAD
+=======
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+>>>>>>> 906bb5c7d111f9a72ec564ca2512417132cf206a
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+<<<<<<< HEAD
+=======
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
+>>>>>>> 906bb5c7d111f9a72ec564ca2512417132cf206a
 .flex-row {
   flex-direction: row;
 }
@@ -904,6 +926,8 @@ video {
   justify-content: flex-start;
 }
 
+<<<<<<< HEAD
+=======
 .justify-center {
   justify-content: center;
 }
@@ -912,6 +936,7 @@ video {
   justify-items: stretch;
 }
 
+>>>>>>> 906bb5c7d111f9a72ec564ca2512417132cf206a
 .gap-4 {
   gap: 1rem;
 }
@@ -934,6 +959,10 @@ video {
 
 .overflow-auto {
   overflow: auto;
+}
+
+.scroll-auto {
+  scroll-behavior: auto;
 }
 
 .overflow-hidden {
@@ -1272,6 +1301,10 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.\[margin-left\:var\(--navWidth\)\] {
+  margin-left: var(--navWidth);
 }
 
 .\[padding-left\:var\(--navWidth\)\] {
