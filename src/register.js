@@ -17,8 +17,11 @@ if(user != null && window.location.href!="testaccpage.html"){
 
 function ShowSignForm(type){
   document.getElementById("signInBox").classList.toggle('hidden');
+  console.log(document.getElementById("signInBox"));
   document.getElementById("navbar").classList.toggle('blur-lg');
+  console.log(document.getElementById("navbar"));
   document.getElementById("container").classList.toggle('blur-lg');
+  console.log(document.getElementById("container"));
   if(type == "signup"){
     RegisterForm()
   }
