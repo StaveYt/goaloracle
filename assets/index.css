@@ -13,3 +13,27 @@
     font-size: 1.5rem;
     line-height: 2rem;
 }
+
+.slikaterena{
+    height: 90%;
+    border-radius: 1%;
+}
+
+.dodatnibotuni{
+    width: fit-content;
+    display: block;
+}
+
+/* .desnihud{
+    width: 20%;
+} */
+
+.tribotunadiv{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#homeContainer, #awayContainer{
+    background-color: #0F172A;
+    width: fit-content;
+}

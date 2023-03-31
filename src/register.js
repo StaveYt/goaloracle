@@ -143,17 +143,18 @@ function GetAllLeagues(data) {
 }
 
 CreateTeamSelect()
-function CreateTeamSelect() {
+async function CreateTeamSelect() {
+  let allTeams = []
   let selectTeam = document.getElementById('teamSelect');
   for (let i = 1; i < 13; i++) {
-    fetch(`https://api.sportmonks.com/v3/football/teams?api_token=${sportMonksToken}&page=${i}&filters=populate&per_page=1000&include=`).then(response => response.json()).then(data => {
+    await fetch(`https://api.sportmonks.com/v3/football/teams?api_token=${sportMonksToken}&page=${i}&filters=populate&per_page=1000&include=`).then(response => response.json()).then(data => {
       let teams = data.data;
-      console.log(teams)
       hasmore = data.pagination.has_more;
       nextpage = data.pagination.next_page;
+      allTeams.push(teams);
+      console.log(allTeams)
       for (let i = 0; i < teams.length; i++) {
         let team = teams[i];
-        console.log(team)
         let option = document.createElement('option');
         option.value = `${team.name}|${team.id}|${team.image_path}`;
         option.innerHTML = team.name;
@@ -161,4 +162,7 @@ function CreateTeamSelect() {
       }
     });
   }
+  alert("Done")
+  console.log(allTeams);
+  
 }
