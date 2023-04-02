@@ -4,10 +4,19 @@
         "country_id": 462,
         "venue_id": 214,
         "name": "West Ham United",
-        "elo":0,
-        "elo_name":"West Ham United",
+        "elo":1755,
+        "elo_name":"West Ham",
         "short_code": "WHU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/1.png"
+    }, {
+        "id": 44,
+        "country_id": 17,
+        "venue_id": 6159,
+        "name": "Olympique Marseille",
+        "elo": 1754,
+        "elo_name":"Marseille",
+        "short_code": "OLM",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/44.png"
     }, {
         "id": 6,
         "country_id": 462,
@@ -17,6 +26,15 @@
         "elo_name":"Tottenham",
         "short_code": "TOT",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png"
+    }, {
+        "id": 10,
+        "country_id": 462,
+        "venue_id": 119,
+        "name": "West Bromwich Albion",
+        "elo":1553,
+        "elo_name":"WestBrom",
+        "short_code": "WBA",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/10.png"
     }, {
         "id": 9,
         "country_id": 462,
@@ -31,7 +49,7 @@
         "country_id": 462,
         "venue_id": 485,
         "name": "Fulham",
-        "elo":0,
+        "elo":1731,
         "elo_name":"Fulham",
         "short_code": "FUL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/11.png"
@@ -40,7 +58,7 @@
         "country_id": 462,
         "venue_id": 12,
         "name": "Everton",
-        "elo":0,
+        "elo":1692,
         "elo_name":"Everton",
         "short_code": "EVE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/13.png"
@@ -94,8 +112,8 @@
         "country_id": 404,
         "venue_id": 72098,
         "name": "Galatasaray",
-        "elo":0,
-        "elo_name":"",
+        "elo":1608,
+        "elo_name":"Galatasaray",
         "short_code": "GAL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png"
     }, {
@@ -103,8 +121,8 @@
         "country_id": 32,
         "venue_id": 9239,
         "name": "Celta de Vigo",
-        "elo":0,
-        "elo_name":"",
+        "elo":1685,
+        "elo_name":"Celta",
         "short_code": "CLV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png"
     }, {
@@ -121,8 +139,8 @@
         "country_id": 462,
         "venue_id": 117,
         "name": "Leicester City",
-        "elo":0,
-        "elo_name":"",
+        "elo":1752,
+        "elo_name":"Leicester",
         "short_code": "LEI",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/42.png"
     }, {
@@ -130,8 +148,8 @@
         "country_id": 143,
         "venue_id": 2171,
         "name": "Salzburg",
-        "elo":0,
-        "elo_name":"",
+        "elo":1721,
+        "elo_name":"Salzburg",
         "short_code": "RBS",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/49.png"
     }, {
@@ -139,8 +157,8 @@
         "country_id": 462,
         "venue_id": 201,
         "name": "Crystal Palace",
-        "elo":0,
-        "elo_name":"",
+        "elo":1732,
+        "elo_name":"Crystal Palace",
         "short_code": "CRY",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/51.png"
     }, {
@@ -148,8 +166,8 @@
         "country_id": 1161,
         "venue_id": 8909,
         "name": "Celtic",
-        "elo":0,
-        "elo_name":"",
+        "elo":1652,
+        "elo_name":"Celtic",
         "short_code": "CEL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
     }, {
@@ -166,8 +184,8 @@
         "country_id": 17,
         "venue_id": 6162,
         "name": "Nantes",
-        "elo":0,
-        "elo_name":"",
+        "elo":1595,
+        "elo_name":"Nantes",
         "short_code": "NAN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/59.png"
     }, {
@@ -175,8 +193,8 @@
         "country_id": 1161,
         "venue_id": 8914,
         "name": "Rangers",
-        "elo":0,
-        "elo_name":"",
+        "elo":1655,
+        "elo_name":"Rangers",
         "short_code": "RAN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png"
     }, {
@@ -184,8 +202,8 @@
         "country_id": 462,
         "venue_id": 167,
         "name": "Southampton",
-        "elo":0,
-        "elo_name":"",
+        "elo":1662,
+        "elo_name":"Southampton",
         "short_code": "SOU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/65.png"
     }, {
@@ -202,8 +220,8 @@
         "country_id": 11,
         "venue_id": 2138,
         "name": "Schalke 04",
-        "elo":0,
-        "elo_name":"",
+        "elo":1585,
+        "elo_name":"Schalke",
         "short_code": "S04",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/3/67.png"
     }, {
@@ -220,8 +238,8 @@
         "country_id": 462,
         "venue_id": 488,
         "name": "Leeds United",
-        "elo":0,
-        "elo_name":"",
+        "elo":1714,
+        "elo_name":"Leeds",
         "short_code": "LEE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/71.png"
     }, {
@@ -247,8 +265,8 @@
         "country_id": 17,
         "venue_id": 6161,
         "name": "Olympique Lyonnais",
-        "elo":0,
-        "elo_name":"",
+        "elo":1678,
+        "elo_name":"Lyon",
         "short_code": "LYO",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/79.png"
     }, {
@@ -265,10 +283,19 @@
         "country_id": 11,
         "venue_id": 2172,
         "name": "Werder Bremen",
-        "elo":0,
-        "elo_name":"",
+        "elo":1622,
+        "elo_name":"Werder",
         "short_code": "SVW",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/82.png"
+    }, {
+        "id": 6827,
+        "country_id": 32,
+        "venue_id": 4473,
+        "name": "Cádiz",
+        "elo":1619,
+        "elo_name":"Cadiz",
+        "short_code": "CAD",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/6827.png"
     }, {
         "id": 83,
         "country_id": 32,
@@ -283,8 +310,8 @@
         "country_id": 320,
         "venue_id": 5655,
         "name": "København",
-        "elo":0,
-        "elo_name":"",
+        "elo":1626,
+        "elo_name":"FcKobenhavn",
         "short_code": "COP",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/85.png"
     }, {
@@ -301,8 +328,8 @@
         "country_id": 404,
         "venue_id": 9695,
         "name": "Fenerbahçe",
-        "elo":0,
-        "elo_name":"",
+        "elo":1648,
+        "elo_name":"Fenerbahce",
         "short_code": "FEN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/88.png"
     }, {
@@ -310,17 +337,26 @@
         "country_id": 11,
         "venue_id": 2165,
         "name": "FC Augsburg",
-        "elo":0,
-        "elo_name":"",
+        "elo":1608,
+        "elo_name":"Augsburg",
         "short_code": "AUG",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/90.png"
+    }, {
+        "id": 30,
+        "country_id": 515,
+        "venue_id": 208,
+        "name": "Swansea City",
+        "elo":1490,
+        "elo_name":"Swansea",
+        "short_code": "SWA",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/30.png"
     }, {
         "id": 93,
         "country_id": 32,
         "venue_id": 9344,
         "name": "Real Oviedo",
         "elo":0,
-        "elo_name":"",
+        "elo_name":"Real Oviedo",
         "short_code": "OVI",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/93.png"
     }, {
@@ -337,8 +373,8 @@
         "country_id": 251,
         "venue_id": 86,
         "name": "Genoa",
-        "elo":0,
-        "elo_name":"",
+        "elo":1580,
+        "elo_name":"Genoa",
         "short_code": "GEN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/102.png"
     }, {
@@ -346,8 +382,8 @@
         "country_id": 32,
         "venue_id": 9237,
         "name": "Granada",
-        "elo":0,
-        "elo_name":"",
+        "elo":1616,
+        "elo_name":"Granada",
         "short_code": "GRA",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/103.png"
     }, {
@@ -355,8 +391,8 @@
         "country_id": 32,
         "venue_id": 9351,
         "name": "Getafe",
-        "elo":0,
-        "elo_name":"",
+        "elo":1640,
+        "elo_name":"Getafe",
         "short_code": "GET",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/106.png"
     }, {
@@ -373,8 +409,8 @@
         "country_id": 251,
         "venue_id": 7223,
         "name": "Fiorentina",
-        "elo":0,
-        "elo_name":"",
+        "elo":1717,
+        "elo_name":"Fiorentina",
         "short_code": "FIO",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/109.png"
     }, {
@@ -382,8 +418,8 @@
         "country_id": 674,
         "venue_id": 6779,
         "name": "Ferencváros",
-        "elo":0,
-        "elo_name":"",
+        "elo":1495,
+        "elo_name":"Ferencvaros",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png"
     }, {
@@ -436,8 +472,8 @@
         "country_id": 462,
         "venue_id": 996,
         "name": "Forest Green Rovers",
-        "elo":0,
-        "elo_name":"",
+        "elo":1648,
+        "elo_name":"Forest",
         "short_code": "FGR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/177.png"
     }, {
@@ -490,8 +526,8 @@
         "country_id": 32,
         "venue_id": 9240,
         "name": "Valencia",
-        "elo":0,
-        "elo_name":"",
+        "elo":1641,
+        "elo_name":"Valencia",
         "short_code": "VAL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/214.png"
     }, {
@@ -499,17 +535,17 @@
         "country_id": 245,
         "venue_id": 305393,
         "name": "Slavia Praha",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1590,
+        "elo_name":"Slavia Praha",
+        "short_code": "SLP",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/216.png"
     }, {
         "id": 231,
         "country_id": 32,
         "venue_id": 9345,
         "name": "Girona",
-        "elo":0,
-        "elo_name":"",
+        "elo":164,
+        "elo_name":"Girona",
         "short_code": "GIR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/231.png"
     }, {
@@ -544,11 +580,11 @@
         "country_id": 17,
         "venue_id": 323206,
         "name": "Brest",
-        "elo":0,
-        "elo_name":"",
+        "elo":1533,
+        "elo_name":"Brest",
         "short_code": "BRE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/266.png"
-    },  {
+    }, {
         "id": 236,
         "country_id": 462,
         "venue_id": 338817,
@@ -589,8 +625,8 @@
         "country_id": 17,
         "venue_id": 6240,
         "name": "Lens",
-        "elo":0,
-        "elo_name":"",
+        "elo":1721,
+        "elo_name":"Lens",
         "short_code": "RCL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/271.png"
     }, {
@@ -607,8 +643,8 @@
         "country_id": 32,
         "venue_id": 9342,
         "name": "Huesca",
-        "elo":0,
-        "elo_name":"",
+        "elo":1512,
+        "elo_name":"Huesca",
         "short_code": "HUE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/274.png"
     }, {
@@ -643,8 +679,8 @@
         "country_id": 17,
         "venue_id": 6051,
         "name": "Toulouse",
-        "elo":0,
-        "elo_name":"",
+        "elo":1573,
+        "elo_name":"Toulouse",
         "short_code": "TOU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/289.png"
     }, {
@@ -652,9 +688,9 @@
         "country_id": 1578,
         "venue_id": 8098,
         "name": "Molde",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1589,
+        "elo_name":"Molde",
+        "short_code": "MOL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/290.png"
     }, {
         "id": 293,
@@ -679,9 +715,9 @@
         "country_id": 2,
         "venue_id": 8213,
         "name": "Lech",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1554,
+        "elo_name":"Lech",
+        "short_code": "LPO",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/302.png"
     }, {
         "id": 309,
@@ -751,17 +787,17 @@
         "country_id": 251,
         "venue_id": 7305,
         "name": "Spezia",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1561,
+        "elo_name":"Spezia",
+        "short_code": "SPE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/345.png"
     }, {
         "id": 346,
         "country_id": 251,
         "venue_id": 7224,
         "name": "Udinese",
-        "elo":0,
-        "elo_name":"",
+        "elo":1692,
+        "elo_name":"Udinese",
         "short_code": "UDI",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/346.png"
     }, {
@@ -787,8 +823,8 @@
         "country_id": 11,
         "venue_id": 2110,
         "name": "St. Pauli",
-        "elo":0,
-        "elo_name":"",
+        "elo":1537,
+        "elo_name":"StPauli",
         "short_code": "PAU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/353.png"
     }, {
@@ -814,8 +850,8 @@
         "country_id": 32,
         "venue_id": 9323,
         "name": "Real Valladolid",
-        "elo":0,
-        "elo_name":"",
+        "elo":1597,
+        "elo_name":"Valladolid",
         "short_code": "REV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/361.png"
     }, {
@@ -823,8 +859,8 @@
         "country_id": 20,
         "venue_id": 8477,
         "name": "Gil Vicente",
-        "elo":0,
-        "elo_name":"",
+        "elo":1495,
+        "elo_name":"GilVicente",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/364.png"
     }, {
@@ -859,8 +895,8 @@
         "country_id": 32,
         "venue_id": 304396,
         "name": "Rayo Vallecano",
-        "elo":0,
-        "elo_name":"",
+        "elo":1629,
+        "elo_name":"Rayo Vallecano",
         "short_code": "RAY",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/377.png"
     }, {
@@ -913,9 +949,9 @@
         "country_id": 251,
         "venue_id": 7220,
         "name": "Empoli",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1594,
+        "elo_name":"Empoli",
+        "short_code": "EMP",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/397.png"
     }, {
         "id": 398,
@@ -967,8 +1003,8 @@
         "country_id": 47,
         "venue_id": 47,
         "name": "Djurgården",
-        "elo":0,
-        "elo_name":"",
+        "elo":1496,
+        "elo_name":"Djurgarden",
         "short_code": "DJU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/443.png"
     }, {
@@ -994,8 +1030,8 @@
         "country_id": 17,
         "venue_id": 51,
         "name": "Nice",
-        "elo":0,
-        "elo_name":"",
+        "elo":1701,
+        "elo_name":"Nice",
         "short_code": "NCE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/450.png"
     }, {
@@ -1012,8 +1048,8 @@
         "country_id": 32,
         "venue_id": 56,
         "name": "Osasuna",
-        "elo":0,
-        "elo_name":"",
+        "elo":1641,
+        "elo_name":"Osasuna",
         "short_code": "OSA",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/459.png"
     }, {
@@ -1030,8 +1066,8 @@
         "country_id": 11,
         "venue_id": 2167,
         "name": "Darmstadt 98",
-        "elo":0,
-        "elo_name":"",
+        "elo":1584,
+        "elo_name":"Darmstadt",
         "short_code": "DAR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/482.png"
     }, {
@@ -1039,8 +1075,8 @@
         "country_id": 32,
         "venue_id": 68,
         "name": "Real Betis",
-        "elo":0,
-        "elo_name":"",
+        "elo":1751,
+        "elo_name":"Betis",
         "short_code": "BET",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/485.png"
     }, {
@@ -1084,17 +1120,26 @@
         "country_id": 11,
         "venue_id": 80,
         "name": "VfL Wolfsburg",
-        "elo":0,
-        "elo_name":"",
+        "elo":1735,
+        "elo_name":"Wolfsburg",
         "short_code": "WOB",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/510.png"
+    }, {
+        "id":27,
+        "country_id":462,
+        "venue_id":200,
+        "name":"Burnley",
+        "elo":1738,
+        "elo_name":"Burnley",
+        "short_code":"BUR",
+        "image_path":"https://cdn.sportmonks.com/images/soccer/teams/27/27.png"
     }, {
         "id": 522,
         "country_id": 251,
         "venue_id": 86,
         "name": "Sampdoria",
-        "elo":0,
-        "elo_name":"",
+        "elo":1541,
+        "elo_name":"Sampdoria",
         "short_code": "SAM",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/522.png"
     }, {
@@ -1111,8 +1156,8 @@
         "country_id": 32,
         "venue_id": 89,
         "name": "Espanyol",
-        "elo":0,
-        "elo_name":"",
+        "elo":1608,
+        "elo_name":"Espanyol",
         "short_code": "ESY",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/528.png"
     }, {
@@ -1138,8 +1183,8 @@
         "country_id": 227,
         "venue_id": 73093,
         "name": "CSKA Moskva",
-        "elo":0,
-        "elo_name":"",
+        "elo":1535,
+        "elo_name":"ЦСКА",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/543.png"
     }, {
@@ -1147,8 +1192,8 @@
         "country_id": 404,
         "venue_id": 340175,
         "name": "Beşiktaş",
-        "elo":0,
-        "elo_name":"",
+        "elo":1558,
+        "elo_name":"Besiktas",
         "short_code": "BES",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/554.png"
     }, {
@@ -1165,8 +1210,8 @@
         "country_id": 802,
         "venue_id": 110,
         "name": "Maccabi Haifa",
-        "elo":0,
-        "elo_name":"",
+        "elo":1585,
+        "elo_name":"MaccabiHaifa",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/571.png"
     }, {
@@ -1192,8 +1237,8 @@
         "country_id": 17,
         "venue_id": 126,
         "name": "Montpellier",
-        "elo":0,
-        "elo_name":"",
+        "elo":1572,
+        "elo_name":"Montpellier",
         "short_code": "MPL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/581.png"
     }, {
@@ -1228,8 +1273,8 @@
         "country_id": 38,
         "venue_id": 132,
         "name": "FC Twente",
-        "elo":0,
-        "elo_name":"",
+        "elo":1613,
+        "elo_name":"Twente",
         "short_code": "TWE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/593.png"
     }, {
@@ -1237,8 +1282,8 @@
         "country_id": 32,
         "venue_id": 133,
         "name": "Real Sociedad",
-        "elo":0,
-        "elo_name":"",
+        "elo":1743,
+        "elo_name":"Real Sociedad",
         "short_code": "SOC",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/594.png"
     }, {
@@ -1255,8 +1300,8 @@
         "country_id": 17,
         "venue_id": 135,
         "name": "Rennes",
-        "elo":0,
-        "elo_name":"",
+        "elo":1713,
+        "elo_name":"Rennes",
         "short_code": "REN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/598.png"
     }, {
@@ -1282,8 +1327,8 @@
         "country_id": 251,
         "venue_id": 142,
         "name": "Torino",
-        "elo":0,
-        "elo_name":"",
+        "elo":1665,
+        "elo_name":"Torino",
         "short_code": "TOR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/613.png"
     }, {
@@ -1300,8 +1345,8 @@
         "country_id": 32,
         "venue_id": 9180,
         "name": "Almería",
-        "elo":0,
-        "elo_name":"",
+        "elo":1587,
+        "elo_name":"Almería",
         "short_code": "ALM",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/618.png"
     }, {
@@ -1354,8 +1399,8 @@
         "country_id": 32,
         "venue_id": 1128,
         "name": "Mallorca",
-        "elo":0,
-        "elo_name":"",
+        "elo":1616,
+        "elo_name":"Mallorca",
         "short_code": "MAL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/645.png"
     }, {
@@ -1363,8 +1408,8 @@
         "country_id": 125,
         "venue_id": 164,
         "name": "PAOK",
-        "elo":0,
-        "elo_name":"",
+        "elo":1500,
+        "elo_name":"PAOK",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/649.png"
     }, {
@@ -1381,26 +1426,26 @@
         "country_id": 266,
         "venue_id": 325,
         "name": "Hajduk Split",
-        "elo": 0,
+        "elo": 1508,
         "elo_name": "Hajduk",
         "short_code": "HAJ",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/906.png"
-    },  {
+    }, {
         "id": 674,
         "country_id": 266,
         "venue_id": 176,
         "name": "Dinamo Zagreb",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1624,
+        "elo_name":"Dinamo Zagreb",
+        "short_code": "DZG",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/674.png"
     }, {
         "id": 676,
         "country_id": 32,
         "venue_id": 177,
         "name": "Sevilla",
-        "elo":0,
-        "elo_name":"",
+        "elo":1702,
+        "elo_name":"Sevilla",
         "short_code": "SEV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/676.png"
     }, {
@@ -1408,8 +1453,8 @@
         "country_id": 38,
         "venue_id": 181,
         "name": "PSV",
-        "elo":0,
-        "elo_name":"",
+        "elo":1727,
+        "elo_name":"PSV",
         "short_code": "PSV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/682.png"
     }, {
@@ -1417,8 +1462,8 @@
         "country_id": 11,
         "venue_id": 180,
         "name": "Borussia Mönchengladbach",
-        "elo":0,
-        "elo_name":"",
+        "elo":1680,
+        "elo_name":"Gladbach",
         "short_code": "BMG",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/683.png"
     }, {
@@ -1426,17 +1471,26 @@
         "country_id": 17,
         "venue_id": 182,
         "name": "Strasbourg",
-        "elo":0,
-        "elo_name":"",
+        "elo":1587,
+        "elo_name":"Strasbourg",
         "short_code": "STR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/686.png"
+    }, {
+        "id": 2468,
+        "country_id": 227,
+        "venue_id": 1480,
+        "name": "Dinamo Moskva",
+        "elo":1537,
+        "elo_name":"DinamoMoskva",
+        "short_code": "DMO",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/2468.png"
     }, {
         "id": 688,
         "country_id": 404,
         "venue_id": 214665,
         "name": "Trabzonspor",
-        "elo":0,
-        "elo_name":"",
+        "elo":137,
+        "elo_name":"Trabzonspor",
         "short_code": "TRA",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/688.png"
     }, {
@@ -1444,8 +1498,8 @@
         "country_id": 17,
         "venue_id": 184,
         "name": "Lille",
-        "elo":0,
-        "elo_name":"",
+        "elo":1717,
+        "elo_name":"Lille",
         "short_code": "LIL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/690.png"
     }, {
@@ -1453,8 +1507,8 @@
         "country_id": 251,
         "venue_id": 193,
         "name": "Atalanta",
-        "elo":0,
-        "elo_name":"",
+        "elo":1754,
+        "elo_name":"Atalanta",
         "short_code": "ATT",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png"
     }, {
@@ -1530,12 +1584,21 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/744.png"
     }, {
+        "id": 2,
+        "country_id": 462,
+        "venue_id": 8,
+        "name": "Blackburn Rovers",
+        "elo":1537,
+        "elo_name":"Blackburn",
+        "short_code": "BBR",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/2.png"
+    }, {
         "id": 750,
         "country_id": 38,
         "venue_id": 227,
         "name": "FC Utrecht",
-        "elo":0,
-        "elo_name":"",
+        "elo":1538,
+        "elo_name":"Utrecht",
         "short_code": "UTR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/750.png"
     }, {
@@ -1570,8 +1633,8 @@
         "country_id": 11,
         "venue_id": 262,
         "name": "FSV Mainz 05",
-        "elo":0,
-        "elo_name":"",
+        "elo":1704,
+        "elo_name":"Mainz",
         "short_code": "MAI",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/794.png"
     }, {
@@ -1638,6 +1701,15 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/847.png"
     }, {
+        "id": 26,
+        "country_id": 462,
+        "venue_id": 207,
+        "name": "Stoke City",
+        "elo":1530,
+        "elo_name":"Stoke",
+        "short_code": "STK",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/26.png"
+    }, {
         "id": 869,
         "country_id": 1578,
         "venue_id": 306,
@@ -1647,12 +1719,21 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/869.png"
     }, {
+        "id": 3,
+        "country_id": 462,
+        "venue_id": 212,
+        "name": "Sunderland",
+        "elo":1499,
+        "elo_name":"Sunderland",
+        "short_code": "SUN",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/3/3.png"
+    }, {
         "id": 890,
         "country_id": 2,
         "venue_id": 316,
         "name": "Jagiellonia Białystok",
-        "elo":0,
-        "elo_name":"",
+        "elo":1352,
+        "elo_name":"Jagiellonia",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/890.png"
     }, {
@@ -1678,8 +1759,8 @@
         "country_id": 38,
         "venue_id": 332,
         "name": "Sparta Rotterdam",
-        "elo":0,
-        "elo_name":"",
+        "elo":1546,
+        "elo_name":"SpartaRotterdam",
         "short_code": "SPR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/919.png"
     }, {
@@ -1705,10 +1786,19 @@
         "country_id": 320,
         "venue_id": 342,
         "name": "Midtjylland",
-        "elo":0,
-        "elo_name":"",
+        "elo":1542,
+        "elo_name":"Midtjylland",
         "short_code": "FCM",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/939.png"
+    }, {
+        "id": 7,
+        "country_id": 462,
+        "venue_id": 203,
+        "name": "Middlesbrough",
+        "elo":1614,
+        "elo_name":"Middlesbrough",
+        "short_code": "MID",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/7.png"
     }, {
         "id": 943,
         "country_id": 224,
@@ -1768,8 +1858,8 @@
         "country_id": 11,
         "venue_id": 378,
         "name": "VfL Bochum 1848",
-        "elo":0,
-        "elo_name":"",
+        "elo":1600,
+        "elo_name":"Bochum",
         "short_code": "BOC",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/999.png"
     }, {
@@ -1804,8 +1894,8 @@
         "country_id": 32,
         "venue_id": 386,
         "name": "Tenerife",
-        "elo":0,
-        "elo_name":"",
+        "elo":1503,
+        "elo_name":"Tenerife",
         "short_code": "TEN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/1012.png"
     }, {
@@ -1822,8 +1912,8 @@
         "country_id": 17,
         "venue_id": 394,
         "name": "Reims",
-        "elo":0,
-        "elo_name":"",
+        "elo":1656,
+        "elo_name":"Reims",
         "short_code": "SDR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/1028.png"
     }, {
@@ -1831,8 +1921,8 @@
         "country_id": 404,
         "venue_id": 400,
         "name": "Adana Demirspor",
-        "elo":0,
-        "elo_name":"",
+        "elo":1492,
+        "elo_name":"AdanaDemirspor",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/1039.png"
     }, {
@@ -1849,10 +1939,19 @@
         "country_id": 17,
         "venue_id": 408,
         "name": "Le Havre",
-        "elo":0,
-        "elo_name":"",
+        "elo":1497,
+        "elo_name":"LeHavre",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/1055.png"
+    }, {
+        "id": 117,
+        "country_id": 462,
+        "venue_id": 270,
+        "name": "Coventry City",
+        "elo":1559,
+        "elo_name":"Coventry",
+        "short_code": "CVC",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/117.png"
     }, {
         "id": 1069,
         "country_id": 2,
@@ -1876,8 +1975,8 @@
         "country_id": 251,
         "venue_id": 418,
         "name": "Pisa",
-        "elo":0,
-        "elo_name":"",
+        "elo":1511,
+        "elo_name":"Pisa",
         "short_code": "PIS",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/1072.png"
     }, {
@@ -1885,8 +1984,8 @@
         "country_id": 11,
         "venue_id": 420,
         "name": "FC Union Berlin",
-        "elo":0,
-        "elo_name":"",
+        "elo":1752,
+        "elo_name":"Union Berlin",
         "short_code": "UNB",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/1079.png"
     }, {
@@ -1903,8 +2002,8 @@
         "country_id": 11,
         "venue_id": 302413,
         "name": "Fortuna Düsseldorf",
-        "elo":0,
-        "elo_name":"",
+        "elo":1526,
+        "elo_name":"Dusseldorf",
         "short_code": "DU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/1092.png"
     }, {
@@ -1921,8 +2020,8 @@
         "country_id": 32,
         "venue_id": 430,
         "name": "Elche",
-        "elo":0,
-        "elo_name":"",
+        "elo":1544,
+        "elo_name":"Elche",
         "short_code": "ELC",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/1099.png"
     }, {
@@ -1957,8 +2056,8 @@
         "country_id": 251,
         "venue_id": 443,
         "name": "Hellas Verona",
-        "elo":0,
-        "elo_name":"",
+        "elo":1582,
+        "elo_name":"Verona",
         "short_code": "HEL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/3/1123.png"
     }, {
@@ -2097,6 +2196,15 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/1387.png"
     }, {
+        "id": 25,
+        "country_id": 462,
+        "venue_id": 19,
+        "name": "Watford",
+        "elo":1550,
+        "elo_name":"Watford",
+        "short_code": "WAT",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/25.png"
+    }, {
         "id": 1393,
         "country_id": 17,
         "venue_id": 633,
@@ -2173,8 +2281,8 @@
         "country_id": 251,
         "venue_id": 787,
         "name": "Monza",
-        "elo":0,
-        "elo_name":"",
+        "elo":1602,
+        "elo_name":"Monza",
         "short_code": "MON",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/28/1628.png"
     }, {
@@ -2218,9 +2326,9 @@
         "country_id": 1578,
         "venue_id": 814,
         "name": "Bodø / Glimt",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1546,
+        "elo_name":"BodoeGlimt",
+        "short_code": "B/G",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/1668.png"
     }, {
         "id": 1818,
@@ -2245,8 +2353,8 @@
         "country_id": 17,
         "venue_id": 953,
         "name": "Sochaux",
-        "elo":0,
-        "elo_name":"",
+        "elo":1497,
+        "elo_name":"Sochaux",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/1842.png"
     }, {
@@ -2290,8 +2398,8 @@
         "country_id": 320,
         "venue_id": 1436,
         "name": "Nordsjælland",
-        "elo":0,
-        "elo_name":"",
+        "elo":1501,
+        "elo_name":"Nordsjaelland",
         "short_code": "FCN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/2394.png"
     }, {
@@ -2434,8 +2542,8 @@
         "country_id": 11,
         "venue_id": 1571,
         "name": "Paderborn",
-        "elo":0,
-        "elo_name":"",
+        "elo":1515,
+        "elo_name":"Paderborn",
         "short_code": "PAD",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/2642.png"
     }, {
@@ -2443,8 +2551,8 @@
         "country_id": 227,
         "venue_id": 1573,
         "name": "Krasnodar",
-        "elo":0,
-        "elo_name":"",
+        "elo":1489,
+        "elo_name":"FCKrasnodar",
         "short_code": "KRA",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/2645.png"
     }, {
@@ -2461,9 +2569,9 @@
         "country_id": 296,
         "venue_id": 1590,
         "name": "Crvena Zvezda",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1625,
+        "elo_name":"Crvena Zvezda",
+        "short_code": "CZV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/2673.png"
     }, {
         "id": 2678,
@@ -2497,8 +2605,8 @@
         "country_id": 11,
         "venue_id": 1610,
         "name": "Hamburger SV",
-        "elo":0,
-        "elo_name":"",
+        "elo":1581,
+        "elo_name":"Hamburger",
         "short_code": "HSV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/2708.png"
     }, {
@@ -2506,17 +2614,17 @@
         "country_id": 227,
         "venue_id": 1609,
         "name": "Spartak Moskva",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1551,
+        "elo_name":"SpartakMoskva",
+        "short_code": "SPM",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/2712.png"
     }, {
         "id": 2714,
         "country_id": 251,
         "venue_id": 1613,
         "name": "Sassuolo",
-        "elo":0,
-        "elo_name":"",
+        "elo":1688,
+        "elo_name":"Sassuolo",
         "short_code": "SAS",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/2714.png"
     }, {
@@ -2524,8 +2632,8 @@
         "country_id": 11,
         "venue_id": 232157,
         "name": "TSG Hoffenheim",
-        "elo":0,
-        "elo_name":"",
+        "elo":1611,
+        "elo_name":"Hoffenheim",
         "short_code": "TSG",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/2726.png"
     }, {
@@ -2533,9 +2641,9 @@
         "country_id": 245,
         "venue_id": 1619,
         "name": "Sparta Praha",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1562,
+        "elo_name":"SpartaPraha",
+        "short_code": "SPA",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/2727.png"
     }, {
         "id": 2736,
@@ -2551,8 +2659,8 @@
         "country_id": 224,
         "venue_id": 1627,
         "name": "Ludogorets",
-        "elo":0,
-        "elo_name":"",
+        "elo":1507,
+        "elo_name":"Razgrad",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/2742.png"
     }, {
@@ -2605,8 +2713,8 @@
         "country_id": 11,
         "venue_id": 1670,
         "name": "Heidenheim",
-        "elo":0,
-        "elo_name":"",
+        "elo":1561,
+        "elo_name":"Heidenheim",
         "short_code": "HEI",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/2831.png"
     }, {
@@ -2623,8 +2731,8 @@
         "country_id": 32,
         "venue_id": 1716,
         "name": "Las Palmas",
-        "elo":0,
-        "elo_name":"",
+        "elo":1552,
+        "elo_name":"LasPalmas",
         "short_code": "LAP",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/2921.png"
     }, {
@@ -2659,8 +2767,8 @@
         "country_id": 227,
         "venue_id": 8895,
         "name": "Zenit",
-        "elo":0,
-        "elo_name":"",
+        "elo":1697,
+        "elo_name":"Zenit",
         "short_code": "ZSP",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/2963.png"
     }, {
@@ -2677,8 +2785,8 @@
         "country_id": 32,
         "venue_id": 1747,
         "name": "Deportivo Alavés",
-        "elo":0,
-        "elo_name":"",
+        "elo":1558,
+        "elo_name":"Alaves",
         "short_code": "ALV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/2975.png"
     }, {
@@ -2749,8 +2857,8 @@
         "country_id": 20,
         "venue_id": 1852,
         "name": "Famalicão",
-        "elo":0,
-        "elo_name":"",
+        "elo":1504,
+        "elo_name":"Famalicao",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3161.png"
     }, {
@@ -2758,8 +2866,8 @@
         "country_id": 32,
         "venue_id": 1856,
         "name": "Albacete",
-        "elo":0,
-        "elo_name":"",
+        "elo":1495,
+        "elo_name":"Albacete",
         "short_code": "ALB",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/3169.png"
     }, {
@@ -2780,15 +2888,6 @@
         "elo_name":"",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3223.png"
-    }, {
-        "id": 3270,
-        "country_id": 2,
-        "venue_id": 1909,
-        "name": "Raków",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/3270.png"
     }, {
         "id": 3283,
         "country_id": 401,
@@ -2812,8 +2911,8 @@
         "country_id": 11,
         "venue_id": 1944,
         "name": "Hertha BSC",
-        "elo":0,
-        "elo_name":"",
+        "elo":1585,
+        "elo_name":"Hertha",
         "short_code": "BCS",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/3317.png"
     }, {
@@ -2821,8 +2920,8 @@
         "country_id": 11,
         "venue_id": 1945,
         "name": "VfB Stuttgart",
-        "elo":0,
-        "elo_name":"",
+        "elo":1601,
+        "elo_name":"Stuttgart",
         "short_code": "STU",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3319.png"
     }, {
@@ -2830,8 +2929,8 @@
         "country_id": 11,
         "venue_id": 1946,
         "name": "FC Köln",
-        "elo":0,
-        "elo_name":"",
+        "elo":1634,
+        "elo_name":"Koeln",
         "short_code": "KOL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/3320.png"
     }, {
@@ -2848,8 +2947,8 @@
         "country_id": 143,
         "venue_id": 1963,
         "name": "Sturm Graz",
-        "elo":0,
-        "elo_name":"",
+        "elo":1577,
+        "elo_name":"SturmGraz",
         "short_code": "SGR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/3357.png"
     }, {
@@ -2893,8 +2992,8 @@
         "country_id": 32,
         "venue_id": 2015,
         "name": "Levante",
-        "elo":0,
-        "elo_name":"",
+        "elo":1609,
+        "elo_name":"Levante",
         "short_code": "LVT",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/3457.png"
     }, {
@@ -2920,8 +3019,8 @@
         "country_id": 32,
         "venue_id": 2028,
         "name": "Villarreal",
-        "elo":0,
-        "elo_name":"",
+        "elo":1731,
+        "elo_name":"Vilarreal",
         "short_code": "VIL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/3477.png"
     }, {
@@ -2947,8 +3046,8 @@
         "country_id": 17,
         "venue_id": 2042,
         "name": "Metz",
-        "elo":0,
-        "elo_name":"",
+        "elo":1512,
+        "elo_name":"Metz",
         "short_code": "MTZ",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3513.png"
     }, {
@@ -2965,17 +3064,26 @@
         "country_id": 11,
         "venue_id": 2063,
         "name": "SC Freiburg",
-        "elo":0,
-        "elo_name":"",
+        "elo":1743,
+        "elo_name":"Freiburg",
         "short_code": "SCF",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3543.png"
+    }, {
+        "id": 60,
+        "country_id": 32,
+        "venue_id": 9242,
+        "name": "SD Eibar",
+        "elo":1589,
+        "elo_name":"Eibar",
+        "short_code": "EIB",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/28/60.png"
     }, {
         "id": 3545,
         "country_id": 245,
         "venue_id": 2067,
         "name": "Viktoria Plzeň",
-        "elo":0,
-        "elo_name":"",
+        "elo":1546,
+        "elo_name":"ViktoriaPlzeň",
         "short_code": "VPL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3545.png"
     }, {
@@ -3001,8 +3109,8 @@
         "country_id": 17,
         "venue_id": 2081,
         "name": "Bordeaux",
-        "elo":0,
-        "elo_name":"",
+        "elo":1500,
+        "elo_name":"Bordeaux",
         "short_code": "BOR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/3562.png"
     }, {
@@ -3091,8 +3199,8 @@
         "country_id": 17,
         "venue_id": 2155,
         "name": "Auxerre",
-        "elo":0,
-        "elo_name":"",
+        "elo":1491,
+        "elo_name":"Auxerre",
         "short_code": "AUX",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/3682.png"
     }, {
@@ -3109,8 +3217,8 @@
         "country_id": 404,
         "venue_id": 2168,
         "name": "İstanbul Başakşehir",
-        "elo":0,
-        "elo_name":"",
+        "elo":1517,
+        "elo_name":"Basaksehir",
         "short_code": "IBA",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/3702.png"
     }, {
@@ -3158,6 +3266,15 @@
         "elo_name":"",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/3817.png"
+    }, {
+        "id": 516,
+        "country_id": 802,
+        "venue_id": 83,
+        "name": "Hapoel Be'er Sheva",
+        "elo":155,
+        "elo_name":"Beer-Sheva",
+        "short_code": null,
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/516.png"
     }, {
         "id": 3829,
         "country_id": 125,
@@ -3289,8 +3406,8 @@
         "country_id": 251,
         "venue_id": 145449,
         "name": "Frosinone",
-        "elo":0,
-        "elo_name":"",
+        "elo":1556,
+        "elo_name":"Frosinone",
         "short_code": "FRS",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/4070.png"
     }, {
@@ -3334,8 +3451,8 @@
         "country_id": 266,
         "venue_id": 2488,
         "name": "Sibenik",
-        "elo":0,
-        "elo_name":"",
+        "elo":1264,
+        "elo_name":"Šibenik",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/4237.png"
     }, {
@@ -3356,15 +3473,6 @@
         "elo_name":"",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/4336.png"
-    }, {
-        "id": 4398,
-        "country_id": 11,
-        "venue_id": 2605,
-        "name": "Hertha Zehlendorf",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/4398.png"
     }, {
         "id": 4424,
         "country_id": 125,
@@ -3456,32 +3564,14 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/4925.png"
     }, {
-        "id": 4965,
-        "country_id": 11,
-        "venue_id": null,
-        "name": "CFC Hertha",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
-    }, {
-        "id": 4966,
-        "country_id": 11,
-        "venue_id": null,
-        "name": "FC Frankfurt",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
-    }, {
-        "id": 5051,
-        "country_id": 11,
-        "venue_id": 3308,
-        "name": "Hertha Wiesbach",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/5051.png"
+        "id":366,
+        "country_id":11,
+        "venue_id":2169,
+        "name":"Eintracht Frankfurt",
+        "elo":1747,
+        "elo_name":"Frankfurt",
+        "short_code":"SGE",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/366.png"
     }, {
         "id": 5197,
         "country_id": 2454,
@@ -3541,9 +3631,9 @@
         "country_id": 2453,
         "venue_id": 3966,
         "name": "Qarabağ",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1570,
+        "elo_name":"Qarabag",
+        "short_code": "FKQ",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/5317.png"
     }, {
         "id": 5354,
@@ -3644,6 +3734,15 @@
         "elo_name":"",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/5585.png"
+    }, {
+        "id": 33,
+        "country_id": 462,
+        "venue_id": 489,
+        "name": "Norwich City",
+        "elo":1569,
+        "elo_name":"Norwich",
+        "short_code": "NOR",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/33.png"
     }, {
         "id": 5634,
         "country_id": 296,
@@ -3888,6 +3987,15 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/6255.png"
     }, {
+        "id": 830,
+        "country_id": 20,
+        "venue_id": 286,
+        "name": "Vitória SC",
+        "elo":1525,
+        "elo_name":"Guimaraes",
+        "short_code": "VDG",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/830.png"
+    }, {
         "id": 6256,
         "country_id": 212,
         "venue_id": 4056,
@@ -3960,6 +4068,15 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/28/6460.png"
     }, {
+        "id": 115,
+        "country_id": 462,
+        "venue_id": 837,
+        "name": "Luton Town",
+        "elo":1589,
+        "elo_name":"Luton",
+        "short_code": "LUT",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/115.png"
+    }, {
         "id": 6484,
         "country_id": 212,
         "venue_id": 4199,
@@ -3978,12 +4095,30 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/6538.png"
     }, {
+        "id": 64,
+        "country_id": 462,
+        "venue_id": 656,
+        "name": "Millwall",
+        "elo":1564,
+        "elo_name":"Millwall",
+        "short_code": "MLW",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/0/64.png"
+    }, {
+        "id": 556,
+        "country_id": 86,
+        "venue_id": 104,
+        "name": "Dynamo Kyiv",
+        "elo":1511,
+        "elo_name":"DynamoKyiv",
+        "short_code": null,
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/556.png"
+    }, {
         "id": 6564,
         "country_id": 227,
         "venue_id": 219227,
         "name": "Rostov",
-        "elo":0,
-        "elo_name":"",
+        "elo":1511,
+        "elo_name":"Rostov",
         "short_code": "FCR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/6564.png"
     }, {
@@ -4000,8 +4135,8 @@
         "country_id": 75285,
         "venue_id": 4451,
         "name": "Monaco",
-        "elo":0,
-        "elo_name":"",
+        "elo":1720,
+        "elo_name":"Monaco",
         "short_code": "AMO",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/6789.png"
     }, {
@@ -4054,8 +4189,8 @@
         "country_id": 17,
         "venue_id": 4511,
         "name": "Clermont",
-        "elo":0,
-        "elo_name":"",
+        "elo":1533,
+        "elo_name":"Clermont",
         "short_code": "CLE",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/6898.png"
     }, {
@@ -4076,6 +4211,15 @@
         "elo_name":"",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/6963.png"
+    }, {
+        "id": 2997,
+        "country_id": 802,
+        "venue_id": 1762,
+        "name": "Maccabi Tel Aviv",
+        "elo":1554,
+        "elo_name":"MTelAviv",
+        "short_code": "MTA",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/2997.png"
     }, {
         "id": 6967,
         "country_id": 17,
@@ -4108,8 +4252,8 @@
         "country_id": 17,
         "venue_id": 4588,
         "name": "Troyes",
-        "elo":0,
-        "elo_name":"",
+        "elo":1491,
+        "elo_name":"Troyes",
         "short_code": "TRO",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/7047.png"
     }, {
@@ -4121,6 +4265,17 @@
         "elo_name":"",
         "short_code": "TER",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/7055.png"
+    }, {
+        "id": 3270,
+        "sport_id": 1,
+        "country_id": 2,
+        "venue_id": 1909,
+        "gender": "male",
+        "name": "Raków Częstochowa",
+        "elo":1589,
+        "elo_name":"Rakow",
+        "short_code": "RCZ",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/3270.png"
     }, {
         "id": 7171,
         "country_id": 125,
@@ -4261,9 +4416,9 @@
         "country_id": 251,
         "venue_id": 5026,
         "name": "Salernitana",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
+        "elo":1558,
+        "elo_name":"Salernitana",
+        "short_code": "SAL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/7743.png"
     }, {
         "id": 7746,
@@ -4297,8 +4452,8 @@
         "country_id": 251,
         "venue_id": 5047,
         "name": "Lecce",
-        "elo":0,
-        "elo_name":"",
+        "elo":1576,
+        "elo_name":"Lecce",
         "short_code": "LEC",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/7790.png"
     }, {
@@ -4343,7 +4498,7 @@
         "venue_id": 140808,
         "name": "Atlético Madrid",
         "elo":1818,
-        "elo_name":"",
+        "elo_name":"Atletico",
         "short_code": "ATM",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png"
     }, {
@@ -4441,8 +4596,8 @@
         "country_id": 251,
         "venue_id": 5515,
         "name": "Bologna",
-        "elo":0,
-        "elo_name":"",
+        "elo":1654,
+        "elo_name":"Bologna",
         "short_code": "BGN",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/8513.png"
     }, {
@@ -4549,8 +4704,8 @@
         "country_id": 17,
         "venue_id": 6032,
         "name": "Lorient",
-        "elo":0,
-        "elo_name":"",
+        "elo":1577,
+        "elo_name":"Lorient",
         "short_code": "FCL",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9257.png"
     }, {
@@ -4747,10 +4902,19 @@
         "country_id": 455,
         "venue_id": 6977,
         "name": "Sheriff YC",
-        "elo":0,
-        "elo_name":"",
+        "elo":1498,
+        "elo_name":"Sheriff",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
+    }, {
+        "id": 21,
+        "country_id": 462,
+        "venue_id": 2,
+        "name": "Sheffield United",
+        "elo":1624,
+        "elo_name":"Sheffield United",
+        "short_code": "SHU",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/21.png"
     }, {
         "id": 10547,
         "country_id": 455,
@@ -4810,8 +4974,8 @@
         "country_id": 251,
         "venue_id": 7129,
         "name": "Cremonese",
-        "elo":0,
-        "elo_name":"",
+        "elo":1495,
+        "elo_name":"Cremonese",
         "short_code": "USC",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/10722.png"
     }, {
@@ -4896,14 +5060,14 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/11741.png"
     }, {
-        "id": 12248,
+        "id": 884,
         "country_id": 20,
-        "venue_id": 8354,
-        "name": "Bragança",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/12248.png"
+        "venue_id": 313,
+        "name": "Sporting Braga",
+        "elo": 1674,
+        "elo_name":"Braga",
+        "short_code": "SBR",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/884.png"
     }, {
         "id": 12477,
         "country_id": 155,
@@ -4927,8 +5091,8 @@
         "country_id": 32,
         "venue_id": 8617,
         "name": "FC Cartagena",
-        "elo":0,
-        "elo_name":"",
+        "elo":1491,
+        "elo_name":"Cartagena",
         "short_code": "CAR",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/12652.png"
     }, {
@@ -4986,6 +5150,15 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/17301.png"
     }, {
+        "id": 585,
+        "country_id": 251,
+        "venue_id": 160319,
+        "name": "Cagliari",
+        "elo":1532,
+        "elo_name":"Cagliari",
+        "short_code": "CAG",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/585.png"
+    }, {
         "id": 17303,
         "country_id": 2931,
         "venue_id": 45040,
@@ -5004,14 +5177,14 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/18968.png"
     }, {
-        "id": 19571,
+        "id": 52,
         "country_id": 462,
-        "venue_id": null,
-        "name": "Bournemouth FC",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
+        "venue_id": 146,
+        "name": "AFC Bournemouth",
+        "elo":1655,
+        "elo_name":"Bournemouth",
+        "short_code": "BOU",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/52.png"
     }, {
         "id": 8,
         "country_id": 462,
@@ -5022,24 +5195,33 @@
         "short_code": "LIV",
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png"
     }, {
-        "id": 20315,
+        "id": 29,
         "country_id": 462,
-        "venue_id": null,
-        "name": "Wolves Sporting",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
+        "venue_id": 492,
+        "name": "Wolverhampton Wanderers",
+        "elo":1710,
+        "elo_name": "Wolves",
+        "short_code": "WLV",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png"
     }, {
-        "id": 20379,
+        "id": 13258,
+        "country_id": 32,
+        "venue_id": 9162,
+        "name": "Athletic Club",
+        "elo": 1704,
+        "elo_name": "Bilbao",
+        "short_code": "ATH",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/13258.png"
+    }, {
+        "id": 61,
         "country_id": 38,
-        "venue_id": null,
-        "name": "Alkmaarsche Boys",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/20379.png" 
-    }, {    
+        "venue_id": 1744,
+        "name": "AZ",
+        "elo":1679,
+        "elo_name": "Alkmaar",
+        "short_code": "AZA",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/61.png"
+    }, {
         "id": 23517,
         "country_id": 125,
         "venue_id": 6613,
@@ -5111,24 +5293,6 @@
         "elo_name":"",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/24977.png"
-    }, {
-        "id": 27439,
-        "country_id": 11,
-        "venue_id": 21847,
-        "name": "TuRU 1880 Düsseldorf",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/27439.png"
-    }, {
-        "id": 27746,
-        "country_id": 11,
-        "venue_id": null,
-        "name": "FC M'gladbach",
-        "elo":0,
-        "elo_name":"",
-        "short_code": "BMG",
-        "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 27858,
         "country_id": 224,
@@ -5410,7 +5574,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/151864.png"
     }, {
         "id": 228442,
-        "sport_id": 1,
         "country_id": 155,
         "venue_id": null,
         "name": "Viitorul Şelimbăr",
@@ -5420,7 +5583,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/228442.png"
     }, {
         "id": 228494,
-        "sport_id": 1,
         "country_id": 122,
         "venue_id": 338733,
         "name": "Ballkani",
@@ -5430,7 +5592,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/228494.png"
     }, {
         "id": 228582,
-        "sport_id": 1,
         "country_id": 155,
         "venue_id": 175793,
         "name": "U Craiova 1948",
@@ -5440,7 +5601,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/228582.png"
     }, {
         "id": 228757,
-        "sport_id": 1,
         "country_id": 32,
         "venue_id": null,
         "name": "Ibiza Islas Pitiusas",
@@ -5450,17 +5610,15 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 229320,
-        "sport_id": 1,
         "country_id": 802,
         "venue_id": null,
         "name": "Maccabi Bnei Raina",
-        "elo":0,
-        "elo_name":"",
+        "elo":1255,
+        "elo_name":"Maccabi Bnei Raina",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/229320.png"
     }, {
         "id": 229519,
-        "sport_id": 1,
         "country_id": 125,
         "venue_id": null,
         "name": "Charavgiakos",
@@ -5470,7 +5628,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 230490,
-        "sport_id": 1,
         "country_id": 296,
         "venue_id": null,
         "name": "Mladost Lučani",
@@ -5480,7 +5637,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/230490.png"
     }, {
         "id": 234673,
-        "sport_id": 1,
         "country_id": 3374,
         "venue_id": null,
         "name": "Magpies",
@@ -5490,7 +5646,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 234886,
-        "sport_id": 1,
         "country_id": 3374,
         "venue_id": null,
         "name": "Europa FC",
@@ -5500,7 +5655,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 236848,
-        "sport_id": 1,
         "country_id": 212,
         "venue_id": null,
         "name": "Arsenal",
@@ -5510,7 +5664,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/236848.png"
     }, {
         "id": 237682,
-        "sport_id": 1,
         "country_id": 14566098,
         "venue_id": null,
         "name": "Malahide United",
@@ -5520,7 +5673,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 237997,
-        "sport_id": 1,
         "country_id": 155,
         "venue_id": null,
         "name": "CSA Steaua Bucureşti",
@@ -5530,7 +5682,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/237997.png"
     }, {
         "id": 238115,
-        "sport_id": 1,
         "country_id": 2931,
         "venue_id": null,
         "name": "FC Andorra",
@@ -5540,7 +5691,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/3/238115.png"
     }, {
         "id": 238607,
-        "sport_id": 1,
         "country_id": 125,
         "venue_id": null,
         "name": "Iraklis Larissa",
@@ -5549,8 +5699,16 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
+        "id": 99,
+        "country_id": 462,
+        "venue_id": 338734,
+        "name": "Preston North End",
+        "elo":1510,
+        "elo_name":"Preston",
+        "short_code": "PNE",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/3/99.png"
+    }, {
         "id": 241138,
-        "sport_id": 1,
         "country_id": 32396817,
         "venue_id": null,
         "name": "Pobeda Prilep",
@@ -5560,7 +5718,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 248754,
-        "sport_id": 1,
         "country_id": 296,
         "venue_id": null,
         "name": "Mladost Novi Sad",
@@ -5570,7 +5727,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/248754.png"
     }, {
         "id": 249462,
-        "sport_id": 1,
         "country_id": 86,
         "venue_id": 8829,
         "name": "Metal Kharkiv",
@@ -5580,7 +5736,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/249462.png"
     }, {
         "id": 254043,
-        "sport_id": 1,
         "country_id": 14566098,
         "venue_id": null,
         "name": "Treaty United",
@@ -5590,7 +5745,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 254641,
-        "sport_id": 1,
         "country_id": 2453,
         "venue_id": null,
         "name": "MKT Araz",
@@ -5600,7 +5754,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 258712,
-        "sport_id": 1,
         "country_id": 125,
         "venue_id": null,
         "name": "Panathinaikos II",
@@ -5610,7 +5763,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/258712.png"
     }, {
         "id": 260603,
-        "sport_id": 1,
         "country_id": 1233,
         "venue_id": null,
         "name": "Kuopion Elo",
@@ -5620,7 +5772,6 @@
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
         "id": 262505,
-        "sport_id": 1,
         "country_id": 11,
         "venue_id": null,
         "name": "ETSV Hamburg",
@@ -5629,18 +5780,7 @@
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com/images/soccer/team_placeholder.png"
     }, {
-        "id": 2641,
-        "sport_id": 1,
-        "country_id": 556,
-        "venue_id": 1572,
-        "name": "Cercle Brugge",
-        "elo":0,
-        "elo_name":"",
-        "short_code": null,
-        "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/17\/2641.png"
-    }, {
         "id": 1130,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 447,
         "name": "Kortrijk",
@@ -5650,17 +5790,15 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/10\/1130.png"
     }, {
         "id": 1087,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 425,
         "name": "Sporting Charleroi",
-        "elo":0,
-        "elo_name":"",
+        "elo":1503,
+        "elo_name":"Charleroi",
         "short_code": "SPC",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/31\/1087.png"
     }, {
         "id": 357,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 4609,
         "name": "Westerlo",
@@ -5670,7 +5808,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/5\/357.png"
     }, {
         "id": 355,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 31494,
         "name": "Sint-Truiden",
@@ -5679,38 +5816,43 @@
         "short_code": "SIT",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/3\/355.png"
     }, {
+        "id": 2641,
+        "country_id": 556,
+        "venue_id": 1572,
+        "name": "Cercle Brugge",
+        "elo":1488,
+        "elo_name":"Cercle Brugge",
+        "short_code": null,
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/2641.png"
+    }, {
         "id": 340,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1572,
         "name": "Club Brugge",
-        "elo":0,
-        "elo_name":"",
+        "elo":1626,
+        "elo_name":"Brugge",
         "short_code": "BRU",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/20\/340.png"
     }, {
         "id": 2402,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1449,
         "name": "Gent",
-        "elo":0,
-        "elo_name":"",
+        "elo":1602,
+        "elo_name":"Gent",
         "short_code": "GNT",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/2\/2402.png"
     }, {
         "id": 2555,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1528,
         "name": "Anderlecht",
-        "elo":0,
-        "elo_name":"",
+        "elo":1528,
+        "elo_name":"Anderlecht",
         "short_code": "ADL",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/27\/2555.png"
     }, {
         "id": 1947,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 290140,
         "name": "OH Leuven",
@@ -5720,17 +5862,15 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/27\/1947.png"
     }, {
         "id": 3958,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 4721,
         "name": "Union Saint-Gilloise",
-        "elo":0,
-        "elo_name":"",
+        "elo":1675,
+        "elo_name":"StGillis",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/22\/3958.png"
     }, {
         "id": 700,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 189,
         "name": "Standard Li\u00e8ge",
@@ -5740,7 +5880,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/28\/700.png"
     }, {
         "id": 1118,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 440,
         "name": "Zulte-Waregem",
@@ -5750,27 +5889,33 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/30\/1118.png"
     }, {
         "id": 2709,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1611,
         "name": "Genk",
-        "elo":0,
-        "elo_name":"",
+        "elo":1630,
+        "elo_name":"Genk",
         "short_code": "GNK",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/21\/2709.png"
     }, {
+        "id": 621,
+        "country_id": 86,
+        "venue_id": 8829,
+        "name": "Shakhtar Donetsk",
+        "elo": 1629,
+        "elo_name":"Shakhtar",
+        "short_code": "SHK",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/13/621.png"
+    }, {
         "id": 328,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 4725,
         "name": "Antwerp",
-        "elo":0,
-        "elo_name":"",
+        "elo":1596,
+        "elo_name":"Antwerp",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/8\/328.png"
     }, {
         "id": 2938,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1726,
         "name": "Mechelen",
@@ -5780,7 +5925,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/26\/2938.png"
     }, {
         "id": 1674,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 818,
         "name": "RFC Seraing",
@@ -5790,7 +5934,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/10\/1674.png"
     }, {
         "id": 2462,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1476,
         "name": "KV Oostende",
@@ -5800,7 +5943,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/30\/2462.png"
     }, {
         "id": 2412,
-        "sport_id": 1,
         "country_id": 556,
         "venue_id": 1447,
         "name": "AS Eupen",
@@ -5810,7 +5952,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/12\/2412.png"
     }, {
         "id": 3525,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 2048,
         "name": "Winterthur",
@@ -5820,7 +5961,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/5\/3525.png"
     }, {
         "id": 1970,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 1063,
         "name": "Servette",
@@ -5830,7 +5970,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/18\/1970.png"
     }, {
         "id": 462,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 59,
         "name": "Sion",
@@ -5840,7 +5979,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/14\/462.png"
     }, {
         "id": 2866,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 1688,
         "name": "Grasshopper",
@@ -5850,7 +5988,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/18\/2866.png"
     }, {
         "id": 389,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 1688,
         "name": "Zürich",
@@ -5860,7 +5997,6 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/5\/389.png"
     }, {
         "id": 13775,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 9570,
         "name": "Lugano",
@@ -5870,43 +6006,40 @@
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/15\/13775.png"
     }, {
         "id": 468,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 9553,
         "name": "Basel",
-        "elo":0,
-        "elo_name":"",
+        "elo":1512,
+        "elo_name":"Basel",
         "short_code": "BAS",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/20\/468.png"
     }, {
         "id": 3091,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 1807,
         "name": "Luzern",
-        "elo":0,
-        "elo_name":"",
+        "elo":1471,
+        "elo_name":"Luzern",
         "short_code": "LUZ",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/19\/3091.png"
     }, {
         "id": 647,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 163,
         "name": "Young Boys",
-        "elo":0,
-        "elo_name":"",
+        "elo":1657,
+        "elo_name":"Young Boys",
         "short_code": "YBO",
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/7\/647.png"
     }, {
         "id": 362,
-        "sport_id": 1,
         "country_id": 62,
         "venue_id": 9570,
         "name": "St. Gallen",
-        "elo":0,
-        "elo_name":"",
+        "elo":1502,
+        "elo_name":"StGallen",
         "short_code": null,
         "image_path": "https://cdn.sportmonks.com\/images\/soccer\/teams\/10\/362.png"
-    }]
+    }
+    ]
 }

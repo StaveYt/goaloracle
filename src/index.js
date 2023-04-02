@@ -21,6 +21,8 @@ const sportMonksToken = 'WRQ2rljTRFJABZamseStggeOoiP1GMzvBCqMw7Ox6jq2LrPKUGdZqKO
 const app = firebase.initializeApp(firebaseConfig);
 let database = app.firestore();
 
+let selectedMatch={}
+
 function LoadInfo(){
   console.log(user)
   let teamPic = user.favClubs[2];
