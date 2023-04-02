@@ -1,14 +1,20 @@
-const hfa = 100;
+const hfa = 100.00;
 const k = 10;
-CalculateWinRate(1851,2045)
+
+
+
 CreateSelectTeam()
 async function CreateSelectTeam(){
     let selectHomeTeam = document.getElementById('selectHomeTeam');
     let selectAwayTeam = document.getElementById('selectAwayTeam');
         fetch(`../src/data/teamlist.json`).then(response => response.json()).then(data => {
-          let teams = data.data;
+          let teams = [...data.data];
+          teams = teams.sort((a,b)=>{
+            if(a.name < b.name){ return -1 }
+            if ( a.name > b.name) { return 1 }
+            return 0;
+          })
           for (let i = 0; i < teams.length; i++) {
-            console.log(teams[i].elo)
             let team = teams[i];
             let option = document.createElement('option');
             option.value = `${team.name}|${team.id}|${team.image_path}|${team.elo}`;
@@ -24,12 +30,10 @@ async function CreateSelectTeam(){
 function CalculateWinRate(homeElo, awayElo){
   console.log("home calc", homeElo);
   console.log("away calc", awayElo);
-  console.log(1/(1+10**((awayElo - (homeElo+hfa))/400)))
-  let Ea = 1/(1+10**((awayElo - (homeElo+hfa))/400))
+  let Ea = 1/(1+10**(((awayElo-hfa) - homeElo)/400))
   console.log(Ea);
   return Ea;
 }
-
 
 async function Predict(){
   let homeTeam = document.getElementById('selectHomeTeam').value.split('|');
