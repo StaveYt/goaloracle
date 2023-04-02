@@ -18,13 +18,28 @@
         <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
       </div>
       <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
-        <a href="#" class=" ">Simulate</a>
+        <a href="#" class="flex items-center">
+          <img src="assets\imgs\simulator.svg" class="h-10 mx-3">
+          <p>Simulate</p>
+        </a>
       </div>
-      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="rankingtest.html">Ranking</a>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html" class="flex items-center">
+          <img src="assets\imgs\ranking.svg" class="h-10 mx-3">
+          <p>Ranking</p>
+        </a>
       </div>
-      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="utakmicetest.html">Football games</a>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html" class="flex items-center">
+          <img src="assets\imgs\football-game.svg" class="h-10 mx-3">
+          <p>Football Games</p>
+        </a>
+      </div>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html" class="flex items-center">
+          <img src="assets\imgs\your-team.svg" class="h-10 mx-3">
+          <p>Your Teams</p>
+        </a>
       </div>
       <div class="text-center">
         <button onclick="ShowSignForm('signup')" class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
@@ -54,7 +69,7 @@
   </div>
   
   <div class="[padding-left:var(--navWidth)] flex-1 overflow-auto" id="container">
-    <div class="flex m-10 flex-col h-full">
+    <div class="flex m-10">
         <div class="flex">
             <img src="assets\imgs\indexPitch.webp" class="w-1/2 object-contain">
             <div class="mx-4 w-1/2">
@@ -64,17 +79,37 @@
                     <span class="inline-flex">Prediction Site</span>
                 </h1>
                 <div class="flex flex-col">
-                    <button onclick="" class="text-2xl bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-teal-700 text-white font-bold my-2 mx-10 py-3 text-center max-w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
+                    <button onclick="" class="text-2xl bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-teal-700 text-white font-bold my-2 mx-10 py-3 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
                         Match Simulator
                     </button>
-                    <button onclick="" class="text-2xl bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 text-white font-bold my-2 mx-10 py-3 text-center max-w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
-                        Browse Teams
+                    <button onclick="" class="text-2xl bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 text-white font-bold my-2 mx-10 py-3 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+                        Football games
                     </button>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div class="flex m-10">
+      <div class="flex">
+          <div class="mr-20 w-1/2">
+              <h1 class="text-slate-700 font-bold text-center dark:text-slate-200 text-[clamp(3.6rem,4vw,4.8rem)]">
+                  <span class="inline-flex">Follow </span>
+                  <span class="inline-flex">Your favorite</span>
+                  <span class="inline-flex">Teams!</span>
+              </h1>
+              <div class="flex flex-col">
+                <button onclick="" class="text-2xl bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 text-white font-bold my-2 mx-10 py-3 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+                  Your teams
+                </button>
+                  <button onclick="" class="text-2xl bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-teal-700 text-white font-bold my-2 mx-10 py-3 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
+                      Team ranking
+                  </button>
+              </div>
+          </div>
+          <img src="assets\imgs\real-madrid-lineup.jpg" class="w-1/2 object-contain">
+      </div>
+    </div>
+  </div>
 <div class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden" id="signInBox">
     <div class="flex flex-col m-auto p-4 w-96 text-slate-300 bg-stone-800 rounded-md" id="signInContainer">
         <div class="m-4">
