@@ -12,23 +12,6 @@ function GetTodayMatchups() {
 }
 
 function ParseMatchups(fixtures, containerid) {
-/*<tr>
-   <td class="">
-     <p>Dinamo</p>
-     <p>Hajduk</p>
-   </td>
-
-   <td class="">
-     <button
-       class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-       Simulate
-     </button>
-   </td>
-   <td>
-     <p>27.1.1.</p>
-   </td>
- </tr>
-*/
   fixtures.forEach(fixture => {
     let liveGame = fixture.scores.length != 0 && fixture.result_info === null ? true : false;
     let finished = fixture.result_info !== null ? true : false;

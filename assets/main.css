@@ -739,6 +739,10 @@ video {
   height: 1.25rem;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .h-\[50\%\] {
   height: 50%;
 }

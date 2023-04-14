@@ -76,9 +76,7 @@ function SignIn() {
               ...curruser,
             };
             console.log(user, curruser);
-            GetTeamElo(curruser).then(
-              (elo) => (window.location.href = "html/testaccpage.html")
-            );
+            window.location.href = "html/testaccpage.html"
           });
       });
     });
@@ -133,7 +131,7 @@ function SignUp() {
               ...curruser,
             };
             localStorage.setItem("FAVTEAMELO", JSON.stringify(team[3]));
-            // .then(elo => window.location.href = "html/testaccpage.html");
+            window.location.href = "html/testaccpage.html";
           });
       });
   }
