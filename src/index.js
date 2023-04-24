@@ -40,6 +40,8 @@ function LoadInfo() {
   document.getElementById("teamPic").setAttribute("src", teamPic);
   document.getElementById("teamElo").innerHTML = teamElo;
   document.getElementById("username").innerText = username;
+  document.getElementById("leagueGamesBtn").innerText= `Današnje utakmice u ${user.flwLeague[0]}`;
+  document.getElementById("leagueGamesBtn").setAttribute('href', `utakmicetest.html?data=${user.flwLeague[1]}`)
   LoadLastGames(user.favClubs[1]);
 }
 {/* <tr>
@@ -73,7 +75,6 @@ function LoadLastGames(teamid){
         console.log(results.filter(el => el.score.participant == "home"? true : false))
         
         let fixtureItem = document.createElement('tr');
-  
         let teamsEl = document.createElement('td');
         let teamH = document.createElement('p'); teamH.innerText = teams[0];
         let teamA = document.createElement('p'); teamA.innerText = teams[1];

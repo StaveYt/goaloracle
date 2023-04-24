@@ -3,6 +3,7 @@
     {
       "id": 1,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 214,
       "name": "West Ham United",
       "elo": 1755,
@@ -13,6 +14,7 @@
     {
       "id": 44,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6159,
       "name": "Olympique Marseille",
       "elo": 1754,
@@ -23,6 +25,7 @@
     {
       "id": 6,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 281313,
       "name": "Tottenham",
       "elo": 1851,
@@ -33,6 +36,7 @@
     {
       "id": 10,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 119,
       "name": "West Bromwich Albion",
       "elo": 1553,
@@ -43,6 +47,7 @@
     {
       "id": 9,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 151,
       "name": "Manchester City",
       "elo": 2045,
@@ -53,6 +58,7 @@
     {
       "id": 11,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 485,
       "name": "Fulham",
       "elo": 1731,
@@ -63,6 +69,7 @@
     {
       "id": 13,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 12,
       "name": "Everton",
       "elo": 1692,
@@ -73,6 +80,7 @@
     {
       "id": 14,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 206,
       "name": "Manchester United",
       "elo": 1887,
@@ -83,6 +91,7 @@
     {
       "id": 15,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 5,
       "name": "Aston Villa",
       "elo": 1774,
@@ -93,6 +102,7 @@
     {
       "id": 18,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 321614,
       "name": "Chelsea",
       "elo": 1863,
@@ -103,6 +113,7 @@
     {
       "id": 19,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 204,
       "name": "Arsenal",
       "elo": 1953,
@@ -113,6 +124,7 @@
     {
       "id": 20,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 449,
       "name": "Newcastle United",
       "elo": 1847,
@@ -123,6 +135,7 @@
     {
       "id": 34,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 72098,
       "name": "Galatasaray",
       "elo": 1608,
@@ -133,6 +146,7 @@
     {
       "id": 36,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9239,
       "name": "Celta de Vigo",
       "elo": 1685,
@@ -143,6 +157,7 @@
     {
       "id": 37,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7189,
       "name": "Roma",
       "elo": 1783,
@@ -153,6 +168,7 @@
     {
       "id": 42,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 117,
       "name": "Leicester City",
       "elo": 1752,
@@ -163,6 +179,7 @@
     {
       "id": 49,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 2171,
       "name": "Salzburg",
       "elo": 1721,
@@ -173,6 +190,7 @@
     {
       "id": 51,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 201,
       "name": "Crystal Palace",
       "elo": 1732,
@@ -183,6 +201,7 @@
     {
       "id": 53,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8909,
       "name": "Celtic",
       "elo": 1652,
@@ -193,6 +212,7 @@
     {
       "id": 58,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 8323,
       "name": "Sporting",
       "elo": 1759,
@@ -203,6 +223,7 @@
     {
       "id": 59,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6162,
       "name": "Nantes",
       "elo": 1595,
@@ -213,6 +234,7 @@
     {
       "id": 62,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8914,
       "name": "Rangers",
       "elo": 1655,
@@ -223,6 +245,7 @@
     {
       "id": 65,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 167,
       "name": "Southampton",
       "elo": 1662,
@@ -234,6 +257,7 @@
     {
       "id": 6615,
       "country_id": 401,
+      "country_name":"Slovačka",
       "venue_id": 4292,
       "name": "Ružomberok",
       "elo":1339,
@@ -244,6 +268,7 @@
     {
       "id": 67,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2138,
       "name": "Schalke 04",
       "elo": 1585,
@@ -254,6 +279,7 @@
     {
       "id": 68,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2166,
       "name": "Borussia Dortmund",
       "elo": 1830,
@@ -264,6 +290,7 @@
     {
       "id": 71,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 488,
       "name": "Leeds United",
       "elo": 1714,
@@ -274,6 +301,7 @@
     {
       "id": 73,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 1795,
       "name": "Feyenoord",
       "elo": 1771,
@@ -284,6 +312,7 @@
     {
       "id": 78,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 480,
       "name": "Brighton & Hove Albion",
       "elo": 1831,
@@ -294,6 +323,7 @@
     {
       "id": 6377,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 4119,
       "name": "Rio Ave",
       "elo": 1462,
@@ -304,6 +334,7 @@
     {
       "id": 122,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 500,
       "name": "Bristol City",
       "elo": 1480,
@@ -314,6 +345,7 @@
     {
       "id": 79,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6161,
       "name": "Olympique Lyonnais",
       "elo": 1678,
@@ -324,6 +356,7 @@
     {
       "id": 81,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 71984,
       "name": "Antalyaspor",
       "elo": 1433,
@@ -334,6 +367,7 @@
     {
       "id": 82,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2172,
       "name": "Werder Bremen",
       "elo": 1622,
@@ -344,6 +378,7 @@
     {
       "id": 6827,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 4473,
       "name": "Cádiz",
       "elo": 1619,
@@ -354,6 +389,7 @@
     {
       "id": 83,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9236,
       "name": "FC Barcelona",
       "elo": 1938,
@@ -364,6 +400,7 @@
     {
       "id": 85,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 5655,
       "name": "København",
       "elo": 1626,
@@ -374,6 +411,7 @@
     {
       "id": 86,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 85371,
       "name": "Silkeborg",
       "elo": 1439,
@@ -384,6 +422,7 @@
     {
       "id": 88,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 9695,
       "name": "Fenerbahçe",
       "elo": 1648,
@@ -394,6 +433,7 @@
     {
       "id": 90,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2165,
       "name": "FC Augsburg",
       "elo": 1608,
@@ -404,6 +444,7 @@
     {
       "id": 30,
       "country_id": 515,
+      "country_name":"Velška",
       "venue_id": 208,
       "name": "Swansea City",
       "elo": 1490,
@@ -411,10 +452,10 @@
       "short_code": "SWA",
       "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/30.png"
     },
-    
     {
       "id": 94,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 1793,
       "name": "Vitesse",
       "elo": 1474,
@@ -425,6 +466,7 @@
     {
       "id": 23,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 494,
       "name": "Reading",
       "elo": 1437,
@@ -435,6 +477,7 @@
     {
       "id": 102,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 86,
       "name": "Genoa",
       "elo": 1580,
@@ -445,6 +488,7 @@
     {
       "id": 103,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9237,
       "name": "Granada",
       "elo": 1616,
@@ -455,6 +499,7 @@
     {
       "id": 106,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9351,
       "name": "Getafe",
       "elo": 1640,
@@ -465,6 +510,7 @@
     {
       "id": 108,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6164,
       "name": "Saint-Étienne",
       "elo": 1447,
@@ -475,6 +521,7 @@
     {
       "id": 109275,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 8573,
       "name": "Dnipro-1",
       "elo": 1447,
@@ -485,6 +532,7 @@
     {
       "id": 3452,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 2012,
       "name": "Orenburg",
       "elo": 1419,
@@ -495,6 +543,7 @@
     {
       "id": 109,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7223,
       "name": "Fiorentina",
       "elo": 1717,
@@ -505,6 +554,7 @@
     {
       "id": 112,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 6779,
       "name": "Ferencváros",
       "elo": 1495,
@@ -515,6 +565,7 @@
     {
       "id": 113,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 1721,
       "name": "Milan",
       "elo": 1807,
@@ -525,6 +576,7 @@
     {
       "id": 118,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 6565,
       "name": "OFI",
       "elo": 1260,
@@ -535,6 +587,7 @@
     {
       "id": 126,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9233,
       "name": "Málaga",
       "elo": 1421,
@@ -545,6 +598,7 @@
     {
       "id": 135,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 8223,
       "name": "Lechia",
       "elo": 1342,
@@ -555,6 +609,7 @@
     {
       "id": 171,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 8270,
       "name": "Warta",
       "elo": 1401,
@@ -565,6 +620,7 @@
     {
       "id": 177,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 996,
       "name": "Forest Green Rovers",
       "elo": 1648,
@@ -575,6 +631,7 @@
     {
       "id": 180,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8906,
       "name": "Kilmarnock",
       "elo": 1201,
@@ -585,6 +642,7 @@
     {
       "id": 187,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 5540,
       "name": "Mladá Boleslav",
       "elo": 1366,
@@ -595,6 +653,7 @@
     {
       "id": 207,
       "country_id": 455,
+      "country_name":"Irska",
       "venue_id": 328985,
       "name": "Shamrock Rovers",
       "elo":1210,
@@ -605,6 +664,7 @@
     {
       "id": 211,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 5661,
       "name": "Horsens",
       "elo": 1313,
@@ -615,6 +675,7 @@
     {
       "id": 213,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 6597,
       "name": "Panaitolikos",
       "elo": 1198,
@@ -625,6 +686,7 @@
     {
       "id": 214,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9240,
       "name": "Valencia",
       "elo": 1641,
@@ -635,6 +697,7 @@
     {
       "id": 216,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 305393,
       "name": "Slavia Praha",
       "elo": 1590,
@@ -645,6 +708,7 @@
     {
       "id": 231,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9345,
       "name": "Girona",
       "elo": 164,
@@ -655,6 +719,7 @@
     {
       "id": 234,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 5453,
       "name": "Slovácko",
       "elo": 1457,
@@ -665,6 +730,7 @@
     {
       "id": 246,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8908,
       "name": "Ross County",
       "elo": 1230,
@@ -675,6 +741,7 @@
     {
       "id": 258,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8943,
       "name": "Livingston",
       "elo": 1281,
@@ -685,6 +752,7 @@
     {
       "id": 266,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 323206,
       "name": "Brest",
       "elo": 1533,
@@ -695,6 +763,7 @@
     {
       "id": 236,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 338817,
       "name": "Brentford",
       "elo": 1795,
@@ -705,6 +774,7 @@
     {
       "id": 267,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 19196,
       "name": "Venezia",
       "elo": 1454,
@@ -715,6 +785,7 @@
     {
       "id": 268,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 23058,
       "name": "Como",
       "elo": 1441,
@@ -725,6 +796,7 @@
     {
       "id": 270,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 6135,
       "name": "Haugesund",
       "elo": 1341,
@@ -735,6 +807,7 @@
     {
       "id": 271,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6240,
       "name": "Lens",
       "elo": 1721,
@@ -745,6 +818,7 @@
     {
       "id": 273,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8928,
       "name": "Aberdeen",
       "elo": 1306,
@@ -755,6 +829,7 @@
     {
       "id": 274,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9342,
       "name": "Huesca",
       "elo": 1512,
@@ -765,6 +840,7 @@
     {
       "id": 277,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2171,
       "name": "RB Leipzig",
       "elo": 1819,
@@ -775,6 +851,7 @@
     {
       "id": 652,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 165,
       "name": "Porto",
       "elo": 1817,
@@ -785,6 +862,7 @@
     {
       "id": 282,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8947,
       "name": "Dundee United",
       "elo": 1227,
@@ -795,6 +873,7 @@
     {
       "id": 289,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6051,
       "name": "Toulouse",
       "elo": 1573,
@@ -805,6 +884,7 @@
     {
       "id": 290,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 8098,
       "name": "Molde",
       "elo": 1589,
@@ -815,6 +895,7 @@
     {
       "id": 293,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 5659,
       "name": "Brøndby",
       "elo": 1467,
@@ -825,6 +906,7 @@
     {
       "id": 295,
       "country_id": 2756,
+      "country_name":"Malta",
       "venue_id": 5052,
       "name": "Hamrun Spartans",
       "elo": 1095,
@@ -835,6 +917,7 @@
     {
       "id": 302,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 8213,
       "name": "Lech",
       "elo": 1554,
@@ -845,6 +928,7 @@
     {
       "id": 309,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8922,
       "name": "Motherwell",
       "elo": 1266,
@@ -856,6 +940,7 @@
     {
       "id": 313,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 8140,
       "name": "Strømsgodset",
       "elo": 1296,
@@ -866,6 +951,7 @@
     {
       "id": 314,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 336296,
       "name": "Hearts",
       "elo": 1332,
@@ -876,6 +962,7 @@
     {
       "id": 321,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 278817,
       "name": "Viking",
       "elo": 1355,
@@ -887,6 +974,7 @@
     {
       "id": 329,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 282134,
       "name": "Lokomotiv Plovdiv",
       "elo": 1288,
@@ -897,6 +985,7 @@
     {
       "id": 345,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7305,
       "name": "Spezia",
       "elo": 1561,
@@ -907,6 +996,7 @@
     {
       "id": 346,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7224,
       "name": "Udinese",
       "elo": 1692,
@@ -917,6 +1007,7 @@
     {
       "id": 347,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 72107,
       "name": "Alanyaspor",
       "elo": 1430,
@@ -928,6 +1019,7 @@
     {
       "id": 353,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2110,
       "name": "St. Pauli",
       "elo": 1537,
@@ -938,6 +1030,7 @@
     {
       "id": 354,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 9445,
       "name": "Malmö FF",
       "elo": 1428,
@@ -948,6 +1041,7 @@
     {
       "id": 360,
       "country_id": 2756,
+      "country_name":"Malta",
       "venue_id": 334565,
       "name": "Hibernians",
       "elo": 1311,
@@ -958,6 +1052,7 @@
     {
       "id": 361,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9323,
       "name": "Real Valladolid",
       "elo": 1597,
@@ -968,6 +1063,7 @@
     {
       "id": 364,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 8477,
       "name": "Gil Vicente",
       "elo": 1495,
@@ -978,6 +1074,7 @@
     {
       "id": 365,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 73015,
       "name": "Sivasspor",
       "elo": 1449,
@@ -988,6 +1085,7 @@
     {
       "id": 368,
       "country_id": 116,
+      "country_name":"Cipra",
       "venue_id": 1553,
       "name": "Omonia Nicosia",
       "elo": 1431,
@@ -999,6 +1097,7 @@
     {
       "id": 377,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 304396,
       "name": "Rayo Vallecano",
       "elo": 1629,
@@ -1009,6 +1108,7 @@
     {
       "id": 387,
       "country_id": 2453,
+      "country_name":"Azerbejdžan",
       "venue_id": 4139,
       "name": "Qabala",
       "elo": 1308,
@@ -1019,6 +1119,7 @@
     {
       "id": 392,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 4971,
       "name": "CSKA Sofia",
       "elo": 1461,
@@ -1029,6 +1130,7 @@
     {
       "id": 393,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 8046,
       "name": "Aalesund",
       "elo": 1272,
@@ -1039,6 +1141,7 @@
     {
       "id": 394,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7316,
       "name": "SPAL",
       "elo": 1387,
@@ -1049,6 +1152,7 @@
     {
       "id": 396,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 6778,
       "name": "Debrecen",
       "elo": 1297,
@@ -1059,6 +1163,7 @@
     {
       "id": 397,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7220,
       "name": "Empoli",
       "elo": 1594,
@@ -1069,6 +1174,7 @@
     {
       "id": 398,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7175,
       "name": "Parma",
       "elo": 1469,
@@ -1079,6 +1185,7 @@
     {
       "id": 411,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 29,
       "name": "Mjällby",
       "elo": 1361,
@@ -1089,6 +1196,7 @@
     {
       "id": 2604,
       "country_id": 116,
+      "country_name":"Cipra",
       "venue_id": 1553,
       "name": "APOEL",
       "elo": 1417,
@@ -1099,6 +1207,7 @@
     {
       "id": 421,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 35,
       "name": "Hapoel Jerusalem",
       "elo": 1318,
@@ -1109,6 +1218,7 @@
     {
       "id": 430,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 37,
       "name": "Bastia",
       "elo": 1430,
@@ -1119,6 +1229,7 @@
     {
       "id": 432,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 46,
       "name": "Kalmar",
       "elo": 1391,
@@ -1129,6 +1240,7 @@
     {
       "id": 443,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 47,
       "name": "Djurgården",
       "elo": 1496,
@@ -1139,6 +1251,7 @@
     {
       "id": 444,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 48,
       "name": "Koper",
       "elo": 1274,
@@ -1149,6 +1262,7 @@
     {
       "id": 445,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 49,
       "name": "Bari 1908",
       "elo": 1484,
@@ -1159,6 +1273,7 @@
     {
       "id": 450,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 51,
       "name": "Nice",
       "elo": 1701,
@@ -1169,6 +1284,7 @@
     {
       "id": 452,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 219226,
       "name": "Krylya Sovetov",
       "elo": 1401,
@@ -1179,6 +1295,7 @@
     {
       "id": 459,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 56,
       "name": "Osasuna",
       "elo": 1641,
@@ -1189,6 +1306,7 @@
     {
       "id": 463,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 57,
       "name": "Slovan Liberec",
       "elo": 1324,
@@ -1199,6 +1317,7 @@
     {
       "id": 482,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2167,
       "name": "Darmstadt 98",
       "elo": 1584,
@@ -1209,6 +1328,7 @@
     {
       "id": 484,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 67,
       "name": "Stabæk",
       "elo":1265,
@@ -1219,6 +1339,7 @@
     {
       "id": 485,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 68,
       "name": "Real Betis",
       "elo": 1751,
@@ -1229,6 +1350,7 @@
     {
       "id": 490,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 177923,
       "name": "Lokomotiv Moskva",
       "elo": 1472,
@@ -1239,6 +1361,7 @@
     {
       "id": 2474,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 1481,
       "name": "Brann",
       "elo":1265,
@@ -1249,6 +1372,7 @@
     {
       "id": 496,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 8879,
       "name": "St. Mirren",
       "elo": 1295,
@@ -1259,6 +1383,7 @@
     {
       "id": 502,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 183302,
       "name": "Vålerenga",
       "elo": 1387,
@@ -1269,6 +1394,7 @@
     {
       "id": 503,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 53,
       "name": "FC Bayern München",
       "elo": 1979,
@@ -1279,6 +1405,7 @@
     {
       "id": 510,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 80,
       "name": "VfL Wolfsburg",
       "elo": 1735,
@@ -1289,6 +1416,7 @@
     {
       "id": 3787,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 2217,
       "name": "Wolfsberger AC",
       "elo": 1409,
@@ -1299,6 +1427,7 @@
     {
       "id": 27,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 200,
       "name": "Burnley",
       "elo": 1738,
@@ -1309,6 +1438,7 @@
     {
       "id": 522,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 86,
       "name": "Sampdoria",
       "elo": 1541,
@@ -1319,6 +1449,7 @@
     {
       "id": 524,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 87,
       "name": "Ajaccio",
       "elo": 1446,
@@ -1329,6 +1460,7 @@
     {
       "id": 528,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 89,
       "name": "Espanyol",
       "elo": 1608,
@@ -1340,6 +1472,7 @@
     {
       "id": 542,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 96,
       "name": "PAS Giannina",
       "elo": 1222,
@@ -1350,6 +1483,7 @@
     {
       "id": 543,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 73093,
       "name": "CSKA Moskva",
       "elo": 1535,
@@ -1360,6 +1494,7 @@
     {
       "id": 554,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 340175,
       "name": "Beşiktaş",
       "elo": 1558,
@@ -1370,6 +1505,7 @@
     {
       "id": 563,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 106,
       "name": "Benevento",
       "elo": 1423,
@@ -1380,6 +1516,7 @@
     {
       "id": 571,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 110,
       "name": "Maccabi Haifa",
       "elo": 1585,
@@ -1390,6 +1527,7 @@
     {
       "id": 575,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 112,
       "name": "Hansa Rostock",
       "elo": 1380,
@@ -1400,6 +1538,7 @@
     {
       "id": 579,
       "country_id": 515,
+      "country_name":"Velška",
       "venue_id": 114,
       "name": "The New Saints",
       "elo": 1103,
@@ -1410,6 +1549,7 @@
     {
       "id": 581,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 126,
       "name": "Montpellier",
       "elo": 1572,
@@ -1421,6 +1561,7 @@
     {
       "id": 589,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 35,
       "name": "Beitar Jerusalem",
       "elo": 1340,
@@ -1431,6 +1572,7 @@
     {
       "id": 591,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 131,
       "name": "Paris Saint Germain",
       "elo": 1852,
@@ -1441,6 +1583,7 @@
     {
       "id": 593,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 132,
       "name": "FC Twente",
       "elo": 1613,
@@ -1451,6 +1594,7 @@
     {
       "id": 594,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 133,
       "name": "Real Sociedad",
       "elo": 1743,
@@ -1461,6 +1605,7 @@
     {
       "id": 597,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 134,
       "name": "Napoli",
       "elo": 1979,
@@ -1471,6 +1616,7 @@
     {
       "id": 598,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 135,
       "name": "Rennes",
       "elo": 1713,
@@ -1481,6 +1627,7 @@
     {
       "id": 602,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 136,
       "name": "Olympiakos Piraeus",
       "elo": 1543,
@@ -1491,6 +1638,7 @@
     {
       "id": 605,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 138,
       "name": "Benfica",
       "elo": 1851,
@@ -1501,6 +1649,7 @@
     {
       "id": 613,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 142,
       "name": "Torino",
       "elo": 1665,
@@ -1511,6 +1660,7 @@
     {
       "id": 617,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 144,
       "name": "Sandefjord",
       "elo": 1222,
@@ -1521,6 +1671,7 @@
     {
       "id": 618,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9180,
       "name": "Almería",
       "elo": 1587,
@@ -1531,6 +1682,7 @@
     {
       "id": 625,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 118500,
       "name": "Juventus",
       "elo": 1829,
@@ -1542,6 +1694,7 @@
     {
       "id": 629,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 154,
       "name": "Ajax",
       "elo": 1784,
@@ -1553,6 +1706,7 @@
     {
       "id": 643,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 161,
       "name": "Kayserispor",
       "elo": 1442,
@@ -1563,6 +1717,7 @@
     {
       "id": 645,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 1128,
       "name": "Mallorca",
       "elo": 1616,
@@ -1573,6 +1728,7 @@
     {
       "id": 649,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 164,
       "name": "PAOK",
       "elo": 1500,
@@ -1583,6 +1739,7 @@
     {
       "id": 664,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 171,
       "name": "Go Ahead Eagles",
       "elo": 1442,
@@ -1593,6 +1750,7 @@
     {
       "id": 906,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 325,
       "name": "Hajduk Split",
       "elo": 1508,
@@ -1603,6 +1761,7 @@
     {
       "id": 5504,
       "country_id": 919,
+      "country_name":"Armenija",
       "venue_id": 3627,
       "name": "Pyunik",
       "elo":1161,
@@ -1613,6 +1772,7 @@
     {
     "id": 3451,
     "country_id": 119,
+    "country_name":"Geruzija",
     "venue_id": 2011,
     "name": "Dinamo Tbilisi",
     "elo":1163,
@@ -1623,6 +1783,7 @@
     {
       "id": 674,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 176,
       "name": "Dinamo Zagreb",
       "elo": 1624,
@@ -1633,6 +1794,7 @@
     {
       "id": 676,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 177,
       "name": "Sevilla",
       "elo": 1702,
@@ -1643,6 +1805,7 @@
     {
       "id": 682,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 181,
       "name": "PSV",
       "elo": 1727,
@@ -1653,6 +1816,7 @@
     {
       "id": 683,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 180,
       "name": "Borussia Mönchengladbach",
       "elo": 1680,
@@ -1663,6 +1827,7 @@
     {
       "id": 686,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 182,
       "name": "Strasbourg",
       "elo": 1587,
@@ -1673,6 +1838,7 @@
     {
       "id": 2468,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 1480,
       "name": "Dinamo Moskva",
       "elo": 1537,
@@ -1683,6 +1849,7 @@
     {
       "id": 3791,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 2220,
       "name": "Dinamo Minsk",
       "elo":1271,
@@ -1693,6 +1860,7 @@
     {
       "id": 688,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 214665,
       "name": "Trabzonspor",
       "elo": 137,
@@ -1703,6 +1871,7 @@
     {
       "id": 690,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 184,
       "name": "Lille",
       "elo": 1717,
@@ -1713,6 +1882,7 @@
     {
       "id": 708,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 193,
       "name": "Atalanta",
       "elo": 1754,
@@ -1723,6 +1893,7 @@
     {
       "id": 720,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 210,
       "name": "Halmstad",
       "elo": 1242,
@@ -1733,6 +1904,7 @@
     {
       "id": 724,
       "country_id": 1233,
+      "country_name":"Finska",
       "venue_id": 213,
       "name": "HJK",
       "elo": 1310,
@@ -1743,6 +1915,7 @@
     {
       "id": 726,
       "country_id": 116,
+      "country_name":"Cipra",
       "venue_id": 215,
       "name": "AEK Larnaca",
       "elo": 1464,
@@ -1753,6 +1926,7 @@
     {
       "id": 730,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 611,
       "name": "Vasas",
       "elo": 1176,
@@ -1763,6 +1937,7 @@
     {
       "id": 731,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 218,
       "name": "Perugia",
       "elo": 1433,
@@ -1773,6 +1948,7 @@
     {
       "id": 28,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 26,
       "name": "Blackpool",
       "elo": 1419,
@@ -1783,6 +1959,7 @@
     {
       "id": 2482,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 1485,
       "name": "Piast Gliwice",
       "elo": 1419,
@@ -1793,6 +1970,7 @@
     {
       "id": 734,
       "country_id": 1161,
+      "country_name":"Škotska",
       "venue_id": 219,
       "name": "St. Johnstone",
       "elo": 1225,
@@ -1803,6 +1981,7 @@
     {
       "id": 8862,
       "country_id": 2405,
+      "country_name":"Estonija",
       "venue_id": 3670,
       "name": "Infonet",
       "elo":1015,
@@ -1813,6 +1992,7 @@
     {
       "id": 260,
       "country_id": 491,
+      "country_name":"Sjeverna Irska",
       "venue_id": 8014,
       "name": "Linfield",
       "elo":1095,
@@ -1823,6 +2003,7 @@
     {
       "id": 8697,
       "country_id": 2405,
+      "country_name":"Estonija",
       "venue_id": 5647,
       "name": "Flora",
       "elo":1138,
@@ -1833,6 +2014,7 @@
     {
       "id": 2,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 8,
       "name": "Blackburn Rovers",
       "elo": 1537,
@@ -1843,6 +2025,7 @@
     {
       "id": 750,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 227,
       "name": "FC Utrecht",
       "elo": 1538,
@@ -1853,6 +2036,7 @@
     {
       "id": 762,
       "country_id": 2756,
+      "country_name":"Malta",
       "venue_id": null,
       "name": "Floriana",
       "elo": 1048,
@@ -1863,6 +2047,7 @@
     {
       "id": 776,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 251,
       "name": "Angers SCO",
       "elo": 1425,
@@ -1873,6 +2058,7 @@
     {
       "id": 781,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 254,
       "name": "AEK Athens",
       "elo": 1496,
@@ -1883,6 +2069,7 @@
     {
       "id": 794,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 262,
       "name": "FSV Mainz 05",
       "elo": 1704,
@@ -1894,6 +2081,7 @@
     {
       "id": 808,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 272,
       "name": "Pogoń Szczecin",
       "elo": 1434,
@@ -1904,6 +2092,7 @@
     {
       "id": 820,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 278,
       "name": "Domžale",
       "elo": 1272,
@@ -1914,6 +2103,7 @@
     {
       "id": 840,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 294548,
       "name": "Amiens SC",
       "elo": 1364,
@@ -1924,6 +2114,7 @@
     {
       "id": 844,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 293,
       "name": "Leganés",
       "elo": 1457,
@@ -1934,6 +2125,7 @@
     {
       "id": 847,
       "country_id": 3347,
+      "country_name":"San Marino",
       "venue_id": 295,
       "name": "La Fiorita",
       "elo": 670,
@@ -1944,6 +2136,7 @@
     {
       "id": 3712,
       "country_id": 998,
+      "country_name":"Bosna i Hercegovina",
       "venue_id": 2186,
       "name": "Sutjeska",
       "elo":1013,
@@ -1954,6 +2147,7 @@
     {
       "id": 26,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 207,
       "name": "Stoke City",
       "elo": 1530,
@@ -1964,6 +2158,7 @@
     {
       "id": 3,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 212,
       "name": "Sunderland",
       "elo": 1499,
@@ -1974,6 +2169,7 @@
     {
       "id": 890,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 316,
       "name": "Jagiellonia Białystok",
       "elo": 1352,
@@ -1984,6 +2180,7 @@
     {
       "id": 910,
       "country_id": 455,
+      "country_name":"Irska",
       "venue_id": 327,
       "name": "Sligo Rovers",
       "elo": 1204,
@@ -1994,6 +2191,7 @@
     {
       "id": 919,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 332,
       "name": "Sparta Rotterdam",
       "elo": 1546,
@@ -2004,6 +2202,7 @@
     {
       "id": 138,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 445,
       "name": "Rotherham United",
       "elo": 1442,
@@ -2014,6 +2213,7 @@
     {
       "id": 928,
       "country_id": 2079,
+      "country_name":"Litva",
       "venue_id": 336,
       "name": "Kauno Žalgiris",
       "elo": 1111,
@@ -2024,6 +2224,7 @@
     {
       "id": 930,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 337,
       "name": "Odd",
       "elo": 1363,
@@ -2034,6 +2235,7 @@
     {
       "id": 939,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 342,
       "name": "Midtjylland",
       "elo": 1542,
@@ -2044,6 +2246,7 @@
     {
       "id": 7,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 203,
       "name": "Middlesbrough",
       "elo": 1614,
@@ -2054,6 +2257,7 @@
     {
       "id": 943,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 345,
       "name": "Botev Plovdiv",
       "elo": 1243,
@@ -2064,6 +2268,7 @@
     {
       "id": 956,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 143896,
       "name": "Nürnberg",
       "elo": 1427,
@@ -2074,6 +2279,7 @@
     {
       "id": 960,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 355,
       "name": "Boavista",
       "elo": 1448,
@@ -2084,6 +2290,7 @@
     {
       "id": 988,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 370,
       "name": "Chaves",
       "elo": 1454,
@@ -2094,6 +2301,7 @@
     {
       "id": 990,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 371,
       "name": "Levadiakos",
       "elo": 1194,
@@ -2104,6 +2312,7 @@
     {
       "id": 999,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 378,
       "name": "VfL Bochum 1848",
       "elo": 1600,
@@ -2114,6 +2323,7 @@
     {
       "id": 1000,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 376,
       "name": "Modena",
       "elo": 1405,
@@ -2124,6 +2334,7 @@
     {
       "id": 1001,
       "country_id": 2079,
+      "country_name":"Litva",
       "venue_id": 377,
       "name": "Žalgiris",
       "elo":1231,
@@ -2134,6 +2345,7 @@
     {
       "id": 1006,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 381,
       "name": "Ascoli",
       "elo": 1433,
@@ -2144,6 +2356,7 @@
     {
       "id": 1012,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 386,
       "name": "Tenerife",
       "elo": 1503,
@@ -2154,6 +2367,7 @@
     {
       "id": 1028,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 394,
       "name": "Reims",
       "elo": 1656,
@@ -2164,6 +2378,7 @@
     {
       "id": 7772,
       "country_id": 401,
+      "country_name":"Slovačka",
       "venue_id": 5037,
       "name": "Dunajská Lužná",
       "elo": 1350,
@@ -2174,6 +2389,7 @@
     {
       "id": 1039,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 400,
       "name": "Adana Demirspor",
       "elo": 1492,
@@ -2184,6 +2400,7 @@
     {
       "id": 1053,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 407,
       "name": "SC Heerenveen",
       "elo": 1484,
@@ -2194,6 +2411,7 @@
     {
       "id": 1055,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 408,
       "name": "Le Havre",
       "elo": 1497,
@@ -2204,6 +2422,7 @@
     {
       "id": 117,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 270,
       "name": "Coventry City",
       "elo": 1559,
@@ -2214,6 +2433,7 @@
     {
       "id": 1069,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 415,
       "name": "Cracovia Kraków",
       "elo": 1383,
@@ -2224,6 +2444,7 @@
     {
       "id": 1071,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 417,
       "name": "Kasımpaşa",
       "elo": 1437,
@@ -2234,6 +2455,7 @@
     {
       "id": 1072,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 418,
       "name": "Pisa",
       "elo": 1511,
@@ -2244,6 +2466,7 @@
     {
       "id": 1079,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 420,
       "name": "FC Union Berlin",
       "elo": 1752,
@@ -2254,6 +2477,7 @@
     {
       "id": 1092,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 302413,
       "name": "Fortuna Düsseldorf",
       "elo": 1526,
@@ -2264,6 +2488,7 @@
     {
       "id": 1097,
       "country_id": 491,
+      "country_name":"Sjeverna Irska",
       "venue_id": 429,
       "name": "Derry City",
       "elo": 1195,
@@ -2274,6 +2499,7 @@
     {
       "id": 1099,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 430,
       "name": "Elche",
       "elo": 1544,
@@ -2284,6 +2510,7 @@
     {
       "id": 1112,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 437,
       "name": "Laval",
       "elo": 1309,
@@ -2294,6 +2521,7 @@
     {
       "id": 1114,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 175363,
       "name": "Celje",
       "elo": 1258,
@@ -2304,6 +2532,7 @@
     {
       "id": 1120,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 441,
       "name": "Slavia Sofia",
       "elo": 1240,
@@ -2314,6 +2543,7 @@
     {
       "id": 1123,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 443,
       "name": "Hellas Verona",
       "elo": 1582,
@@ -2324,6 +2554,7 @@
     {
       "id": 1174,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 472,
       "name": "Grenoble Foot 38",
       "elo": 1408,
@@ -2334,6 +2565,7 @@
     {
       "id": 1216,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 510,
       "name": "Palermo",
       "elo": 1443,
@@ -2344,6 +2576,7 @@
     {
       "id": 1226,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 515,
       "name": "Elfsborg",
       "elo": 1426,
@@ -2354,6 +2587,7 @@
     {
       "id": 1232,
       "country_id": 515,
+      "country_name":"Velška",
       "venue_id": 525,
       "name": "Bala Town",
       "elo": 1011,
@@ -2364,6 +2598,7 @@
     {
       "id": 1260,
       "country_id": 455,
+      "country_name":"Irska",
       "venue_id": 550,
       "name": "St Patrick's",
       "elo": 1199,
@@ -2374,6 +2609,7 @@
     {
       "id": 1319,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 584,
       "name": "Honvéd",
       "elo": 1251,
@@ -2384,6 +2620,7 @@
     {
       "id": 1335,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 594,
       "name": "Rosenborg",
       "elo": 1477,
@@ -2394,6 +2631,7 @@
     {
       "id": 3666,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2093,
       "name": "Wattenscheid 09",
       "elo": 1393,
@@ -2404,6 +2642,7 @@
     {
       "id": 1351,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 605,
       "name": "Teplice",
       "elo": 1242,
@@ -2414,6 +2653,7 @@
     {
       "id": 25,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 19,
       "name": "Watford",
       "elo": 1550,
@@ -2424,6 +2664,7 @@
     {
       "id": 1393,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 633,
       "name": "Caen",
       "elo": 1429,
@@ -2434,6 +2675,7 @@
     {
       "id": 1401,
       "country_id": 3126,
+      "country_name":"Luksemburg",
       "venue_id": 637,
       "name": "Dudelange",
       "elo": 1057,
@@ -2444,6 +2686,7 @@
     {
       "id": 1447,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 679,
       "name": "Annecy",
       "elo": 137,
@@ -2454,6 +2697,7 @@
     {
       "id": 1453,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 682,
       "name": "Olimpija",
       "elo": 1344,
@@ -2464,6 +2708,7 @@
     {
       "id": 1459,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 685,
       "name": "Fortuna Sittard",
       "elo": 1436,
@@ -2474,6 +2719,7 @@
     {
       "id": 1465,
       "country_id": 515,
+      "country_name":"Velška",
       "venue_id": 688,
       "name": "Newtown",
       "elo": 1002,
@@ -2484,6 +2730,7 @@
     {
       "id": 1628,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 787,
       "name": "Monza",
       "elo": 1602,
@@ -2494,6 +2741,7 @@
     {
       "id": 1638,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 798,
       "name": "Kaiserslautern",
       "elo": 1449,
@@ -2504,6 +2752,7 @@
     {
       "id": 1658,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 184030,
       "name": "Portimonense",
       "elo": 1410,
@@ -2514,6 +2763,7 @@
     {
       "id": 5563,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 7902,
       "name": "Inhulets",
       "elo":1240,
@@ -2524,6 +2774,7 @@
     {
       "id": 1666,
       "country_id": 1233,
+      "country_name":"Finska",
       "venue_id": 813,
       "name": "Inter Turku",
       "elo": 1218,
@@ -2534,6 +2785,7 @@
     {
       "id": 1668,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 814,
       "name": "Bodø / Glimt",
       "elo": 1546,
@@ -2544,6 +2796,7 @@
     {
       "id": 47,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 491,
       "name": "Queens Park Rangers",
       "elo": 1415,
@@ -2554,6 +2807,7 @@
     {
       "id": 1818,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 938,
       "name": "Quevilly Rouen",
       "elo": 1369,
@@ -2564,6 +2818,7 @@
     {
       "id": 1838,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 289351,
       "name": "Pau",
       "elo": 1352,
@@ -2574,6 +2829,7 @@
     {
       "id": 1842,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 953,
       "name": "Sochaux",
       "elo": 1497,
@@ -2584,6 +2840,7 @@
     {
       "id": 2345,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 1438,
       "name": "FC Groningen",
       "elo": 1383,
@@ -2594,6 +2851,7 @@
     {
       "id": 2353,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 47,
       "name": "Hammarby",
       "elo": 1479,
@@ -2604,6 +2862,7 @@
     {
       "id": 2356,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 318820,
       "name": "Randers",
       "elo": 1441,
@@ -2614,6 +2873,7 @@
     {
       "id": 22,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 199,
       "name": "Hull City",
       "elo": 1478,
@@ -2624,6 +2884,7 @@
     {
       "id": 826,
       "country_id": 1233,
+      "country_name":"Finska",
       "venue_id": 5878,
       "name": "SJK",
       "elo":1252,
@@ -2634,6 +2895,7 @@
     {
       "id": 2394,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 1436,
       "name": "Nordsjælland",
       "elo": 1501,
@@ -2644,6 +2906,7 @@
     {
       "id": 3855,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 2260,
       "name": "Isloch",
       "elo":1111,
@@ -2654,6 +2917,7 @@
     {
       "id": 2396,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 1437,
       "name": "FC Volendam",
       "elo": 1401,
@@ -2664,6 +2928,7 @@
     {
       "id": 2417,
       "country_id": 401,
+      "country_name":"Slovačka",
       "venue_id": 1453,
       "name": "Slovan Bratislava",
       "elo": 1373,
@@ -2674,6 +2939,7 @@
     {
       "id": 2447,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 1467,
       "name": "Viborg",
       "elo": 1484,
@@ -2684,6 +2950,7 @@
     {
       "id": 2475,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 223598,
       "name": "FC Emmen",
       "elo": 1372,
@@ -2694,6 +2961,7 @@
     {
       "id": 2495,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 110,
       "name": "Hapoel Haifa",
       "elo": 1305,
@@ -2704,6 +2972,7 @@
     {
       "id": 2510,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 1497,
       "name": "Lillestrøm",
       "elo": 1390,
@@ -2714,6 +2983,7 @@
     {
       "id": 2535,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 1512,
       "name": "Häcken",
       "elo": 1478,
@@ -2724,6 +2994,7 @@
     {
       "id": 2554,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1531,
       "name": "Hannover 96",
       "elo": 1444,
@@ -2734,6 +3005,7 @@
     {
       "id": 2566,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 1532,
       "name": "Puskás",
       "elo": 1335,
@@ -2744,6 +3016,7 @@
     {
       "id": 2599,
       "country_id": 2453,
+      "country_name":"Azerbejdžan",
       "venue_id": 1550,
       "name": "Neftçi",
       "elo": 1332,
@@ -2754,6 +3027,7 @@
     {
       "id": 2601,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 1556,
       "name": "Sarpsborg 08",
       "elo": 1362,
@@ -2764,6 +3038,7 @@
     {
       "id": 2628,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 1565,
       "name": "Santa Clara",
       "elo": 1397,
@@ -2774,6 +3049,7 @@
     {
       "id": 2632,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 71803,
       "name": "Konyaspor",
       "elo": 1470,
@@ -2784,6 +3060,7 @@
     {
       "id": 2642,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1571,
       "name": "Paderborn",
       "elo": 1515,
@@ -2794,6 +3071,7 @@
     {
       "id": 2645,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 1573,
       "name": "Krasnodar",
       "elo": 1489,
@@ -2804,6 +3082,7 @@
     {
       "id": 2650,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 1576,
       "name": "Lyngby",
       "elo": 1324,
@@ -2814,6 +3093,7 @@
     {
       "id": 2673,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 1590,
       "name": "Crvena Zvezda",
       "elo": 1625,
@@ -2824,6 +3104,7 @@
     {
       "id": 2678,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 1592,
       "name": "Sirius",
       "elo": 1307,
@@ -2834,6 +3115,7 @@
     {
       "id": 2686,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 275980,
       "name": "Ural",
       "elo": 1414,
@@ -2844,6 +3126,7 @@
     {
       "id": 2707,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 1612,
       "name": "Javor Ivanjica",
       "elo": 1096,
@@ -2854,6 +3137,7 @@
     {
       "id": 2708,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1610,
       "name": "Hamburger SV",
       "elo": 1581,
@@ -2864,6 +3148,7 @@
     {
       "id": 2712,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 1609,
       "name": "Spartak Moskva",
       "elo": 1551,
@@ -2874,6 +3159,7 @@
     {
       "id": 2714,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 1613,
       "name": "Sassuolo",
       "elo": 1688,
@@ -2884,6 +3170,7 @@
     {
       "id": 12,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 507,
       "name": "Birmingham City",
       "elo": 1457,
@@ -2894,6 +3181,7 @@
     {
       "id": 2726,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 232157,
       "name": "TSG Hoffenheim",
       "elo": 1611,
@@ -2904,6 +3192,7 @@
     {
       "id": 2727,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 1619,
       "name": "Sparta Praha",
       "elo": 1562,
@@ -2914,6 +3203,7 @@
     {
       "id": 2736,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 1624,
       "name": "Partizan",
       "elo": 1456,
@@ -2924,6 +3214,7 @@
     {
       "id": 2742,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 1627,
       "name": "Ludogorets",
       "elo": 1507,
@@ -2934,6 +3225,7 @@
     {
       "id": 2753,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 1632,
       "name": "Degerfors",
       "elo": 1289,
@@ -2944,6 +3236,7 @@
     {
       "id": 2763,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 72011,
       "name": "Gaziantepspor",
       "elo": 1367,
@@ -2954,6 +3247,7 @@
     {
       "id": 2778,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 1643,
       "name": "Wisła Płock",
       "elo": 1348,
@@ -2964,6 +3258,7 @@
     {
       "id": 2791,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 175793,
       "name": "Paksi SE",
       "elo": 1333,
@@ -2974,6 +3269,7 @@
     {
       "id": 2825,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 1668,
       "name": "AIK",
       "elo": 1414,
@@ -2984,6 +3280,7 @@
     {
       "id": 2831,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1670,
       "name": "Heidenheim",
       "elo": 1561,
@@ -2994,6 +3291,7 @@
     {
       "id": 2919,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 1715,
       "name": "Guingamp",
       "elo": 1400,
@@ -3004,6 +3302,7 @@
     {
       "id": 1122,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 442,
       "name": "Paços de Ferreira",
       "elo": 1399,
@@ -3014,6 +3313,7 @@
     {
       "id": 2921,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 1716,
       "name": "Las Palmas",
       "elo": 1552,
@@ -3024,6 +3324,7 @@
     {
       "id": 2930,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 1721,
       "name": "Inter",
       "elo": 1843,
@@ -3034,6 +3335,7 @@
     {
       "id": 2934,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 1724,
       "name": "Asteras Tripolis",
       "elo": 1250,
@@ -3044,6 +3346,7 @@
     {
       "id": 316,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 6686,
       "name": "Mezőkövesd-Zsóry",
       "elo":1285,
@@ -3054,6 +3357,7 @@
     {
       "id": 2963,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 8895,
       "name": "Zenit",
       "elo": 1697,
@@ -3064,6 +3368,7 @@
     {
       "id": 2973,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 1746,
       "name": "Maribor",
       "elo": 1343,
@@ -3074,6 +3379,7 @@
     {
       "id": 2975,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 1747,
       "name": "Deportivo Alavés",
       "elo": 1558,
@@ -3084,6 +3390,7 @@
     {
       "id": 5490,
       "country_id": 119,
+      "country_name":"Geruzija",
       "venue_id": 6373,
       "name": "Dila",
       "elo":1169,
@@ -3094,6 +3401,7 @@
     {
       "id": 3001,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 1761,
       "name": "Radnički Niš",
       "elo": 1172,
@@ -3104,6 +3412,7 @@
     {
       "id": 3093,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 1808,
       "name": "Lamia",
       "elo": 1179,
@@ -3114,6 +3423,7 @@
     {
       "id": 3097,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 1810,
       "name": "Sigma Olomouc",
       "elo": 1407,
@@ -3124,6 +3434,7 @@
     {
       "id": 3108,
       "country_id": 2427,
+      "country_name":"Kazahstan",
       "venue_id": 7374,
       "name": "Kairat",
       "elo": 1278,
@@ -3134,6 +3445,7 @@
     {
       "id": 3114,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2358,
       "name": "Karlsruher SC",
       "elo": 1465,
@@ -3144,6 +3456,7 @@
     {
       "id": 3161,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 1852,
       "name": "Famalicão",
       "elo": 1504,
@@ -3154,6 +3467,7 @@
     {
       "id": 3169,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 1856,
       "name": "Albacete",
       "elo": 1495,
@@ -3164,6 +3478,7 @@
     {
       "id": 3195,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 1870,
       "name": "Botoşani",
       "elo": 1263,
@@ -3174,6 +3489,7 @@
     {
       "id": 3223,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 110725,
       "name": "Levski Sofia",
       "elo": 1368,
@@ -3184,6 +3500,7 @@
     {
       "id": 3283,
       "country_id": 401,
+      "country_name":"Slovačka",
       "venue_id": 187148,
       "name": "Spartak Trnava",
       "elo": 1354,
@@ -3194,6 +3511,7 @@
     {
       "id": 3285,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 1917,
       "name": "Brommapojkarna",
       "elo": 1223,
@@ -3204,6 +3522,7 @@
     {
       "id": 3317,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1944,
       "name": "Hertha BSC",
       "elo": 1585,
@@ -3214,6 +3533,7 @@
     {
       "id": 3319,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1945,
       "name": "VfB Stuttgart",
       "elo": 1601,
@@ -3224,6 +3544,7 @@
     {
       "id": 3320,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1946,
       "name": "FC Köln",
       "elo": 1634,
@@ -3234,6 +3555,7 @@
     {
     "id": 6637,
     "country_id": 86,
+    "country_name":"Ukrajna",
     "venue_id": 338696,
     "name": "Kolos Kovalivka",
     "elo":1334,
@@ -3244,6 +3566,7 @@
     {
       "id": 5562,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 9858,
       "name": "Veres",
       "elo":1259,
@@ -3254,6 +3577,7 @@
     {
       "id": 3321,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 1947,
       "name": "Bayer 04 Leverkusen",
       "elo": 1765,
@@ -3264,6 +3588,7 @@
     {
       "id": 3357,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 1963,
       "name": "Sturm Graz",
       "elo": 1577,
@@ -3274,6 +3599,7 @@
     {
       "id": 3358,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 1964,
       "name": "Rijeka",
       "elo": 1409,
@@ -3284,6 +3610,7 @@
     {
       "id": 3369,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 110731,
       "name": "LASK Linz",
       "elo": 1484,
@@ -3294,6 +3621,7 @@
     {
       "id": 3431,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2001,
       "name": "SpVgg Greuther Fürth",
       "elo": 1469,
@@ -3304,6 +3632,7 @@
     {
       "id": 3457,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 2015,
       "name": "Levante",
       "elo": 1609,
@@ -3314,6 +3643,7 @@
     {
       "id": 3463,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2018,
       "name": "Jahn Regensburg",
       "elo": 1392,
@@ -3324,6 +3654,7 @@
     {
       "id": 3468,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 2020,
       "name": "Real Madrid",
       "elo": 1938,
@@ -3334,6 +3665,7 @@
     {
       "id": 3477,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 2028,
       "name": "Villarreal",
       "elo": 1731,
@@ -3344,6 +3676,7 @@
     {
       "id": 3487,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 2029,
       "name": "České Budějovice",
       "elo":1281,
@@ -3354,6 +3687,7 @@
     {
       "id": 3488,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 2030,
       "name": "Voluntari",
       "elo": 1284,
@@ -3364,6 +3698,7 @@
     {
       "id": 3510,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 137524,
       "name": "Sandhausen",
       "elo": 1375,
@@ -3374,6 +3709,7 @@
     {
       "id": 3513,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 2042,
       "name": "Metz",
       "elo": 1512,
@@ -3384,6 +3720,7 @@
     {
       "id": 3527,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2049,
       "name": "Magdeburg",
       "elo": 1397,
@@ -3394,6 +3731,7 @@
     {
       "id": 3543,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2063,
       "name": "SC Freiburg",
       "elo": 1743,
@@ -3404,6 +3742,7 @@
     {
       "id": 60,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9242,
       "name": "SD Eibar",
       "elo": 1589,
@@ -3414,6 +3753,7 @@
     {
       "id": 3545,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 2067,
       "name": "Viktoria Plzeň",
       "elo": 1546,
@@ -3424,6 +3764,7 @@
     {
       "id": 3546,
       "country_id": 748,
+      "country_name":"Latvija",
       "venue_id": 7578,
       "name": "Riga",
       "elo": 1275,
@@ -3434,6 +3775,7 @@
     {
       "id": 3552,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 2071,
       "name": "Hradec Králové",
       "elo": 1302,
@@ -3444,6 +3786,7 @@
     {
       "id": 3562,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 2081,
       "name": "Bordeaux",
       "elo": 1500,
@@ -3454,6 +3797,7 @@
     {
       "id": 3565,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2084,
       "name": "Eintracht Braunschweig",
       "elo": 1390,
@@ -3464,6 +3808,7 @@
     {
       "id": 3350,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 1959,
       "name": "Zbrojovka Brno",
       "elo":1259,
@@ -3474,6 +3819,7 @@
     {
       "id": 3569,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 232172,
       "name": "Ried",
       "elo": 1325,
@@ -3484,6 +3830,7 @@
     {
       "id": 3599,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 2108,
       "name": "CFR Cluj",
       "elo": 1478,
@@ -3494,6 +3841,7 @@
     {
       "id": 3601,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 232174,
       "name": "Austria Lustenau",
       "elo": 1378,
@@ -3504,6 +3852,7 @@
     {
       "id": 3603,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 2111,
       "name": "Norrköping",
       "elo": 1345,
@@ -3514,6 +3863,7 @@
     {
       "id": 3611,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2115,
       "name": "Holstein Kiel",
       "elo": 1471,
@@ -3524,6 +3874,7 @@
     {
       "id": 3630,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 2125,
       "name": "Austria Wien",
       "elo": 1462,
@@ -3534,6 +3885,7 @@
     {
       "id": 3643,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 2132,
       "name": "Jablonec",
       "elo": 1362,
@@ -3544,6 +3896,7 @@
     {
       "id": 3668,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 2148,
       "name": "Oleksandria",
       "elo": 1370,
@@ -3554,6 +3907,7 @@
     {
       "id": 3682,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 2155,
       "name": "Auxerre",
       "elo": 1491,
@@ -3564,6 +3918,7 @@
     {
       "id": 3702,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 2168,
       "name": "İstanbul Başakşehir",
       "elo": 1517,
@@ -3574,6 +3929,7 @@
     {
       "id": 3009,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 1768,
       "name": "İstanbulspor",
       "elo": 1344,
@@ -3584,6 +3940,7 @@
     {
       "id": 3750,
       "country_id": 998,
+      "country_name":"Bosna i Hercegovina",
       "venue_id": 2196,
       "name": "Dečić",
       "elo": 1062,
@@ -3594,6 +3951,7 @@
     {
       "id": 3759,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 2200,
       "name": "Voždovac",
       "elo": 1194,
@@ -3604,6 +3962,7 @@
     {
       "id": 3781,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 2213,
       "name": "Górnik",
       "elo": 1340,
@@ -3614,6 +3973,7 @@
     {
       "id": 516,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 83,
       "name": "Hapoel Be'er Sheva",
       "elo": 155,
@@ -3624,6 +3984,7 @@
     {
       "id": 3833,
       "country_id": 3126,
+      "country_name":"Luksemburg",
       "venue_id": 2249,
       "name": "Fola Esch",
       "elo": 1043,
@@ -3634,6 +3995,7 @@
     {
     "id": 5686,
     "country_id": 119,
+    "country_name":"Geruzija",
     "venue_id": 3733,
     "name": "Dinamo Batumi",
     "elo":1197,
@@ -3644,6 +4006,7 @@
     {
       "id": 3859,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 2262,
       "name": "BATE",
       "elo": 1302,
@@ -3654,6 +4017,7 @@
     {
       "id": 3877,
       "country_id": 507,
+      "country_name":"Bosna i Hercegovina",
       "venue_id": 309,
       "name": "Borac Banja Luka",
       "elo": 1189,
@@ -3664,6 +4028,7 @@
     {
       "id": 3949,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 2314,
       "name": "Rheindorf Altach",
       "elo": 1317,
@@ -3674,6 +4039,7 @@
     {
       "id": 3955,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 611,
       "name": "Újpest",
       "elo": 1280,
@@ -3684,6 +4050,7 @@
     {
       "id": 8673,
       "country_id": 1796,
+      "country_name":"Island",
       "venue_id": 5631,
       "name": "KR",
       "elo":1196,
@@ -3694,6 +4061,7 @@
     {
       "id": 2688,
       "country_id": 1796,
+      "country_name":"Island",
       "venue_id": 1600,
       "name": "Víkingur Reykjavík",
       "elo":1214,
@@ -3704,6 +4072,7 @@
     {
       "id": 3962,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 343354,
       "name": "Śląsk",
       "elo": 1330,
@@ -3714,6 +4083,7 @@
     {
       "id": 3968,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 2324,
       "name": "Real Zaragoza",
       "elo": 1475,
@@ -3724,6 +4094,7 @@
     {
       "id": 3990,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 2336,
       "name": "Fatih Karagümrük",
       "elo": 1474,
@@ -3734,6 +4105,7 @@
     {
       "id": 3994,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 2338,
       "name": "Neman Grodno",
       "elo": 1137,
@@ -3744,6 +4116,7 @@
     {
       "id": 3998,
       "country_id": 3126,
+      "country_name":"Luksemburg",
       "venue_id": 2341,
       "name": "Differdange 03",
       "elo": 1059,
@@ -3754,6 +4127,7 @@
     {
       "id": 4042,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 2365,
       "name": "Bohemians Praha",
       "elo": 1374,
@@ -3764,6 +4138,7 @@
     {
       "id": 4065,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 168940,
       "name": "Austria Klagenfurt",
       "elo": 1389,
@@ -3774,6 +4149,7 @@
     {
       "id": 4070,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 145449,
       "name": "Frosinone",
       "elo": 1556,
@@ -3784,6 +4160,7 @@
     {
       "id": 1435,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 660,
       "name": "SC Cambuur",
       "elo": 1345,
@@ -3794,6 +4171,7 @@
     {
       "id": 4136,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 1762,
       "name": "Maccabi Netanya",
       "elo": 1374,
@@ -3804,6 +4182,7 @@
     {
       "id": 4237,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 2488,
       "name": "Sibenik",
       "elo": 1264,
@@ -3814,6 +4193,7 @@
     {
       "id": 4312,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 2544,
       "name": "Zalaegerszegi TE",
       "elo": 1277,
@@ -3824,6 +4204,7 @@
     {
       "id": 176,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 19152,
       "name": "Südtirol",
       "elo": 1474,
@@ -3834,6 +4215,7 @@
     {
       "id": 5878,
       "country_id": 2079,
+      "country_name":"Litva",
       "venue_id": 3842,
       "name": "Sūduva",
       "elo":1242,
@@ -3844,6 +4226,7 @@
     {
       "id": 4448,
       "country_id": 2453,
+      "country_name":"Azerbejdžan",
       "venue_id": 3961,
       "name": "Zira",
       "elo": 1314,
@@ -3854,6 +4237,7 @@
     {
       "id": 4484,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 17666,
       "name": "Pardubice",
       "elo": 1269,
@@ -3864,6 +4248,7 @@
     {
       "id": 4493,
       "country_id": 57142,
+      "country_name":"Makedonija",
       "venue_id": 7770,
       "name": "Shkupi",
       "elo": 1064,
@@ -3874,6 +4259,7 @@
     {
       "id": 4504,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 2684,
       "name": "Istra 1961",
       "elo": 1325,
@@ -3884,6 +4270,7 @@
     {
       "id": 4508,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 2693,
       "name": "Paris",
       "elo": 1432,
@@ -3894,6 +4281,7 @@
     {
       "id": 366,
       "country_id": 11,
+      "country_name":"Njemačka",
       "venue_id": 2169,
       "name": "Eintracht Frankfurt",
       "elo": 1747,
@@ -3904,6 +4292,7 @@
     {
       "id": 5197,
       "country_id": 2454,
+      "country_name":"Albanija",
       "venue_id": 3460,
       "name": "Partizani Tirana",
       "elo": 1198,
@@ -3914,6 +4303,7 @@
     {
       "id": 6007,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 3915,
       "name": "Dinamo Brest",
       "elo":1184,
@@ -3924,6 +4314,7 @@
     {
       "id": 5201,
       "country_id": 2454,
+      "country_name":"Albanija",
       "venue_id": 3464,
       "name": "Vllaznia Shkodër",
       "elo": 1184,
@@ -3934,6 +4325,7 @@
     {
       "id": 5202,
       "country_id": 2454,
+      "country_name":"Albanija",
       "venue_id": 3460,
       "name": "Tirana",
       "elo": 1146,
@@ -3944,6 +4336,7 @@
     {
       "id": 5228,
       "country_id": 2454,
+      "country_name":"Albanija",
       "venue_id": 3482,
       "name": "Laçi",
       "elo": 1194,
@@ -3954,6 +4347,7 @@
     {
       "id": 5284,
       "country_id": 2154,
+      "country_name":"Farski otoci",
       "venue_id": 4992,
       "name": "Klaksvíkar Ítróttarfelag",
       "elo": 1058,
@@ -3964,6 +4358,7 @@
     {
       "id": 5317,
       "country_id": 2453,
+      "country_name":"Azerbejdžan",
       "venue_id": 3966,
       "name": "Qarabağ",
       "elo": 1570,
@@ -3974,6 +4369,7 @@
     {
     "id": 5421,
     "country_id": 296,
+    "country_name":"Srbija",
     "venue_id": 3586,
     "name": "Napredak",
     "elo":1141,
@@ -3984,6 +4380,7 @@
     {
       "id": 5354,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 3553,
       "name": "Radnički Kragujevac",
       "elo": 1136,
@@ -3994,6 +4391,7 @@
     {
       "id": 6961,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 4548,
       "name": "Ironi Kiryat Shmona",
       "elo":1317,
@@ -4004,6 +4402,7 @@
     {
       "id": 5428,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 3562,
       "name": "Lokomotiva Zagreb",
       "elo": 1370,
@@ -4014,6 +4413,7 @@
     {
     "id": 228256,
     "country_id": 41,
+    "country_name":"Makedonija",
     "venue_id": null,
     "name": "Shkendija",
     "elo":1210,
@@ -4024,6 +4424,7 @@
     {
       "id": 5444,
       "country_id": 3347,
+      "country_name":"San Marino",
       "venue_id": 3598,
       "name": "Tre Fiori",
       "elo": 741,
@@ -4034,6 +4435,7 @@
     {
       "id": 5465,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 3611,
       "name": "Kolubara",
       "elo": 1131,
@@ -4044,6 +4446,7 @@
     {
       "id": 5495,
       "country_id": 919,
+      "country_name":"Armenija",
       "venue_id": 260195,
       "name": "Alashkert",
       "elo": 1113,
@@ -4054,6 +4457,7 @@
     {
       "id": 5510,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 3636,
       "name": "Torpedo Zhodino",
       "elo": 123,
@@ -4065,6 +4469,7 @@
     {
       "id": 33,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 489,
       "name": "Norwich City",
       "elo": 1569,
@@ -4075,6 +4480,7 @@
     {
       "id": 5634,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 309,
       "name": "Novi Pazar",
       "elo": 1231,
@@ -4085,6 +4491,7 @@
     {
       "id": 5662,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 3716,
       "name": "Botev Vratsa",
       "elo": 1125,
@@ -4096,6 +4503,7 @@
     {
       "id": 5769,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 3793,
       "name": "Hartberg",
       "elo": 1323,
@@ -4106,6 +4514,7 @@
     {
       "id": 5829,
       "country_id": 507,
+      "country_name":"Bosna i Hercegovina",
       "venue_id": 3812,
       "name": "Velež",
       "elo": 1204,
@@ -4116,6 +4525,7 @@
     {
       "id": 5834,
       "country_id": 2427,
+      "country_name":"Kazahstan",
       "venue_id": 326313,
       "name": "Tobol",
       "elo": 1234,
@@ -4126,6 +4536,7 @@
     {
       "id": 5897,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 3854,
       "name": "Ashdod",
       "elo": 1360,
@@ -4136,6 +4547,7 @@
     {
       "id": 5909,
       "country_id": 2427,
+      "country_name":"Kazahstan",
       "venue_id": 3860,
       "name": "Astana",
       "elo": 1374,
@@ -4146,6 +4558,7 @@
     {
       "id": 5931,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 3873,
       "name": "Marítimo",
       "elo": 1413,
@@ -4157,6 +4570,7 @@
     {
       "id": 3470,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 2021,
       "name": "Ankaragücü",
       "elo": 1353,
@@ -4176,6 +4590,7 @@
     {
       "id": 6131,
       "country_id": 2345,
+      "country_name":"Moldavija",
       "venue_id": 3984,
       "name": "Petrocub",
       "elo": 1246,
@@ -4186,6 +4601,7 @@
     {
       "id": 6607,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 4287,
       "name": "Värnamo",
       "elo":1290,
@@ -4196,6 +4612,7 @@
     {
       "id": 6141,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 22521,
       "name": "Spartak Varna",
       "elo": 1060,
@@ -4206,6 +4623,7 @@
     {
       "id": 6157,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 8731,
       "name": "Mioveni",
       "elo": 1167,
@@ -4216,6 +4634,7 @@
     {
       "id": 6163,
       "country_id": 2405,
+      "country_name":"Estonija",
       "venue_id": 4005,
       "name": "Paide",
       "elo": 1034,
@@ -4226,6 +4645,7 @@
     {
       "id": 6213,
       "country_id": 507,
+      "country_name":"Bosna i Hercegovina",
       "venue_id": 4032,
       "name": "Zrinjski",
       "elo": 1249,
@@ -4237,6 +4657,7 @@
     {
       "id": 6247,
       "country_id": 748,
+      "country_name":"Latvija",
       "venue_id": 3992,
       "name": "Liepajas Metalurgs",
       "elo": 1223,
@@ -4247,6 +4668,7 @@
     {
       "id": 6255,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 4055,
       "name": "Zorya",
       "elo": 1485,
@@ -4257,6 +4679,7 @@
     {
       "id": 830,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 286,
       "name": "Vitória SC",
       "elo": 1525,
@@ -4267,6 +4690,7 @@
     {
       "id": 6256,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 4056,
       "name": "Vitebsk",
       "elo": 1063,
@@ -4277,6 +4701,7 @@
     {
       "id": 6315,
       "country_id": 116,
+      "country_name":"Cipra",
       "venue_id": 1553,
       "name": "Apollon",
       "elo": 1467,
@@ -4287,6 +4712,7 @@
     {
       "id": 6318,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 4087,
       "name": "Radnik Surdulica",
       "elo": 1158,
@@ -4297,6 +4723,7 @@
     {
       "id": 6328,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 9769,
       "name": "Giresunspor",
       "elo": 1360,
@@ -4307,6 +4734,7 @@
     {
       "id": 6336,
       "country_id": 2345,
+      "country_name":"Moldavija",
       "venue_id": 4097,
       "name": "Sfîntul Gheorghe",
       "elo": 1268,
@@ -4317,6 +4745,7 @@
     {
       "id": 6392,
       "country_id": 119,
+      "country_name":"Geruzija",
       "venue_id": 6449,
       "name": "Saburtalo",
       "elo": 1183,
@@ -4327,6 +4756,7 @@
     {
       "id": 6449,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 4183,
       "name": "Gomel",
       "elo": 1181,
@@ -4337,6 +4767,7 @@
     {
       "id": 6460,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 2316,
       "name": "Minsk",
       "elo": 1034,
@@ -4347,6 +4778,7 @@
     {
       "id": 115,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 837,
       "name": "Luton Town",
       "elo": 1589,
@@ -4357,6 +4789,7 @@
     {
       "id": 6484,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 4199,
       "name": "Slutsk",
       "elo": 1066,
@@ -4367,6 +4800,7 @@
     {
       "id": 6538,
       "country_id": 2345,
+      "country_name":"Moldavija",
       "venue_id": 4239,
       "name": "Milsami",
       "elo": 1236,
@@ -4377,6 +4811,7 @@
     {
       "id": 17,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 14,
       "name": "Wigan Athletic",
       "elo": 1413,
@@ -4387,6 +4822,7 @@
     {
       "id": 64,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 656,
       "name": "Millwall",
       "elo": 1564,
@@ -4397,6 +4833,7 @@
     {
       "id": 814,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 275,
       "name": "RKC Waalwijk",
       "elo": 1480,
@@ -4407,6 +4844,7 @@
     {
       "id": 556,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 104,
       "name": "Dynamo Kyiv",
       "elo": 1511,
@@ -4417,6 +4855,7 @@
     {
       "id": 6564,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 219227,
       "name": "Rostov",
       "elo": 1511,
@@ -4427,6 +4866,7 @@
     {
       "id": 6662,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 4329,
       "name": "Čukarički",
       "elo": 1354,
@@ -4437,6 +4877,7 @@
     {
       "id": 6789,
       "country_id": 75285,
+      "country_name":"Monako",
       "venue_id": 4451,
       "name": "Monaco",
       "elo": 1720,
@@ -4447,6 +4888,7 @@
     {
       "id": 6791,
       "country_id": 2756,
+      "country_name":"Malta",
       "venue_id": 4453,
       "name": "Gzira United",
       "elo": 1052,
@@ -4457,6 +4899,7 @@
     {
       "id": 6819,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 4465,
       "name": "Valenciennes",
       "elo": 1348,
@@ -4467,6 +4910,7 @@
     {
       "id": 3269,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 5494,
       "name": "Baník Ostrava",
       "elo": 1347,
@@ -4477,6 +4921,7 @@
     {
       "id": 6822,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 4469,
       "name": "Niort",
       "elo": 1300,
@@ -4487,6 +4932,7 @@
     {
       "id": 1355,
       "country_id": 491,
+      "country_name":"Sjeverna Irska",
       "venue_id": 609,
       "name": "Cliftonville",
       "elo":1059,
@@ -4497,6 +4943,7 @@
     {
     "id": 1820,
     "country_id": 491,
+    "country_name":"Sjeverna Irska",
     "venue_id": 939,
     "name": "Crusaders",
     "elo":1064,
@@ -4507,6 +4954,7 @@
     {
       "id": 6842,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 4478,
       "name": "Dijon",
       "elo": 1333,
@@ -4517,6 +4965,7 @@
     {
       "id": 6898,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 4511,
       "name": "Clermont",
       "elo": 1533,
@@ -4527,6 +4976,7 @@
     {
       "id": 6913,
       "country_id": 1796,
+      "country_name":"Island",
       "venue_id": 4521,
       "name": "Breidablik",
       "elo": 1198,
@@ -4537,6 +4987,7 @@
     {
       "id": 6963,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 1799,
       "name": "Hapoel Tel Aviv",
       "elo": 1334,
@@ -4547,6 +4998,7 @@
     {
       "id": 2997,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 1762,
       "name": "Maccabi Tel Aviv",
       "elo": 1554,
@@ -4557,6 +5009,7 @@
     {
       "id": 6967,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 4549,
       "name": "Nîmes",
       "elo": 1358,
@@ -4567,6 +5020,7 @@
     {
       "id": 6968,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 4550,
       "name": "Mirandés",
       "elo": 1469,
@@ -4577,6 +5031,7 @@
     {
       "id": 7031,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 4580,
       "name": "Lugo",
       "elo": 1381,
@@ -4587,6 +5042,7 @@
     {
       "id": 7047,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 4588,
       "name": "Troyes",
       "elo": 1491,
@@ -4597,6 +5053,7 @@
     {
       "id": 7055,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 4592,
       "name": "Ternana",
       "elo": 1418,
@@ -4608,6 +5065,7 @@
       "id": 3270,
       "sport_id": 1,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 1909,
       "gender": "male",
       "name": "Raków Częstochowa",
@@ -4619,6 +5077,7 @@
     {
       "id": 7178,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 4669,
       "name": "Cherno More",
       "elo": 1302,
@@ -4629,6 +5088,7 @@
     {
       "id": 7216,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 4691,
       "name": "Stal Mielec",
       "elo": 1322,
@@ -4639,6 +5099,7 @@
     {
       "id": 6452,
       "country_id": 212,
+      "country_name":"Bjelorusija",
       "venue_id": 4181,
       "name": "Šahtjor Soligorsk",
       "elo":1302,
@@ -4649,6 +5110,7 @@
     {
       "id": 244,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 8277,
       "name": "Miedź Legnica",
       "elo":1251,
@@ -4659,6 +5121,7 @@
     {
       "id": 7242,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 8057,
       "name": "Tromsø",
       "elo": 1355,
@@ -4669,6 +5132,7 @@
     {
       "id": 3191,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 30323,
       "name": "Radomiak Radom",
       "elo": 1341,
@@ -4679,6 +5143,7 @@
     {
       "id": 7377,
       "country_id": 2427,
+      "country_name":"Kazahstan",
       "venue_id": 4781,
       "name": "Kyzyl-Zhar",
       "elo": 1259,
@@ -4689,6 +5154,7 @@
     {
       "id": 7436,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 4816,
       "name": "Radomlje",
       "elo": 1188,
@@ -4699,6 +5165,7 @@
     {
       "id": 7523,
       "country_id": 507,
+      "country_name":"Bosna i Hercegovina",
       "venue_id": null,
       "name": "Tuzla City",
       "elo": 1228,
@@ -4710,6 +5177,7 @@
     {
       "id": 7556,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 4898,
       "name": "Lokomotiv Sofia",
       "elo":1175,
@@ -4720,6 +5188,7 @@
     {
       "id": 7586,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 332298,
       "name": "Septemvri Sofia",
       "elo": 1131,
@@ -4730,6 +5199,7 @@
     {
       "id": 7684,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 4991,
       "name": "Varaždin",
       "elo": 1296,
@@ -4740,6 +5210,7 @@
     {
       "id": 7743,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 5026,
       "name": "Salernitana",
       "elo": 1558,
@@ -4750,6 +5221,7 @@
     {
       "id": 7746,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 5025,
       "name": "Ponferradina",
       "elo": 1443,
@@ -4760,6 +5232,7 @@
     {
       "id": 3678,
       "country_id": 143,
+      "country_name":"Austrija",
       "venue_id": 2153,
       "name": "Rapid Vienna",
       "elo": 1477,
@@ -4770,6 +5243,7 @@
     {
       "id": 7773,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 5038,
       "name": "Rapid Bucuresti",
       "elo": 1341,
@@ -4780,6 +5254,7 @@
     {
       "id": 7790,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 5047,
       "name": "Lecce",
       "elo": 1576,
@@ -4790,6 +5265,7 @@
     {
       "id": 7920,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 5152,
       "name": "Osijek",
       "elo": 1433,
@@ -4800,6 +5276,7 @@
     {
       "id": 7980,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 140808,
       "name": "Atlético Madrid",
       "elo": 1818,
@@ -4810,6 +5287,7 @@
     {
       "id": 5843,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 3822,
       "name": "Nova Gorica",
       "elo":1100,
@@ -4820,6 +5298,7 @@
     {
       "id": 8082,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 5249,
       "name": "Gorica",
       "elo": 1288,
@@ -4830,6 +5309,7 @@
     {
       "id": 8111,
       "country_id": 2079,
+      "country_name":"Litva",
       "venue_id": 7591,
       "name": "Panevėžys",
       "elo": 1136,
@@ -4840,6 +5320,7 @@
     {
       "id": 8164,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": null,
       "name": "Vizela",
       "elo": 1472,
@@ -4850,6 +5331,7 @@
     {
       "id": 8193,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 4432,
       "name": "Sektzia Nes Tziona",
       "elo": 1219,
@@ -4860,6 +5342,7 @@
     {
       "id": 8271,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 5359,
       "name": "Reggina",
       "elo": 1419,
@@ -4870,6 +5353,7 @@
     {
       "id": 8350,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 5399,
       "name": "Khimki",
       "elo": 1336,
@@ -4880,6 +5364,7 @@
     {
       "id": 8366,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 5407,
       "name": "Burgos",
       "elo": 1488,
@@ -4890,6 +5375,7 @@
     {
       "id": 8474,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 6700,
       "name": "UTA Arad",
       "elo": 1233,
@@ -4900,6 +5386,7 @@
     {
       "id": 8485,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 5488,
       "name": "Cittadella",
       "elo": 1420,
@@ -4910,6 +5397,7 @@
     {
       "id": 8513,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 5515,
       "name": "Bologna",
       "elo": 1654,
@@ -4920,6 +5408,7 @@
     {
       "id": 8643,
       "country_id": 2154,
+      "country_name":"Farski otoci",
       "venue_id": 5605,
       "name": "B36",
       "elo": 992,
@@ -4930,6 +5419,7 @@
     {
       "id": 8644,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 5606,
       "name": "Bnei Sakhnin",
       "elo": 1330,
@@ -4940,6 +5430,7 @@
     {
       "id": 8655,
       "country_id": 2154,
+      "country_name":"Farski otoci",
       "venue_id": 5611,
       "name": "Víkingur",
       "elo": 1214,
@@ -4950,6 +5441,7 @@
     {
       "id": 8661,
       "country_id": 1578,
+      "country_name":"Norveška",
       "venue_id": 5614,
       "name": "HamKam",
       "elo": 1257,
@@ -4960,6 +5452,7 @@
     {
       "id": 8678,
       "country_id": 2154,
+      "country_name":"Farski otoci",
       "venue_id": 5605,
       "name": "HB",
       "elo": 1003,
@@ -4970,6 +5463,7 @@
     {
       "id": 8724,
       "country_id": 320,
+      "country_name":"Danska",
       "venue_id": 5668,
       "name": "Aarhus Fremad",
       "elo": 1440,
@@ -4980,6 +5474,7 @@
     {
       "id": 8761,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 195951,
       "name": "Widzew Lodz",
       "elo": 1338,
@@ -4990,6 +5485,7 @@
     {
       "id": 9189,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 5980,
       "name": "Fakel",
       "elo": 1332,
@@ -5000,6 +5496,7 @@
     {
       "id": 9257,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6032,
       "name": "Lorient",
       "elo": 1577,
@@ -5010,6 +5507,7 @@
     {
       "id": 9291,
       "country_id": 17,
+      "country_name":"Francuska",
       "venue_id": 6051,
       "name": "Rodez",
       "elo": 1365,
@@ -5020,6 +5518,7 @@
     {
       "id": 6556,
       "country_id": 748,
+      "country_name":"Latvija",
       "venue_id": 7578,
       "name": "Rīgas FS",
       "elo":1239,
@@ -5030,6 +5529,7 @@
     {
       "id": 9426,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 6171,
       "name": "Universitatea Cluj",
       "elo": 1227,
@@ -5040,6 +5540,7 @@
     {
       "id": 9818,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 6445,
       "name": "Racing Santander",
       "elo": 1440,
@@ -5050,6 +5551,7 @@
     {
       "id": 9826,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 6451,
       "name": "Torpedo Moskva",
       "elo": 1271,
@@ -5060,6 +5562,7 @@
     {
       "id": 9843,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 6462,
       "name": "Ionikos",
       "elo": 1229,
@@ -5070,6 +5573,7 @@
     {
       "id": 9848,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 6671,
       "name": "Aris",
       "elo": 1378,
@@ -5080,6 +5584,7 @@
     {
       "id": 526,
       "country_id": 116,
+      "country_name":"Cipra",
       "venue_id": 88,
       "name": "Aris Limassol",
       "elo": 1398,
@@ -5090,6 +5595,7 @@
     {
       "id": 9849,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 6464,
       "name": "Atromitos",
       "elo": 1264,
@@ -5100,6 +5606,7 @@
     {
       "id": 10068,
       "country_id": 3374,
+      "country_name":"Gibraltar",
       "venue_id": null,
       "name": "Lincoln Red Imps",
       "elo": 974,
@@ -5110,6 +5617,7 @@
     {
       "id": 10150,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 6687,
       "name": "Kecskemeti TE",
       "elo": 1299,
@@ -5120,6 +5628,7 @@
     {
       "id": 10238,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 6746,
       "name": "Sepsi",
       "elo": 1338,
@@ -5130,6 +5639,7 @@
     {
       "id": 10266,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 3998,
       "name": "Argeş",
       "elo": 1178,
@@ -5140,6 +5650,7 @@
     {
       "id": 10545,
       "country_id": 455,
+      "country_name":"Irska",
       "venue_id": 6977,
       "name": "Sheriff YC",
       "elo": 1498,
@@ -5150,6 +5661,7 @@
     {
       "id": 21,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 2,
       "name": "Sheffield United",
       "elo": 1624,
@@ -5161,6 +5673,7 @@
     {
       "id": 936,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 341,
       "name": "Ümraniyespor",
       "elo": 1358,
@@ -5171,6 +5684,7 @@
     {
       "id": 1652,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 91991,
       "name": "Excelsior",
       "elo": 1359,
@@ -5182,6 +5696,7 @@
     {
       "id": 19095,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": null,
       "name": "Terek Grozni U21",
       "elo": 1472,
@@ -5195,6 +5710,7 @@
     {
       "id": 10695,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 335412,
       "name": "Mura",
       "elo": 1294,
@@ -5205,6 +5721,7 @@
     {
       "id": 10722,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7129,
       "name": "Cremonese",
       "elo": 1495,
@@ -5215,6 +5732,7 @@
     {
       "id": 10729,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 7133,
       "name": "Brescia",
       "elo": 1388,
@@ -5225,6 +5743,7 @@
     {
       "id": 10775,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 260199,
       "name": "Cosenza",
       "elo": 1372,
@@ -5236,6 +5755,7 @@
     {
       "id": 11117,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 7419,
       "name": "Vorskla",
       "elo": 1326,
@@ -5246,6 +5766,7 @@
     {
       "id": 11235,
       "country_id": 748,
+      "country_name":"Latvija",
       "venue_id": 7559,
       "name": "Valmiera",
       "elo": 1179,
@@ -5256,6 +5777,7 @@
     {
       "id": 11364,
       "country_id": 227,
+      "country_name":"Rusija",
       "venue_id": 186516,
       "name": "FK Nizjni Novgorod",
       "elo": 1356,
@@ -5266,6 +5788,7 @@
     {
       "id": 11498,
       "country_id": 57142,
+      "country_name":"Makedonija",
       "venue_id": 7727,
       "name": "Makedonija",
       "elo": 1078,
@@ -5276,6 +5799,7 @@
     {
       "id": 494,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": null,
       "name": "NEC",
       "elo": 1480,
@@ -5286,6 +5810,7 @@
     {
       "id": 11583,
       "country_id": 57142,
+      "country_name":"Makedonija",
       "venue_id": 338704,
       "name": "Akademija Pandev",
       "elo": 1078,
@@ -5296,6 +5821,7 @@
     {
       "id": 11741,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 7920,
       "name": "Casa Pia",
       "elo": 1447,
@@ -5306,6 +5832,7 @@
     {
       "id": 884,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 313,
       "name": "Sporting Braga",
       "elo": 1674,
@@ -5316,6 +5843,7 @@
     {
       "id": 12477,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 8505,
       "name": "Chindia Târgovişte",
       "elo": 1240,
@@ -5326,6 +5854,7 @@
     {
       "id": 12619,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 8594,
       "name": "Hermannstadt",
       "elo": 1256,
@@ -5336,6 +5865,7 @@
     {
       "id": 12652,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 8617,
       "name": "FC Cartagena",
       "elo": 1491,
@@ -5346,6 +5876,7 @@
     {
       "id": 69,
       "country_id": 515,
+      "country_name":"Velška",
       "venue_id": 125,
       "name": "Cardiff City",
       "elo": 1444,
@@ -5356,6 +5887,7 @@
     {
       "id": 13222,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 9132,
       "name": "Tabor Sežana",
       "elo": 1125,
@@ -5366,6 +5898,7 @@
     {
       "id": 13451,
       "country_id": 47,
+      "country_name":"Švedska",
       "venue_id": 9331,
       "name": "Varberg BoIS",
       "elo": 1276,
@@ -5376,6 +5909,7 @@
     {
       "id": 13771,
       "country_id": 21795,
+      "country_name":"Lihtenštajn",
       "venue_id": 713,
       "name": "Vaduz",
       "elo": 1372,
@@ -5386,6 +5920,7 @@
     {
       "id": 13833,
       "country_id": 404,
+      "country_name":"Turska",
       "venue_id": 9614,
       "name": "Hatayspor",
       "elo": 1350,
@@ -5396,6 +5931,7 @@
     {
       "id": 13986,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 136600,
       "name": "Lviv",
       "elo": 1264,
@@ -5406,6 +5942,7 @@
     {
       "id": 1266,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 553,
       "name": "Zagłębie Lubin",
       "elo":1329,
@@ -5416,6 +5953,7 @@
     {
       "id": 2500,
       "country_id": 266,
+      "country_name":"Hrvatska",
       "venue_id": 1493,
       "name": "Slaven Koprivnica",
       "elo":1328,
@@ -5426,6 +5964,7 @@
     {
       "id": 17301,
       "country_id": 2931,
+      "country_name":"Andora",
       "venue_id": 4594,
       "name": "Atlètic Club d'Escaldes",
       "elo": 798,
@@ -5436,6 +5975,7 @@
     {
       "id": 585,
       "country_id": 251,
+      "country_name":"Italija",
       "venue_id": 160319,
       "name": "Cagliari",
       "elo": 1532,
@@ -5446,6 +5986,7 @@
     {
       "id": 17303,
       "country_id": 2931,
+      "country_name":"Andora",
       "venue_id": 45040,
       "name": "Inter Club d'Escaldes",
       "elo": 809,
@@ -5456,6 +5997,7 @@
     {
       "id": 18968,
       "country_id": 3347,
+      "country_name":"San Marino",
       "venue_id": 7228,
       "name": "Tre Penne",
       "elo": 693,
@@ -5466,6 +6008,7 @@
     {
       "id": 52,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 146,
       "name": "AFC Bournemouth",
       "elo": 1655,
@@ -5476,6 +6019,7 @@
     {
       "id": 8,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 230,
       "name": "Liverpool",
       "elo": 1937,
@@ -5486,6 +6030,7 @@
     {
       "id": 29,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 492,
       "name": "Wolverhampton Wanderers",
       "elo": 1710,
@@ -5496,6 +6041,7 @@
     {
       "id": 13258,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 9162,
       "name": "Athletic Club",
       "elo": 1704,
@@ -5506,6 +6052,7 @@
     {
       "id": 61,
       "country_id": 38,
+      "country_name":"Nizozemska",
       "venue_id": 1744,
       "name": "AZ",
       "elo": 1679,
@@ -5521,6 +6068,7 @@
     {
       "id": 24146,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": 1762,
       "name": "Hapoel Hadera",
       "elo": 1294,
@@ -5531,6 +6079,7 @@
     {
       "id": 27858,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 5063,
       "name": "Arda",
       "elo": 139,
@@ -5541,6 +6090,7 @@
     {
       "id": 27859,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 5139,
       "name": "Hebar 1918",
       "elo": 1073,
@@ -5551,6 +6101,7 @@
     {
       "id": 250061,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": null,
       "name": "Kisvárda II",
       "elo":1325,
@@ -5561,6 +6112,7 @@
     {
       "id": 28028,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 23496,
       "name": "Bačka Topola",
       "elo": 1327,
@@ -5571,6 +6123,7 @@
     {
       "id": 28053,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 23558,
       "name": "Zlatibor Čajetina",
       "elo": 1124,
@@ -5581,6 +6134,7 @@
     {
       "id": 1745,
       "country_id": 245,
+      "country_name":"Češka",
       "venue_id": 872,
       "name": "Zlín",
       "elo":1264,
@@ -5591,6 +6145,7 @@
     {
       "id": 344,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 318243,
       "name": "Sporting Gijón",
       "elo": 1465,
@@ -5601,6 +6156,7 @@
     {
       "id": 94900,
       "country_id": 3374,
+      "country_name":"Gibraltar",
       "venue_id": null,
       "name": "St Josephs FC",
       "elo": 934,
@@ -5611,6 +6167,7 @@
     {
       "id": 95999,
       "country_id": 1638,
+      "country_name":"Slovenija",
       "venue_id": 104388,
       "name": "Bravo",
       "elo": 1192,
@@ -5622,6 +6179,7 @@
     {
       "id": 109276,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 8829,
       "name": "Metalist 1925 Kharkiv",
       "elo": 1230,
@@ -5633,6 +6191,7 @@
     {
       "id": 132259,
       "country_id": 224,
+      "country_name":"Bugarska",
       "venue_id": 332298,
       "name": "CSKA 1948 Sofia",
       "elo": 1348,
@@ -5643,6 +6202,7 @@
     {
       "id": 132584,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 2203,
       "name": "Petrolul Ploiesti",
       "elo": 1229,
@@ -5653,6 +6213,7 @@
     {
       "id": 132649,
       "country_id": 919,
+      "country_name":"Armenija",
       "venue_id": 3627,
       "name": "Ararat-Armenia",
       "elo": 1117,
@@ -5664,6 +6225,7 @@
     {
       "id": 148038,
       "country_id": 122,
+      "country_name":"Kosovo",
       "venue_id": 257893,
       "name": "Drita",
       "elo": 1163,
@@ -5674,6 +6236,7 @@
     {
       "id": 149320,
       "country_id": 122,
+      "country_name":"Kosovo",
       "venue_id": 257893,
       "name": "KF Gjilani",
       "elo": 1043,
@@ -5684,6 +6247,7 @@
     {
       "id": 149322,
       "country_id": 122,
+      "country_name":"Kosovo",
       "venue_id": 243368,
       "name": "Llapi",
       "elo": 1049,
@@ -5695,6 +6259,7 @@
     {
       "id": 10323,
       "country_id": 674,
+      "country_name":"Mađarska",
       "venue_id": 6807,
       "name": "Videoton II",
       "elo":1327,
@@ -5705,6 +6270,7 @@
     {
       "id": 228442,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": null,
       "name": "Viitorul Şelimbăr",
       "elo": 1395,
@@ -5715,6 +6281,7 @@
     {
       "id": 228494,
       "country_id": 122,
+      "country_name":"Kosovo",
       "venue_id": 338733,
       "name": "Ballkani",
       "elo": 1084,
@@ -5725,6 +6292,7 @@
     {
       "id": 11676,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": 340087,
       "name": "Universitatea Craiova",
       "elo": 1430,
@@ -5735,6 +6303,7 @@
     {
       "id": 132590,
       "country_id": 32,
+      "country_name":"Španjolska",
       "venue_id": 28995,
       "name": "UD Ibiza",
       "elo": 1412,
@@ -5745,6 +6314,7 @@
     {
       "id": 229320,
       "country_id": 802,
+      "country_name":"Izrael",
       "venue_id": null,
       "name": "Maccabi Bnei Raina",
       "elo": 1255,
@@ -5755,6 +6325,7 @@
     {
       "id": 248754,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": null,
       "name": "Mladost Novi Sad",
       "elo":1072,
@@ -5765,6 +6336,7 @@
     {
       "id": 230490,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": null,
       "name": "Mladost Lučani",
       "elo":1132,
@@ -5775,6 +6347,7 @@
     {
       "id": 234673,
       "country_id": 3374,
+      "country_name":"Gibraltar",
       "venue_id": null,
       "name": "Magpies",
       "elo": 877,
@@ -5785,6 +6358,7 @@
     {
       "id": 234886,
       "country_id": 3374,
+      "country_name":"Gibraltar",
       "venue_id": null,
       "name": "Europa FC",
       "elo": 930,
@@ -5797,6 +6371,7 @@
     {
       "id": 237997,
       "country_id": 155,
+      "country_name":"Rumunjska",
       "venue_id": null,
       "name": "CSA Steaua Bucureşti",
       "elo": 1443,
@@ -5807,6 +6382,7 @@
     {
       "id": 238115,
       "country_id": 2931,
+      "country_name":"Andora",
       "venue_id": null,
       "name": "FC Andorra",
       "elo": 1467,
@@ -5817,6 +6393,7 @@
     {
       "id": 1198,
       "country_id": 20,
+      "country_name":"Portugalska",
       "venue_id": 484,
       "name": "Estoril",
       "elo": 1393,
@@ -5827,6 +6404,7 @@
     {
       "id": 99,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 338734,
       "name": "Preston North End",
       "elo": 1510,
@@ -5838,6 +6416,7 @@
     {
       "id": 2945,
       "country_id": 296,
+      "country_name":"Srbija",
       "venue_id": 1730,
       "name": "Vojvodina Novi Sad",
       "elo":1297,
@@ -5848,6 +6427,7 @@
     {
       "id": 3260,
       "country_id": 2,
+      "country_name":"Poljska",
       "venue_id": 8228,
       "name": "Korona Kielce",
       "elo":1297,
@@ -5858,6 +6438,7 @@
     {
       "id": 249462,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 8829,
       "name": "Metal Kharkiv",
       "elo": 1241,
@@ -5870,6 +6451,7 @@
     {
       "id": 57,
       "country_id": 125,
+      "country_name":"Grčka",
       "venue_id": 31235,
       "name": "Panathinaikos",
       "elo": 1485,
@@ -5880,6 +6462,7 @@
     {
       "id": 4323,
       "country_id": 1233,
+      "country_name":"Finska",
       "venue_id": 2556,
       "name": "KuPS",
       "elo": 1341,
@@ -5891,6 +6474,7 @@
     {
       "id": 1130,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 447,
       "name": "Kortrijk",
       "elo": 1386,
@@ -5901,6 +6485,7 @@
     {
       "id": 1087,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 425,
       "name": "Sporting Charleroi",
       "elo": 1503,
@@ -5911,6 +6496,7 @@
     {
       "id": 357,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 4609,
       "name": "Westerlo",
       "elo": 1475,
@@ -5921,6 +6507,7 @@
     {
       "id": 355,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 31494,
       "name": "Sint-Truiden",
       "elo": 147,
@@ -5931,6 +6518,7 @@
     {
       "id": 2641,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1572,
       "name": "Cercle Brugge",
       "elo": 1488,
@@ -5941,6 +6529,7 @@
     {
       "id": 340,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1572,
       "name": "Club Brugge",
       "elo": 1626,
@@ -5951,6 +6540,7 @@
     {
       "id": 2402,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1449,
       "name": "Gent",
       "elo": 1602,
@@ -5961,6 +6551,7 @@
     {
       "id": 2555,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1528,
       "name": "Anderlecht",
       "elo": 1528,
@@ -5971,6 +6562,7 @@
     {
       "id": 1947,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 290140,
       "name": "OH Leuven",
       "elo": 1450,
@@ -5981,6 +6573,7 @@
     {
       "id": 3958,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 4721,
       "name": "Union Saint-Gilloise",
       "elo": 1675,
@@ -5991,6 +6584,7 @@
     {
       "id": 700,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 189,
       "name": "Standard Li\u00e8ge",
       "elo": 1489,
@@ -6001,6 +6595,7 @@
     {
       "id": 1118,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 440,
       "name": "Zulte-Waregem",
       "elo": 1354,
@@ -6011,6 +6606,7 @@
     {
       "id": 2709,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1611,
       "name": "Genk",
       "elo": 1630,
@@ -6021,6 +6617,7 @@
     {
       "id": 621,
       "country_id": 86,
+      "country_name":"Ukrajna",
       "venue_id": 8829,
       "name": "Shakhtar Donetsk",
       "elo": 1629,
@@ -6031,6 +6628,7 @@
     {
       "id": 328,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 4725,
       "name": "Antwerp",
       "elo": 1596,
@@ -6041,6 +6639,7 @@
     {
       "id": 2938,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1726,
       "name": "Mechelen",
       "elo": 1428,
@@ -6051,6 +6650,7 @@
     {
       "id": 1674,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 818,
       "name": "RFC Seraing",
       "elo": 1297,
@@ -6061,6 +6661,7 @@
     {
       "id": 2462,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1476,
       "name": "KV Oostende",
       "elo": 1365,
@@ -6071,6 +6672,7 @@
     {
       "id": 2412,
       "country_id": 556,
+      "country_name":"Belgija",
       "venue_id": 1447,
       "name": "AS Eupen",
       "elo": 1360,
@@ -6081,6 +6683,7 @@
     {
       "id": 3525,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 2048,
       "name": "Winterthur",
       "elo": 1371,
@@ -6091,6 +6694,7 @@
     {
       "id": 1970,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 1063,
       "name": "Servette",
       "elo": 1459,
@@ -6101,6 +6705,7 @@
     {
       "id": 462,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 59,
       "name": "Sion",
       "elo": 1384,
@@ -6111,6 +6716,7 @@
     {
       "id": 2866,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 1688,
       "name": "Grasshopper",
       "elo": 1436,
@@ -6121,6 +6727,7 @@
     {
       "id": 389,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 1688,
       "name": "Zürich",
       "elo": 1481,
@@ -6131,6 +6738,7 @@
     {
       "id": 251,
       "country_id": 462,
+      "country_name": "Engleska",
       "venue_id": 340,
       "name": "Huddersfield Town",
       "elo": 1480,
@@ -6141,6 +6749,7 @@
     {
       "id": 13775,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 9570,
       "name": "Lugano",
       "elo": 1463,
@@ -6151,6 +6760,7 @@
     {
       "id": 468,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 9553,
       "name": "Basel",
       "elo": 1512,
@@ -6161,6 +6771,7 @@
     {
       "id": 3091,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 1807,
       "name": "Luzern",
       "elo": 1471,
@@ -6171,6 +6782,7 @@
     {
       "id": 647,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 163,
       "name": "Young Boys",
       "elo": 1657,
@@ -6181,6 +6793,7 @@
     {
       "id": 362,
       "country_id": 62,
+      "country_name":"Švicarska",
       "venue_id": 9570,
       "name": "St. Gallen",
       "elo": 1502,

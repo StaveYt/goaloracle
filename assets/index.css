@@ -36,3 +36,8 @@
     background-color: #0F172A;
     width: fit-content;
 }
+
+
+.table-cell{
+    display: table-cell;
+}

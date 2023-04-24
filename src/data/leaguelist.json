@@ -1,0 +1,1891 @@
+{
+  "data": [
+    {
+      "id": 307,
+      "sport_id": 1,
+      "country_id": 17,
+      "name": "Coupe de France",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/19/307.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-06 18:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 244,
+      "sport_id": 1,
+      "country_id": 266,
+      "name": "1. HNL",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/244.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 16:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 570,
+      "sport_id": 1,
+      "country_id": 32,
+      "name": "Copa Del Rey",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/26/570.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-05 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 453,
+      "sport_id": 1,
+      "country_id": 2,
+      "name": "Ekstraklasa",
+      "active": true,
+      "short_code": "POL E",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5/453.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 15:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 372,
+      "sport_id": 1,
+      "country_id": 802,
+      "name": "Ligat ha'Al",
+      "active": true,
+      "short_code": "ISR PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/372.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 14,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "League Two",
+      "active": true,
+      "short_code": "UK L2",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/14/14.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 14:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 27,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "Carabao Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/27.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-02-26 16:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1101,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "Club Friendlies 1",
+      "active": true,
+      "short_code": "Elite CF",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/13/1101.png",
+      "type": "league",
+      "sub_type": "friendly",
+      "last_played_at": "2023-04-12 17:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 78,
+      "sport_id": 1,
+      "country_id": 38,
+      "name": "KNVB Beker",
+      "active": true,
+      "short_code": "NLD Cup",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/14/78.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-05 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 262,
+      "sport_id": 1,
+      "country_id": 245,
+      "name": "Fortuna Liga",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/6/262.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 486,
+      "sport_id": 1,
+      "country_id": 227,
+      "name": "Premier League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/6/486.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 16:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 600,
+      "sport_id": 1,
+      "country_id": 404,
+      "name": "Super Lig",
+      "active": true,
+      "short_code": "TUR SL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/24/600.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 743,
+      "sport_id": 1,
+      "country_id": 458,
+      "name": "Liga MX",
+      "active": true,
+      "short_code": "MEX AL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/7/743.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 489,
+      "sport_id": 1,
+      "country_id": 227,
+      "name": "FNL",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/9/489.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 16:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 720,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "WC Qualification Europe",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/16/720.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2021-10-09 14:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 2451,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "Club Friendlies 3",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/league_placeholder.png",
+      "type": "league",
+      "sub_type": "friendly",
+      "last_played_at": "2023-04-12 10:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 711,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "WC Qualification Africa",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/7/711.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2019-09-08 13:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 827,
+      "sport_id": 1,
+      "country_id": 23,
+      "name": "Ligue 1",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/827.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 788,
+      "sport_id": 1,
+      "country_id": 3483,
+      "name": "NASL",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/788.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2017-11-05 22:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 779,
+      "sport_id": 1,
+      "country_id": 3483,
+      "name": "Major League Soccer",
+      "active": true,
+      "short_code": "USA MLS",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/11/779.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 02:49:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1034,
+      "sport_id": 1,
+      "country_id": 712,
+      "name": "K-League 1",
+      "active": true,
+      "short_code": "KOR KL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/10/1034.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 10:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 770,
+      "sport_id": 1,
+      "country_id": 158,
+      "name": "Primera Division",
+      "active": true,
+      "short_code": "URY CL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/2/770.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 950,
+      "sport_id": 1,
+      "country_id": 35376,
+      "name": "Kings Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/22/950.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-03-14 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1082,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "Friendly International",
+      "active": true,
+      "short_code": "INTERNATIONAL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/26/1082.png",
+      "type": "league",
+      "sub_type": "friendly",
+      "last_played_at": "2023-03-31 11:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 474,
+      "sport_id": 1,
+      "country_id": 155,
+      "name": "Liga 1",
+      "active": true,
+      "short_code": "ROM L1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/26/474.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1128,
+      "sport_id": 1,
+      "country_id": 556,
+      "name": "Super Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/1128.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2021-07-17 20:42:53",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1356,
+      "sport_id": 1,
+      "country_id": 98,
+      "name": "A-League Men",
+      "active": true,
+      "short_code": "AUS AL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/12/1356.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 07:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1325,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "Euro Qualification",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/13/1325.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2023-03-28 18:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1364,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "World Cup U20",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/1364.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2019-06-14 18:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1673,
+      "sport_id": 1,
+      "country_id": 17,
+      "name": "Ligue 1 Play-offs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/9/1673.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2021-05-30 17:54:08",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1583,
+      "sport_id": 1,
+      "country_id": 98,
+      "name": "A-League Women",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/15/1583.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 07:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1502,
+      "sport_id": 1,
+      "country_id": 44,
+      "name": "Super Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/30/1502.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-03-02 00:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1659,
+      "sport_id": 1,
+      "country_id": 320,
+      "name": "Superliga Play-offs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/1659.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2019-05-19 14:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1681,
+      "sport_id": 1,
+      "country_id": 62,
+      "name": "Super League Play-offs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/17/1681.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2021-05-30 15:54:26",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1682,
+      "sport_id": 1,
+      "country_id": 224,
+      "name": "Parva Liga - Play-offs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/18/1682.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2019-05-29 15:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 24,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "FA Cup",
+      "active": true,
+      "short_code": "UK FA Cup",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/24/24.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-03-19 16:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 729,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "WC Qualification Intercontinental Playoffs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/25/729.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2005-11-15 23:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1118,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "Africa Cup of Nations Qualifications",
+      "active": true,
+      "short_code": "AF N CQ",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/1118.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-03-29 13:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1798,
+      "sport_id": 1,
+      "country_id": 5,
+      "name": "Supercopa do Brasil",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/6/1798.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-01-28 19:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1122,
+      "sport_id": 1,
+      "country_id": 11555657,
+      "name": "Copa Libertadores",
+      "active": true,
+      "short_code": "SA Copa",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/2/1122.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-04-07 00:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 2286,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "Europa Conference League",
+      "active": true,
+      "short_code": "UEFA ECL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/14/2286.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-04-13 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 82,
+      "sport_id": 1,
+      "country_id": 11,
+      "name": "Bundesliga",
+      "active": true,
+      "short_code": "GER BI",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/82.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 72,
+      "sport_id": 1,
+      "country_id": 38,
+      "name": "Eredivisie",
+      "active": true,
+      "short_code": "NLD E",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/72.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 23,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "Community Shield",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/23/23.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2021-08-07 18:08:27",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 85,
+      "sport_id": 1,
+      "country_id": 11,
+      "name": "2. Bundesliga",
+      "active": true,
+      "short_code": "GER BII",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/21/85.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 11:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 181,
+      "sport_id": 1,
+      "country_id": 143,
+      "name": "Admiral Bundesliga",
+      "active": true,
+      "short_code": "AUT BL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/181.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 15:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1116,
+      "sport_id": 1,
+      "country_id": 11555657,
+      "name": "Copa Sudamericana",
+      "active": true,
+      "short_code": "SA Copa",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/28/1116.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-04-07 00:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 208,
+      "sport_id": 1,
+      "country_id": 556,
+      "name": "Pro League",
+      "active": true,
+      "short_code": "BEL FDA",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/16/208.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 271,
+      "sport_id": 1,
+      "country_id": 320,
+      "name": "Superliga",
+      "active": true,
+      "short_code": "DNK SL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/271.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 16:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 310,
+      "sport_id": 1,
+      "country_id": 17,
+      "name": "Coupe de la Ligue",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/22/310.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2019-03-30 20:05:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 274,
+      "sport_id": 1,
+      "country_id": 320,
+      "name": "First Division",
+      "active": true,
+      "short_code": "DNK D1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/18/274.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 12:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 211,
+      "sport_id": 1,
+      "country_id": 556,
+      "name": "Challenger Pro League",
+      "active": true,
+      "short_code": "BEL FAD",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/19/211.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 292,
+      "sport_id": 1,
+      "country_id": 1233,
+      "name": "Veikkausliiga",
+      "active": true,
+      "short_code": "FIN VL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/4/292.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 15:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 989,
+      "sport_id": 1,
+      "country_id": 5618,
+      "name": "Super League",
+      "active": true,
+      "short_code": "CHN SL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/29/989.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 11:35:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 498,
+      "sport_id": 1,
+      "country_id": 227,
+      "name": "Youth League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/18/498.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-14 16:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 959,
+      "sport_id": 1,
+      "country_id": 2802,
+      "name": "Uae League",
+      "active": true,
+      "short_code": "UAE PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/31/959.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-13 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1073,
+      "sport_id": 1,
+      "country_id": 69697,
+      "name": "V-League",
+      "active": true,
+      "short_code": "VNM VL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/17/1073.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 12:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 717,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "WC Qualification Concacaf",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/13/717.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2022-01-30 23:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 304,
+      "sport_id": 1,
+      "country_id": 17,
+      "name": "Ligue 2",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/16/304.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 17:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 714,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "WC Qualification Asia",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/10/714.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2019-10-15 08:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 726,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "WC Qualification South America",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/22/726.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2022-01-27 23:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 723,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "WC Qualification Oceania",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/19/723.png",
+      "type": "league",
+      "sub_type": "international",
+      "last_played_at": "2021-04-16 19:34:58",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 109,
+      "sport_id": 1,
+      "country_id": 11,
+      "name": "DFB Pokal",
+      "active": true,
+      "short_code": "GER Cup",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/13/109.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-05 15:59:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 325,
+      "sport_id": 1,
+      "country_id": 125,
+      "name": "Super League",
+      "active": true,
+      "short_code": "GRC SL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5/325.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-09 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 384,
+      "sport_id": 1,
+      "country_id": 251,
+      "name": "Serie A",
+      "active": true,
+      "short_code": "ITA SA",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/0/384.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 468,
+      "sport_id": 1,
+      "country_id": 20,
+      "name": "Ta\u00e7a De Portugal",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/468.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-12 18:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 387,
+      "sport_id": 1,
+      "country_id": 251,
+      "name": "Serie B",
+      "active": true,
+      "short_code": "ITA SB",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/3/387.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 14:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 492,
+      "sport_id": 1,
+      "country_id": 227,
+      "name": "Russian Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/12/492.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-06 17:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 390,
+      "sport_id": 1,
+      "country_id": 251,
+      "name": "Coppa Italia",
+      "active": true,
+      "short_code": "ITA Coppa",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/6/390.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-05 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 462,
+      "sport_id": 1,
+      "country_id": 20,
+      "name": "Liga Portugal",
+      "active": true,
+      "short_code": "PRT PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/14/462.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 567,
+      "sport_id": 1,
+      "country_id": 32,
+      "name": "La Liga 2",
+      "active": true,
+      "short_code": "ESP S",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/23/567.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 564,
+      "sport_id": 1,
+      "country_id": 32,
+      "name": "La Liga",
+      "active": true,
+      "short_code": "ESP PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/564.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1107,
+      "sport_id": 1,
+      "country_id": 147,
+      "name": "CAF Champions League",
+      "active": true,
+      "short_code": "CAF CL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/19/1107.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-04-01 22:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 501,
+      "sport_id": 1,
+      "country_id": 1161,
+      "name": "Premiership",
+      "active": true,
+      "short_code": "SCO P",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/501.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 11:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 573,
+      "sport_id": 1,
+      "country_id": 47,
+      "name": "Allsvenskan",
+      "active": true,
+      "short_code": "SWE AL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/29/573.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 15:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 513,
+      "sport_id": 1,
+      "country_id": 1161,
+      "name": "Premiership Play-Offs",
+      "active": true,
+      "short_code": "SCO P PO",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/1/513.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2021-05-24 20:35:36",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1371,
+      "sport_id": 1,
+      "country_id": 556,
+      "name": "UEFA Europa League Play-offs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/1371.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2019-05-26 14:42:38",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 444,
+      "sport_id": 1,
+      "country_id": 1578,
+      "name": "Eliteserien",
+      "active": true,
+      "short_code": "NOR TL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/28/444.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 654,
+      "sport_id": 1,
+      "country_id": 5,
+      "name": "Copa do Brasil",
+      "active": true,
+      "short_code": "BRA CdB",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/14/654.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-14 00:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 2450,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "Club Friendlies 2",
+      "active": true,
+      "short_code": "EU F",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/league_placeholder.png",
+      "type": "league",
+      "sub_type": "friendly",
+      "last_played_at": "2023-03-25 12:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 603,
+      "sport_id": 1,
+      "country_id": 404,
+      "name": "1. Lig",
+      "active": true,
+      "short_code": "TUR L1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/603.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 16:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1007,
+      "sport_id": 1,
+      "country_id": 153732,
+      "name": "Indian Super League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/15/1007.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-03-18 14:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 806,
+      "sport_id": 1,
+      "country_id": 146,
+      "name": "Premier League",
+      "active": true,
+      "short_code": "ZAF PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/6/806.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-12 17:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 983,
+      "sport_id": 1,
+      "country_id": 1004,
+      "name": "Canadian Soccer League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/23/983.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2022-08-06 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 944,
+      "sport_id": 1,
+      "country_id": 35376,
+      "name": "Pro League",
+      "active": true,
+      "short_code": "SAU PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/16/944.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-14 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 860,
+      "sport_id": 1,
+      "country_id": 1424,
+      "name": "Botola Pro",
+      "active": true,
+      "short_code": "MAR G1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/28/860.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 22:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 902,
+      "sport_id": 1,
+      "country_id": 488,
+      "name": "Persian Gulf Pro League",
+      "active": true,
+      "short_code": "IRN PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/6/902.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 18:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 938,
+      "sport_id": 1,
+      "country_id": 74505,
+      "name": "Premier League",
+      "active": true,
+      "short_code": "QAT SL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/10/938.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 18:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 968,
+      "sport_id": 1,
+      "country_id": 479,
+      "name": "J-League",
+      "active": true,
+      "short_code": "JPN JL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/968.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 07:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 5,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "Europa League",
+      "active": true,
+      "short_code": "UEFA EL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-04-13 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 9,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "Championship",
+      "active": true,
+      "short_code": "UK Champ",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/9/9.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 18:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 17,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "National League",
+      "active": true,
+      "short_code": "UK NL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/17/17.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 16:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 12,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "League One",
+      "active": true,
+      "short_code": "UK L1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/12/12.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 14:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 2,
+      "sport_id": 1,
+      "country_id": 41,
+      "name": "Champions League",
+      "active": true,
+      "short_code": "UEFA CL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/2.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2023-04-12 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 45,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "Women's Super League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/13/45.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-02 17:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 74,
+      "sport_id": 1,
+      "country_id": 38,
+      "name": "Eerste Divisie",
+      "active": true,
+      "short_code": "NLD ED",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/10/74.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 10:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 8,
+      "sport_id": 1,
+      "country_id": 462,
+      "name": "Premier League",
+      "active": true,
+      "short_code": "UK PL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 15:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1885,
+      "sport_id": 1,
+      "country_id": 3483,
+      "name": "Nwsl Challenge Cup Women",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/league_placeholder.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2021-05-01 23:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 229,
+      "sport_id": 1,
+      "country_id": 224,
+      "name": "First League",
+      "active": true,
+      "short_code": "BGR FL",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5/229.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 11:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 301,
+      "sport_id": 1,
+      "country_id": 17,
+      "name": "Ligue 1",
+      "active": true,
+      "short_code": "FRA L1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/301.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:45:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 591,
+      "sport_id": 1,
+      "country_id": 62,
+      "name": "Super League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/15/591.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 14:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 609,
+      "sport_id": 1,
+      "country_id": 86,
+      "name": "Premier League",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/1/609.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 12:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 636,
+      "sport_id": 1,
+      "country_id": 44,
+      "name": "Superliga",
+      "active": true,
+      "short_code": "ARG PD",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/28/636.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 17:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 651,
+      "sport_id": 1,
+      "country_id": 5,
+      "name": "Serie B",
+      "active": true,
+      "short_code": "BRA CB SB",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/11/651.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 18:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 648,
+      "sport_id": 1,
+      "country_id": 5,
+      "name": "Serie A",
+      "active": true,
+      "short_code": "BRA CB",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/648.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1691,
+      "sport_id": 1,
+      "country_id": 86,
+      "name": "Premier League - Playoffs",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/1691.png",
+      "type": "league",
+      "sub_type": "play-offs",
+      "last_played_at": "2019-06-08 18:24:21",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1631,
+      "sport_id": 1,
+      "country_id": 5,
+      "name": "Brasileiro Women",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/31/1631.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-16 14:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1990,
+      "sport_id": 1,
+      "country_id": 2802,
+      "name": "Super Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/league_placeholder.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-02-25 16:30:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 1989,
+      "sport_id": 1,
+      "country_id": 74505,
+      "name": "Qatar Prince Cup",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/league_placeholder.png",
+      "type": "league",
+      "sub_type": "domestic_cup",
+      "last_played_at": "2023-04-06 19:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 830,
+      "sport_id": 1,
+      "country_id": 886,
+      "name": "Premier League",
+      "active": true,
+      "short_code": "EGY D1",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/30/830.png",
+      "type": "league",
+      "sub_type": "domestic",
+      "last_played_at": "2023-04-15 19:15:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    },
+    {
+      "id": 2452,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "Club Friendlies 4",
+      "active": true,
+      "short_code": null,
+      "image_path": "https://cdn.sportmonks.com/images/soccer/league_placeholder.png",
+      "type": "league",
+      "sub_type": "friendly",
+      "last_played_at": "2023-03-26 12:00:00",
+      "has_jerseys": false,
+      "sport": {
+        "id": 1,
+        "name": "Football"
+      }
+    }
+  ]
+}

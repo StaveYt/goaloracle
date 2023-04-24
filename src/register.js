@@ -137,36 +137,26 @@ function SignUp() {
   }
 }
 
-// async function GetTeamElo(usert) {
-// fetch(`http://api.clubelo.com/${usert.favClubs[0]}`, requestOptions)
-//     .then(response => response.text())
-//     .then(result => {
-//       let fullData = [];
-//       let dataRows = result.split('\n').slice(100);
-//       dataRows.forEach(row => {
-//         if (row != "") { fullData.push(row.split(',').slice(1)); }
-//       });
-//       console.log(fullData);
-
-//
-//       console.log(JSON.parse(localStorage.getItem("FAVTEAMELO")))
-
-//       return fullData;
-//     })
-//     .catch(error => console.log('error', error));
-// }
-
 fetch(
-  `https://api.sportmonks.com/v3/my/leagues?api_token=${sportMonksToken}&include=`
+  `../src/data/leaguelist.json`
 )
   .then((response) => response.json())
   .then((data) => GetAllLeagues(data.data));
 function GetAllLeagues(data) {
   let selectLeague = document.getElementById("leagueSelect");
   console.log(data);
-
+  data = data.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
   for (let i = 0; i < data.length; i = i + 1) {
     let league = data[i];
+    
     let option = document.createElement("option");
     option.value = `${league.name}|${league.id}|${league.image_path}`;
     option.innerHTML = league.name;

@@ -12,70 +12,69 @@
   <title>Document</title>
 </head>
 
-<body class="w-screen h-screen bg-[#1bb198] flex dark:bg-[#001501] font-[poppins]" onload="GetTodayMatchups()">
-  <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200">
-    <div class="w-full"> <!--top menu-->
-      <div class="font-bold text-center my-2 w-full"> <!--nav items-->
-        <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
+<body class="w-screen h-screen bg-[#1bb198] flex dark:bg-[#2e2e2e] font-[poppins]" onload="OnLoad()">
+    <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200">
+      <div class="w-full">
+        <div class="font-bold text-center my-2 w-full"> <!--nav items-->
+          <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
+        </div>
+        <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+          <a href="simulator.html" class="flex items-center">
+            <img src="../assets\imgs\simulator.svg" class="h-10 mx-3">
+            <p>Predvidi</p>
+          </a>
+        </div>
+        <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+          <a href="rankingtest.html" class="flex items-center">
+            <img src="../assets\imgs\ranking.svg" class="h-10 mx-3">
+            <p>Ljestvica</p>
+          </a>
+        </div>
+        <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+          <a href="utakmicetest.html" class="flex items-center">
+            <img src="../assets\imgs\football-game.svg" class="h-10 mx-3">
+            <p>Utakmice</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <button
+            onclick="SignOut('signin')"
+            class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
+          >
+            Sign Out
+          </button>
+        </div>
       </div>
-      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
-        <a href="#" class="flex items-center">
-          <img src="assets\imgs\simulator.svg" class="h-10 mx-3">
-          <p>Simulate</p>
-        </a>
-      </div>
-      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="rankingtest.html" class="flex items-center">
-          <img src="assets\imgs\ranking.svg" class="h-10 mx-3">
-          <p>Ranking</p>
-        </a>
-      </div>
-      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="rankingtest.html" class="flex items-center">
-          <img src="assets\imgs\football-game.svg" class="h-10 mx-3">
-          <p>Football Games</p>
-        </a>
-      </div>
-      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="rankingtest.html" class="flex items-center">
-          <img src="assets\imgs\your-team.svg" class="h-10 mx-3">
-          <p>Your Teams</p>
-        </a>
-      </div>
-      <div class="text-center">
-        <button onclick="SignOut('signin')"
-          class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
-          Sign Out
-        </button>
+      <div class="self-end w-full">
+        <!--bottom menu-->
+        <div class="text-center my-2 w-full hover:bg-stone-900">
+          <!--nav items-->
+          <a href="#" class=" ">Light UI</a>
+        </div>
+        <div class="text-center my-2 w-full hover:bg-stone-900">
+          <!--botun3-->
+          <a href="#">Collapse</a>
+        </div>
+        <div class="text-center my-2 w-full hover:bg-stone-900">
+          <!--botun4-->
+          <a href="#">Settings</a>
+        </div>
+        <div class="text-center my-2 w-full hover:bg-stone-900">
+          <!--botun4-->
+          <a href="#">Help</a>
+        </div>
       </div>
     </div>
-    <div class="self-end w-full"> <!--bottom menu-->
-      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
-        <a href="#" class=" ">Light UI</a>
-      </div>
-      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
-        <a href="#">Collapse</a>
-      </div>
-      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
-        <a href="#">Settings</a>
-      </div>
-      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
-        <a href="#">Help</a>
-      </div>
-    </div>
-  </div>
-  <!--
-  <div class="flex flex-row [padding-left:var(--navWidth)]">
-    <img src="assets\imgs\user-icon.jpg"  alt="user" class="h-20">
-    <p class="mt-6">Username</p>
-  </div>
-  -->
-  <!--
-        <div class="flex">
-          <select data-te-select-init data-te-select-placeholder="Example placeholder" multiple>
-          </select>-->
-  <div class="overflow-auto mx-auto my-5 w-full px-5 drop-shadow rounded-md">
+  <div class="overflow-auto flex-1 my-5 w-full px-5 drop-shadow rounded-md">
     <h1 class="text-3xl font-italic text-center text-white mb-10">Football games</h1>
+    <div>
+      <label for="dateSelect">Izaberite Datum</label>
+      <input type="date" id="dateSelect" onchange="DateChanged(event)">
+      <label for="leagueSelect">Izaberite Ligu</label>
+      <select id="leagueSelect" onchange="LeagueChanged(event)">
+        <option selected value="all">Sve</option>
+      </select>
+    </div>
     <details class="m-4 bg-gray-300 open:bg-[#666666] duration-300">
       <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Live games</summary>
       <div id="livematchupslist" class="overflow-scroll max-h-96">
@@ -91,88 +90,6 @@
             </tr>
           </thead>
           <tbody id="liveGames">
-            <tr class=" border-[#666666]">
-              <td class="">
-                <p>Dinamo</p>
-                <p>Hajduk</p>
-              </td>
-              <td class="">
-                <p>0</p>
-                <p>4</p>
-              </td>
-              <td class="">
-                <button
-                  class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-                  Simulate
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td class="">
-                <p>Dinamo</p>
-                <p>Hajduk</p>
-              </td>
-              <td class="">
-                <p>0</p>
-                <p>4</p>
-              </td>
-              <td class="">
-                <button
-                  class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-                  Simulate
-                </button>
-              </td>
-
-            <tr>
-              <td class="">
-                <p>Dinamo</p>
-                <p>Hajduk</p>
-              </td>
-              <td class="">
-                <p>0</p>
-                <p>4</p>
-              </td>
-              <td class="">
-                <button
-                  class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-                  Simulate
-                </button>
-              </td>
-
-            </tr>
-            <tr>
-              <td class="">
-                <p>Dinamo</p>
-                <p>Hajduk</p>
-              </td>
-              <td class="">
-                <p>0</p>
-                <p>4</p>
-              </td>
-              <td class="">
-                <button
-                  class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-                  Simulate
-                </button>
-              </td>
-
-            </tr>
-            <tr>
-              <td class="">
-                <p>Dinamo</p>
-                <p>Hajduk</p>
-              </td>
-              <td class="">
-                <p>0</p>
-                <p>4</p>
-              </td>
-              <td class="">
-                <button
-                  class="bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-green-700 text-white font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-                  Simulate
-                </button>
-              </td>
-            </tr>
           </tbody>
         </table>
 
@@ -186,7 +103,7 @@
           <thead class="bg-[#666666]">
             <tr>
               <th>Players</th>
-              <th>Results</th>
+              <th>Final Results</th>
               <th>Possesion</th>
               <th>More Info</th>
               <th>League</th>
@@ -217,6 +134,8 @@
         </table>
       </div>
   </details>
+  </div>
+  <div>
 
   </div>
   <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
