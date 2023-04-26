@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="../assets/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]">
+  <div class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200">
+    <div class="w-full"> <!--top menu-->
+      <div class="font-bold text-center my-2 w-full"> <!--nav items-->
+        <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
+      </div>
+      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+        <a href="simulator.html" class="flex items-center">
+          <img src="../assets\imgs\simulator.svg" class="h-10 mx-3">
+          <p>Predvidi</p>
+        </a>
+      </div>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html" class="flex items-center">
+          <img src="../assets\imgs\ranking.svg" class="h-10 mx-3">
+          <p>Ljestvica</p>
+        </a>
+      </div>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="utakmicetest.html" class="flex items-center">
+          <img src="../assets\imgs\football-game.svg" class="h-10 mx-3">
+          <p>Utakmice</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <button onclick="SignOut('signin')" class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
+          Sign Out
+        </button>
+      </div>
+    </div>
+    <div class="self-end w-full"> <!--bottom menu-->
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+        <a href="#" class=" ">Light UI</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="#">Collapse</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+        <a href="#">Settings</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </div>
+  <div class="md:hidden flex p-2 flex-row flex-wrap w-full h-14 bg-stone-800 text-slate-200">
+    <div class="w-[60%] flex self-center items-center"> <!--top menu-->
+      <div class="m-1">
+        <button class="">
+          <img class="w-8" src="https://cdn-icons-png.flaticon.com/512/4254/4254068.png">
+        </button>
+      </div>
+      <div class="m-1 font-bold text-center object-contain w-40 shrink"> <!--nav items-->
+        <a href="../index.html" class=""><img src="../assets/imgs/logotransparent.svg"></a>
+      </div>
+
+    </div>
+    <div class="ml-auto self-center flex"> <!--bottom menu-->
+      <div class="text-center">
+        <button onclick="SignOut('signin')"
+          class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          Sign Out
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex-1 gap-1 max-md:flex-wrap flex flex-grow flex-row overflow-auto p-2 justify-center align-center">
+    <div class="flex">
+      <div class="mx-2">
+        <div class="w-5 bg-slate-900 h-[50%] text-center text-lg text-slate-200" id="homeBar"></div>
+        <div class="w-5 bg-slate-200 h-[50%] text-center text-lg" id="awayBar"></div>
+      </div>
+      <div  class="dark:text-white max-md: text-center mx-2 flex justify-center flex-col">
+        <div id="homeContainer" class="flex">
+          <h1 class="text-2xl">Home</h1>
+        </div>
+        <img class="text-center w-full object-cover slikaterena" src="../assets/imgs/footballpitchsim.jpg">
+        <div id="awayContainer" class="flex">
+          <h1 class="text-2xl">Away</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-1 max-md:min-h-[300px]  bg-slate-900 mx-2 max-w-2xl grid-cols-1 grid-rows-2 desnihud">
+      <div id="buttons" class="flex justify-center gap-5 hidden">
+        <button class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-400/50 dodatnibotuni">Lineup</button>
+        <button class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-400/50 dodatnibotuni">Statistics</button>
+        <button class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-400/50 dodatnibotuni">Field</button>
+      </div>
+      <hr>
+      <div class="flex flex-col" id="infoContainer">
+        <div class="m-auto min-w-[250px] flex flex-col" id="selectors">
+          <select id="selectHomeTeam" class="min-w-[250px] w-[250px] p-2 text-center m-5 bg-slate-700">
+            <option selected>Izaberite Domaći Tim</option>
+          </select>
+          <select class="p-2 text-center m-5 bg-slate-700 w-[250px]"  id="selectAwayTeam">
+            <option selected >Izaberite Gostujući Tim</option>
+          </select>
+          <button id="predictButton" onclick="Predict()" class="mx-5 bg-[#15caa7] p-5 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center rounded shadow-slate-900 w-[250px] shadow-md hover:shadow-teal-400/50">Predvidi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
+  <script type="text/javascript" src="../src/index.js"></script>
+  <script type="text/javascript" src="../src/simulation.js"></script>
+</body>
+
+</html>
