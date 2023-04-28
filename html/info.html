@@ -12,9 +12,9 @@
   <title>Document</title>
 </head>
 
-<body class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]">
+<body class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]" onload="SwitchNav()">
   <div class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200">
-    <div class="w-full"> <!--top menu-->
+    <div class="w-full" id="navlg"> <!--top menu-->
       <div class="font-bold text-center my-2 w-full"> <!--nav items-->
         <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
       </div>
@@ -35,11 +35,6 @@
           <img src="../assets\imgs\football-game.svg" class="h-10 mx-3">
           <p>Utakmice</p>
         </a>
-      </div>
-      <div class="text-center">
-        <button onclick="SignOut('signin')" class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
-          Sign Out
-        </button>
       </div>
     </div>
     <div class="self-end w-full"> <!--bottom menu-->

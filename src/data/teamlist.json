@@ -444,7 +444,7 @@
     {
       "id": 30,
       "country_id": 515,
-      "country_name":"Velška",
+      "country_name":"Wales",
       "venue_id": 208,
       "name": "Swansea City",
       "elo": 1490,
@@ -1538,7 +1538,7 @@
     {
       "id": 579,
       "country_id": 515,
-      "country_name":"Velška",
+      "country_name":"Wales",
       "venue_id": 114,
       "name": "The New Saints",
       "elo": 1103,
@@ -2587,7 +2587,7 @@
     {
       "id": 1232,
       "country_id": 515,
-      "country_name":"Velška",
+      "country_name":"Wales",
       "venue_id": 525,
       "name": "Bala Town",
       "elo": 1011,
@@ -2719,7 +2719,7 @@
     {
       "id": 1465,
       "country_id": 515,
-      "country_name":"Velška",
+      "country_name":"Wales",
       "venue_id": 688,
       "name": "Newtown",
       "elo": 1002,
@@ -4248,7 +4248,7 @@
     {
       "id": 4493,
       "country_id": 57142,
-      "country_name":"Makedonija",
+      "country_name":"Sjeverna Makedonija",
       "venue_id": 7770,
       "name": "Shkupi",
       "elo": 1064,
@@ -4347,7 +4347,7 @@
     {
       "id": 5284,
       "country_id": 2154,
-      "country_name":"Farski otoci",
+      "country_name":"Farski Otoci",
       "venue_id": 4992,
       "name": "Klaksvíkar Ítróttarfelag",
       "elo": 1058,
@@ -4413,7 +4413,7 @@
     {
     "id": 228256,
     "country_id": 41,
-    "country_name":"Makedonija",
+    "country_name":"Sjeverna Makedonija",
     "venue_id": null,
     "name": "Shkendija",
     "elo":1210,
@@ -5408,7 +5408,7 @@
     {
       "id": 8643,
       "country_id": 2154,
-      "country_name":"Farski otoci",
+      "country_name":"Farski Otoci",
       "venue_id": 5605,
       "name": "B36",
       "elo": 992,
@@ -5430,7 +5430,7 @@
     {
       "id": 8655,
       "country_id": 2154,
-      "country_name":"Farski otoci",
+      "country_name":"Farski Otoci",
       "venue_id": 5611,
       "name": "Víkingur",
       "elo": 1214,
@@ -5452,7 +5452,7 @@
     {
       "id": 8678,
       "country_id": 2154,
-      "country_name":"Farski otoci",
+      "country_name":"Farski Otoci",
       "venue_id": 5605,
       "name": "HB",
       "elo": 1003,
@@ -5788,7 +5788,7 @@
     {
       "id": 11498,
       "country_id": 57142,
-      "country_name":"Makedonija",
+      "country_name":"Sjeverna Makedonija",
       "venue_id": 7727,
       "name": "Makedonija",
       "elo": 1078,
@@ -5810,7 +5810,7 @@
     {
       "id": 11583,
       "country_id": 57142,
-      "country_name":"Makedonija",
+      "country_name":"Sjeverna Makedonija",
       "venue_id": 338704,
       "name": "Akademija Pandev",
       "elo": 1078,
@@ -5876,7 +5876,7 @@
     {
       "id": 69,
       "country_id": 515,
-      "country_name":"Velška",
+      "country_name":"Wales",
       "venue_id": 125,
       "name": "Cardiff City",
       "elo": 1444,
