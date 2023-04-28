@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<body class="bg-[#1bb198] flex dark:bg-[#001501] font-[poppins]" onload="GetTodayMatchups() ">
+  <div class="flex flex-wrap w-40 h-screen bg-stone-800 text-slate-200" id="navbar">
+    <div class="w-full"> <!--top menu-->
+      <div class="font-bold text-center my-2 w-full"> <!--nav items-->
+        <a href="../index.html" class=" "><img src="../assets/imgs/logotransparent.svg"></a>
+      </div>
+      <div class="font-bold text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+        <a href="#" class="flex items-center">
+          <img src="../assets\imgs\simulator.svg" class="h-10 mx-3">
+          <p>Simulate</p>
+        </a>
+      </div>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html" class="flex items-center">
+          <img src="../assets\imgs\ranking.svg" class="h-10 mx-3">
+          <p>Ranking</p>
+        </a>
+      </div>
+      <div class="font-bold my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="rankingtest.html" class="flex items-center">
+          <img src="../assets\imgs\football-game.svg" class="h-10 mx-3">
+          <p>Football Games</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <button onclick="ShowSignForm('signup')" class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+          Sign Up
+        </button>
+      </div>
+      <div class="text-center">
+        <button onclick="ShowSignForm('signin')" class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
+          Sign In
+        </button>
+      </div>
+    </div>
+    <div class="self-end w-full"> <!--bottom menu-->
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--nav items-->
+        <a href="#" class=" ">Light UI</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun3-->
+        <a href="#">Collapse</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+        <a href="#">Settings</a>
+      </div>
+      <div class="text-center my-2 w-full hover:bg-stone-900"> <!--botun4-->
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </div>
+  <!--
+  <div class="relative px-10">
+    <img src="../assets/imgs/footballpitchsim-hor.jpg" class="opacity-75"/>
+    <div>
+      <div class="absolute text-3xl text-black bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+         <h1 class="flex flex-col">
+          <span>Šansa pobjede:</span>
+          <span>Ovdje homebar i awaybar </span>
+        </h1>
+      </div>
+    </div>
+    <h2 class="absolute text-3xl text-slate-200 top-5 left-1/2 -translate-x-1/2 flex flex-col text-center">
+      <span>Prognoza:</span>
+      <span>2 : 2</span>
+    </h2>
+    <h3 class="absolute text-2xl text-blue-300 top-5 left-5">Top Left</h3>
+    <h3 class="absolute text-2xl text-green-300 bottom-5 right-5">Bottom Right</h3>
+  </div>
+  -->
+  <div class="flex flex-col m-10 justify-center">
+    <div class="flex justify-center w-full">
+      <div style="background-image: url(../assets/imgs/simulator-pitch.jpg);" class="bg-contain bg-no-repeat grid grid-rows-4 grid-flow-col gap-4">
+        <h1 class=" row-start-2 row-end-3 flex flex-col text-slate-200 text-center align-middle text-3xl mx-10 my-10">
+          <span>tim elo:</span>
+          <span>Ime tima</span>
+        </h1>
+        <h1 class="row-start-1 flex flex-col text-slate-200 text-center align-middle text-3xl mx-10 my-10">
+          <span c>Prognoza:</span>
+          <span>2 : 2</span>
+        </h1>
+        <h1 class=" row-start-2 row-end-3 flex flex-col text-slate-200 text-center align-middle text-3xl mx-10 my-10">
+          <span>Šansa pobjede:</span>
+          <span>Ovdje homebar i awaybar </span>
+        </h1>
+        <h1 class=" row-start-2 row-end-3 flex flex-col text-slate-200 text-center align-middle text-3xl mx-10 my-10">
+          <span>tim elo:</span>
+          <span>Ime tima</span>
+        </h1>
+      </div>
+    </div>
+    <div class="flex-1 max-md:min-h-[300px]  bg-slate-900 max-w-2xl grid-cols-1 grid-rows-2 desnihud">
+      <div id="buttons" class="flex justify-center gap-5 hidden">
+        <button class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-400/50 dodatnibotuni">Lineup</button>
+        <button class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-400/50 dodatnibotuni">Statistics</button>
+        <button class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-teal-400/50 dodatnibotuni">Field</button>
+      </div>
+      <hr>
+      <div class="flex flex-col" id="infoContainer">
+        <div class="m-auto min-w-[250px] flex flex-col" id="selectors">
+          <select id="selectHomeTeam" class="min-w-[250px] w-[250px] p-2 text-center m-5 bg-slate-700">
+            <option selected>Izaberite Domaći Tim</option>
+          </select>
+          <select class="p-2 text-center m-5 bg-slate-700 w-[250px]"  id="selectAwayTeam">
+            <option selected >Izaberite Gostujući Tim</option>
+          </select>
+          <button id="predictButton" onclick="Predict()" class="mx-5 bg-[#15caa7] p-5 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center rounded shadow-slate-900 w-[250px] shadow-md hover:shadow-teal-400/50">Predvidi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
+<script type="text/javascript" src="../src/index.js"></script>
+<script type="text/javascript" src="../src/simulation.js"></script>
+</body>
+</html>
