@@ -41,98 +41,22 @@ function LoadInfo() {
   document.getElementById("teamElo").innerHTML = teamElo;
   document.getElementById("username").innerText = username;
   document.getElementById("leagueGamesBtn").innerText= `Današnje utakmice u ${user.flwLeague[0]}`;
-  document.getElementById("leagueGamesBtn").setAttribute('href', `utakmicetest.html?data=${user.flwLeague[1]}`)
+  document.getElementById("leagueGamesBtn").setAttribute('href', `utakmice.html?data=${user.flwLeague[1]}`)
   LoadLastGames(user.favClubs[1]);
 }
-{/* <tr>
-<td class="">
-  <p>Dinamo</p>
-  <p>Hajduk</p>
-</td>
-<td class="">
-  <p>0</p>
-  <p>4</p>
-</td>
-<td class="">
-  <p>0%</p>
-  <p>100%</p>
-</td>
-<td>90+12</td>
-<td>Feb 6, 2023.</td>
-</tr>  */}
 function SwitchNav(){
-  let navbarBig = document.getElementById('navlg')
+  let signout = document.getElementById('signout')
+  let signin = document.getElementById('signin')
+  console.log(user)
   if(user!=null){
-    navbarBig.innerHTML +=`
-    <div class="text-center">
-    <button
-      onclick="SignOut('signin')"
-      class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
-    >
-      Sign Out
-    </button>
-  </div>`
+    document.getElementById('signout').classList.toggle('hidden');
+    document.getElementById('signoutsm').classList.toggle('hidden');
   }else{
-    body.innerHTML+=`<div class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden" id="signInBox">
-    <div class="flex flex-col m-auto p-4 w-96 text-slate-300 bg-stone-800 rounded-md" id="signInContainer">
-        <div class="m-4">
-            <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="text"
-                id="usernameInput" placeholder="Username">
-        </div>
-        <div class="m-4 hidden" id="emailWrapper">
-            <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="email"
-                id="emailInput" placeholder="Email">
-        </div>
-        <div class="m-4">
-            <input class="shadow-md shadow-slate-900 w-full p-2 text-center bg-stone-600 rounded-md" type="password"
-                id="passwordInput" placeholder="Password">
-        </div>
-        <div class="m-4 hidden" id="passConfirmWrapper">
-            <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="password"
-                id="passConfirmInput" placeholder="Confirm Password">
-        </div>
-        <div class="m-4 hidden text-center" id="leagueSelectWrapper">
-            <label for="leagueSelect" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Liga</label>
-            <select id="leagueSelect"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                <option selected hidden disabled>Izaberite nogometnu ligu</option>
-            </select>
-        </div>
-        <div class="m-4 hidden text-center" id="teamSelectWrapper">
-            <label for="teamSelect" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tim</label>
-            <select id="teamSelect"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                <option selected hidden disabled>Izaberite Tim</option>
-            </select>
-        </div>
-        <button
-            class="my-4 mx-5 bg-[#1bb198] p-3 rounded-md shadow-slate-900  border-t-0 transition duration-300 border-y-4 border-green-800 shadow-md  font-bold text-lg [text-shadow:0_3px_3px_#000] hover:bg-green-700 text-slate-200 hover:shadow-green-500/50"
-            id="signInButton">
-            Sign in
-        </button>
-        <a class="my-2 self-center underline hover:cursor-pointer transition duration-200 hover:text-slate-700 [text-shadow:0_3px_3px_#000]"
-            id="createAccount">Create an account</a>
-    </div>
-</div>
-<script src="../src/register.js"></script>`
-  navbarBig.innerHTML+=`  <div class="text-center">
-    <button
-      onclick="SignOut('signin')"
-      class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-stone-500/50"
-    >
-      Sign Up
-    </button>
-  </div>
-  <div class="text-center">
-    <button
-      onclick="SignOut('signin')"
-      class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
-    >
-      Sign In
-    </button>
-  </div>`
+    document.getElementById('signin').classList.toggle('hidden');
+    document.getElementById('signinsm').classList.toggle('hidden');
+    document.getElementById('signup').classList.toggle('hidden');
+    document.getElementById('signupsm').classList.toggle('hidden');
   }
-
 }
 function LoadLastGames(teamid){
   let latestGamesTable = document.getElementById("latestGames");
@@ -186,17 +110,30 @@ function CheckUser() {
     : null;
   
   if (user != null) {
-    window.location.href = "html/testaccpage.html";
+    window.location.href = "html/accpage.html";
   } else {
-    window.location.href = "signintest.html";
+    window.location.href = "html/homepage.html";
   }
 }
 
 function SignOut() {
   localStorage.setItem("USER", null);
-  window.location.href = "../signintest.html";
+  window.location.href = "homepage.html";
 }
 
 function GoToSimulator() {
   window.location.href = "simulator.html";
+}
+
+function ShowNavSm(){
+  document.getElementById('navsm').classList.toggle('hidden');
+  document.getElementById('navbarmd').classList.toggle('blur-lg')
+  document.getElementById('container').classList.toggle('blur-lg')
+}
+
+
+function CloseNavSm(){
+  document.getElementById('navsm').classList.toggle('hidden');
+  document.getElementById('navbarmd').classList.toggle('blur-lg')
+  document.getElementById('container').classList.toggle('blur-lg')
 }

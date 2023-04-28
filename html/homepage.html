@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <!DOCTYPE html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,11 +13,8 @@
     />
     <title>Document</title>
   </head>
-
-  <body
-    class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]"
-    onload="SwitchNav()"
-  >
+  
+  <body class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]" onload="">
     <!--navbar za velike ekrane-->
     <div
       class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200"
@@ -51,15 +48,7 @@
             <p>Utakmice</p>
           </a>
         </div>
-        <div class="text-center hidden" id="signout">
-          <button
-            onclick="SignOut()"
-            class="bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 text-black font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
-          >
-            Sign Out
-          </button>
-        </div>
-        <div class="text-center hidden" id="signin">
+        <div class="text-center" id="signin">
           <button
             onclick="ShowSignForm('signup')"
             class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-stone-500/50"
@@ -67,7 +56,7 @@
             Sign Up
           </button>
         </div>
-        <div class="text-center hidden" id="signin">
+        <div class="text-center" id="signin">
           <button
             onclick="ShowSignForm('signin')"
             class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
@@ -85,110 +74,148 @@
             <img class="w-8" src="https://cdn-icons-png.flaticon.com/512/4254/4254068.png">
           </button>
         </div>
-        <div class="m-1 font-bold text-center object-contain w-40 shrink"> <!--nav items-->
+        <div class="m-1 font-bold text-center object-contain w-40 shrink"> 
           <a href="../index.html" class=""><img src="../assets/imgs/logotransparent.svg"></a>
         </div>
   
       </div>
-      <div class="ml-auto self-center flex text-center gap-5" id="signoutsm"> <!--bottom menu-->
-        <div class="text-center hidden" id="signoutsm">
-          <button onclick="SignOut()"
-            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-            Sign Out
-          </button>
-        </div>
-        <div class="text-center hidden" id="signupsm">
+      <div class="ml-auto self-center flex text-center gap-5"> 
+        <div class="text-center" id="signupsm">
           <button onclick="ShowSignForm('signup')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
             Sign Up
           </button>
         </div>
-        <div class="text-center hidden" id="signinsm">
+        <div class="text-center" id="signinsm">
           <button onclick="ShowSignForm('signin')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
             Sign In
           </button>
         </div>
       </div>
     </div>
-
-    <div
-      class="flex-1 gap-1 max-md:flex-wrap flex flex-grow flex-row overflow-auto p-2 justify-center align-center"
-    >
-      <div class="flex">
-        <div class="mx-2">
-          <div
-            class="w-5 bg-slate-900 h-[50%] text-center text-lg text-slate-200"
-            id="homeBar"
-          ></div>
-          <div
-            class="w-5 bg-slate-200 h-[50%] text-center text-lg"
-            id="awayBar"
-          ></div>
-        </div>
-        <div
-          class="dark:text-white max-md: text-center mx-2 flex justify-center flex-col"
-        >
-          <div id="homeContainer" class="flex">
-            <h1 class="text-2xl">Home</h1>
-          </div>
-          <img
-            class="text-center w-full object-cover slikaterena"
-            src="../assets/imgs/footballpitchsim.jpg"
-          />
-          <div id="awayContainer" class="flex">
-            <h1 class="text-2xl">Away</h1>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="flex-1 max-md:min-h-[300px] bg-slate-900 mx-2 max-w-2xl grid-cols-1 grid-rows-2 desnihud"
-      >
-        <div id="buttons" class="flex justify-center gap-5 hidden">
-          <button
-            class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
-          >
-            Lineup
-          </button>
-          <button
-            class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
-          >
-            Statistics
-          </button>
-          <button
-            class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
-          >
-            Field
-          </button>
-        </div>
-        <hr />
-        <div class="flex flex-col" id="infoContainer">
-          <div class="m-auto min-w-[250px] flex flex-col" id="selectors">
-            <select
-              id="selectHomeTeam"
-              class="min-w-[250px] w-[250px] p-2 text-center m-5 bg-slate-700"
-            >
-              <option selected>Izaberite Domaći Tim</option>
-            </select>
-            <select
-              class="p-2 text-center m-5 bg-slate-700 w-[250px]"
-              id="selectAwayTeam"
-            >
-              <option selected>Izaberite Gostujući Tim</option>
-            </select>
-            <button
-              id="predictButton"
-              onclick="Predict()"
-              class="mx-5 bg-[#15caa7] p-5 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center rounded shadow-slate-900 w-[250px] shadow-md hover:shadow-teal-400/50"
-            >
-              Predvidi
+    <div class="flex-1 overflow-auto p-2 justify-center align-center" id="container">
+      <div class="flex flex-row overflow-auto">
+        <div class="flex flex-col justify-center">
+          <h1 class="text-center flex flex-col text-slate-700 dark:text-slate-200 text-7xl font-bold ;">
+            <span>1# Svjetska Stranica</span>
+            <span>Za</span>
+            <span>Predviđanje Nogometa</span>
+          </h1>
+          <div class="flex justify-center">
+            <button onclick="ShowSignForm('signin')" class="text-2xl w-2/3 bg-[#1bb198] border-t-0 border-y-4 border-green-800 hover:bg-teal-700 text-black dark:text-slate-200 font-bold my-5 py-3 text-center rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
+              Ulogirajte se
             </button>
+          </div>
+          <div class="flex justify-center">
+            <button onclick="ShowSignForm('signup')" class="bg-[#4b4b4f] w-2/3 text-slate-200 border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold text-2xl py-3 text-center rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+              Napravite račun
+            </button>
+          </div>
+        </div>
+        <img src="../assets/imgs/login_backround.jpg" class="object-contain w-1/2 m-10">
+      </div>
+      <div class="grid grid-cols-3 gap-4 m-10">
+        <div class="flex">
+            <div class="flex w-full">
+              <div class="flex w-full flex-col">
+                <div class="flex flex-row">
+                  <img src="../assets\imgs\simulator.svg" class="h-20 mr-3 mb-2">
+                  <p class="flex justify-center flex-col">
+                    <span class="inline-flex text-slate-700 font-bold dark:text-slate-200 text-3xl">Simulator</span>
+                    <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Simulirajte utakmice!</span>
+                  </p>
+                </div>
+                <img src="../assets\imgs\indexPitch.webp" class="">
+                <a href="simulator.html" class="bg-[#4b4b4f] flex-1 text-slate-200 border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold text-2xl py-5 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+                  Predviđanja
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="flex">
+          <div class="flex ">
+            <div class="flex w-full flex-col">
+              <div class="flex flex-row">
+                <img src="../assets\imgs\ranking.svg" class="h-20 mr-3 mb-2">
+                <p class="flex justify-center flex-col">
+                  <span class="inline-flex text-slate-700 font-bold dark:text-slate-200 text-3xl">Ljestvica</span>
+                  <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Pregledajte timove!</span>
+                </p>
+              </div>
+              <img src="../assets\imgs\real-madrid-lineup.jpg" class="">
+              <div class="">
+                <a href="ranking.html" class="bg-[#4b4b4f] block flex-1 text-slate-200 border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold text-2xl py-5 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+                  Ljestvica
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex ">
+            <div class="flex w-full flex-col">
+              <div class="flex flex-row">
+                <img src="../assets\imgs\football-game.svg" class="h-20 mr-3 mb-2">
+                <p class="flex justify-center flex-col">
+                  <span class="inline-flex text-slate-700 font-bold dark:text-slate-200 text-3xl">Utakmice</span>
+                  <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Provjerite rezultate gotovih utakmica i predviđanje za buduće!</span>
+                </p>
+              </div>
+                  <img src="../assets\imgs\game.webp" class="">
+                  <div class="">
+                      <a href="utakmice.html" class="bg-[#4b4b4f] block text-slate-200 border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold text-2xl py-5 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+                          Utakmice
+                      </a>
+                  </div>
+              </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!--nastavak za nav na malim ekranima-->
-    <div
+    <div class="fixed top-[50%] blur-none left-[50%] translate-x-[-50%] translate-y-[-50%] hidden" id="signInBox">
+      <div class="flex flex-col m-auto p-4 w-96 text-slate-300 bg-stone-800 rounded-md" id="signInContainer">
+          <div class="m-4">
+              <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="text"
+                  id="usernameInput" placeholder="Username">
+          </div>
+          <div class="m-4 hidden" id="emailWrapper">
+              <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="email"
+                  id="emailInput" placeholder="Email">
+          </div>
+          <div class="m-4">
+              <input class="shadow-md shadow-slate-900 w-full p-2 text-center bg-stone-600 rounded-md" type="password"
+                  id="passwordInput" placeholder="Password">
+          </div>
+          <div class="m-4 hidden" id="passConfirmWrapper">
+              <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="password"
+                  id="passConfirmInput" placeholder="Confirm Password">
+          </div>
+          <div class="m-4 hidden text-center" id="leagueSelectWrapper">
+              <label for="leagueSelect" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Liga</label>
+              <select id="leagueSelect"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <option selected hidden disabled>Izaberite nogometnu ligu</option>
+              </select>
+          </div>
+          <div class="m-4 hidden text-center" id="teamSelectWrapper">
+              <label for="teamSelect" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tim</label>
+              <select id="teamSelect"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <option selected hidden disabled>Izaberite Tim</option>
+              </select>
+          </div>
+          <button
+              class="my-4 mx-5 bg-[#1bb198] p-3 rounded-md shadow-slate-900  border-t-0 transition duration-300 border-y-4 border-green-800 shadow-md  font-bold text-lg [text-shadow:0_3px_3px_#000] hover:bg-green-700 text-slate-200 hover:shadow-green-500/50"
+              id="signInButton">
+              Sign in
+          </button>
+          <a class="my-2 self-center underline hover:cursor-pointer transition duration-200 hover:text-slate-700 [text-shadow:0_3px_3px_#000]"
+              id="createAccount">Create an account
+          </a>
+      </div>
+    </div>
+  
+      <!--nastavak za nav na malim ekranima-->
+      <div
       class="flex flex-wrap w-96 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200"
       id="navsm"
     >
@@ -309,7 +336,8 @@
     <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
     <script type="text/javascript" src="../src/index.js"></script>
-    <script type="text/javascript" src="../src/simulation.js"></script>
     <script src="../src/register.js"></script>
+    
   </body>
-</html>
+  
+  </html>

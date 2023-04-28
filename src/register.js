@@ -7,21 +7,11 @@ createAccountButton.addEventListener("click", RegisterForm);
 
 let curruser = null;
 
-if (user != null && window.location.href != "testaccpage.html") {
-  document
-    .getElementsByTagName("body")[0]
-    .children[0].removeChild(document.getElementById("signInContainer"));
-  console.log(user);
-  GetTeamElo(user);
-}
-
 function ShowSignForm(type) {
   document.getElementById("signInBox").classList.toggle("hidden");
-  console.log(document.getElementById("signInBox"));
-  document.getElementById("navbar").classList.toggle("blur-lg");
-  console.log(document.getElementById("navbar"));
+  document.getElementById("navbarlg").classList.toggle("blur-lg");
+  document.getElementById("navbarmd").classList.toggle("blur-lg");
   document.getElementById("container").classList.toggle("blur-lg");
-  console.log(document.getElementById("container"));
   if (type == "signup") {
     RegisterForm();
   }
@@ -34,16 +24,16 @@ function RegisterForm() {
   document.getElementById("leagueSelectWrapper").classList.toggle("hidden");
   document.getElementById("teamSelectWrapper").classList.toggle("hidden");
 
-  if (createAccountButton.innerText == "Create an account") {
-    createAccountButton.innerText = "Already have an account? Log in";
+  if (createAccountButton.innerText == "Napravite račun") {
+    createAccountButton.innerText = "Već imate račun? Ulogirajte se";
 
-    signInButton.innerText = "Register";
+    signInButton.innerText = "Registrirajte se";
     signInButton.removeEventListener("click", SignIn);
     signInButton.addEventListener("click", SignUp);
   } else {
-    createAccountButton.innerText = "Create an account";
+    createAccountButton.innerText = "Napravite račun";
 
-    signInButton.innerText = "Sign in";
+    signInButton.innerText = "Ulogirajte se";
     signInButton.removeEventListener("click", SignUp);
     signInButton.addEventListener("click", SignIn);
   }
@@ -76,7 +66,7 @@ function SignIn() {
               ...curruser,
             };
             console.log(user, curruser);
-            window.location.href = "html/testaccpage.html"
+            window.location.href = "accpage.html"
           });
       });
     });
@@ -131,7 +121,7 @@ function SignUp() {
               ...curruser,
             };
             localStorage.setItem("FAVTEAMELO", JSON.stringify(team[3]));
-            window.location.href = "html/testaccpage.html";
+            window.location.href = "accpage.html";
           });
       });
   }

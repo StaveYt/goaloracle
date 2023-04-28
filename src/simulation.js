@@ -88,18 +88,3 @@ async function Predict(){
   containerAway.appendChild(awayLabel);
   containerAway.appendChild(awayPic);
 }
-
-// async function GetTeamElo(teamName) {
-//   let fullData = []
-//   await fetch(`http://api.clubelo.com/${team}`, requestOptions)
-//     .then(response => response.text())
-//     .then(result => {
-//       let dataRows = result.split('\n').slice(1000);
-//       dataRows.forEach(row => {
-//         if (row != "") { fullData.push(row.split(',').slice(1)); }
-//       });
-//       console.log(fullData);
-//     })
-//     .catch(error => console.log('error', error));
-//     return fullData
-// }
