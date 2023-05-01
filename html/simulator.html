@@ -16,7 +16,7 @@
 
   <body
     class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]"
-    onload="SwitchNav()"
+    onload="OnLoad();"
   >
     <!--navbar za velike ekrane-->
     <div
@@ -141,27 +141,26 @@
       </div>
 
       <div
-        class="flex-1 max-md:min-h-[300px] bg-slate-900 mx-2 max-w-2xl grid-cols-1 grid-rows-2 desnihud"
+        class="flex-1 max-md:min-h-[300px] bg-slate-900 mx-2 max-w-2xl flex flex-col desnihud"
       >
         <div id="buttons" class="flex justify-center gap-5 hidden">
           <button
             class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
+            onclick="ShowLineup()"
+            id="lineupBtn"
           >
-            Lineup
+            Postava
           </button>
           <button
             class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
-          >
-            Statistics
-          </button>
-          <button
-            class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
-          >
-            Field
+            onclick="ShowStats()"
+            id="statsBtn"
+            >
+            Statistike
           </button>
         </div>
-        <hr />
-        <div class="flex flex-col" id="infoContainer">
+        <hr/>
+        <div class="flex flex-1 justify-between text-white" id="infoContainer">
           <div class="m-auto min-w-[250px] flex flex-col" id="selectors">
             <select
               id="selectHomeTeam"
@@ -177,7 +176,7 @@
             </select>
             <button
               id="predictButton"
-              onclick="Predict()"
+              onclick="PredictClick()"
               class="mx-5 bg-[#15caa7] p-5 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center rounded shadow-slate-900 w-[250px] shadow-md hover:shadow-teal-400/50"
             >
               Predvidi

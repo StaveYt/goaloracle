@@ -39,11 +39,10 @@ function RegisterForm() {
   }
 }
 
-/*Somewhat gotovo*/
 function SignIn() {
   let username = document.getElementById("usernameInput").value;
   let password = document.getElementById("passwordInput").value;
-
+  console.log("pritisnuto")
   database
     .collection("users")
     .where("username", "==", username)
@@ -51,9 +50,8 @@ function SignIn() {
     .get()
     .then((querySnapshot) => {
       if (querySnapshot.length == 0) {
-        alert("No user found, check username and password");
+        alert("Korisnik nije pronađen, molimo Vas provjerite šifru i korisničko ime");
       }
-
       querySnapshot.forEach((doc) => {
         database
           .collection("users")
@@ -72,7 +70,6 @@ function SignIn() {
     });
 }
 
-/*Još triba posla*/
 function SignUp() {
   let usernameTaken = false;
 
@@ -95,10 +92,11 @@ function SignUp() {
     });
 
   if (usernameTaken) {
-    alert("USERNAME TAKEN");
+    alert("Ime iskorišteno");
   } else if (password != passConfirm) {
-    alert("PASSWORDS NOT MATCHING");
+    alert("Šifre se ne podudaraju");
   } else {
+    console.log("test")
     database
       .collection("users")
       .get()
@@ -121,6 +119,7 @@ function SignUp() {
               ...curruser,
             };
             localStorage.setItem("FAVTEAMELO", JSON.stringify(team[3]));
+            console.log("gotovo")
             window.location.href = "accpage.html";
           });
       });
@@ -182,6 +181,4 @@ async function CreateTeamSelect() {
         }
       });
   }
-  // alert("Done")
-  console.log(allTeams);
 }

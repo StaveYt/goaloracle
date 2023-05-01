@@ -23,7 +23,7 @@ function OnLoad() {
 
 function GetMatchups(year, month, day, page, league) {
   fetch(
-    `https://api.sportmonks.com/v3/football/fixtures/date/${year}-${month}-${day}?api_token=${sportMonksToken}&page=${page}&per_page=50&include=scores;league;venue;statistics.type;participants;`
+    `https://api.sportmonks.com/v3/football/fixtures/date/${year}-${month}-${day}?api_token=${sportMonksToken}&page=${page}&per_page=50&include=scores;league;venue;statistics.type;lineups;participants;`
   )
     .then((response) => response.json())
     .then((data) => {
@@ -115,14 +115,17 @@ function ParseMatchups(fixtures, league) {
           possesionEl.appendChild(possesionTextH);
           possesionEl.appendChild(possesionTextA);
         }
-
+        let linkData={data:fixture.id,type:"gameinfo"}
+        let encodedLinkData=encodeURIComponent(JSON.stringify(linkData))
         currentFixture.appendChild(possesionEl);
-        buttonlink.innerText = "More info";
-        buttonlink.setAttribute("href", `info.html?data=${fixture.id}`);
+        buttonlink.innerText = "Više";
+        buttonlink.setAttribute("href", `simulator.html?data=${encodedLinkData}`);
         currentFixture.appendChild(button);
       } else {
-        buttonlink.innerText = "Predict";
-        buttonlink.setAttribute("href", `simulator.html?data=${fixtureData}`);
+        let linkData={data:{hTeam:fixture.participants[0].id,aTeam:fixture.participants[1].id},type:"prediction"}
+        let encodedLinkData=encodeURIComponent(JSON.stringify(linkData))
+        buttonlink.innerText = "Predvidi";
+        buttonlink.setAttribute("href", `simulator.html?data=${encodedLinkData}`);
         currentFixture.appendChild(button);
       }
       currentFixture.appendChild(league);
