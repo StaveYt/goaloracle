@@ -60,8 +60,20 @@ function SwitchNav(){
 }
 function LoadLastGames(teamid){
   let latestGamesTable = document.getElementById("latestGames");
-  fetch(`https://api.sportmonks.com/v3/football/teams/${teamid}?api_token=${sportMonksToken}&include=latest;`).then(res => res.json()).then(data => {
+//   <div class="h-[240px] w-[251px]">
+//   <p>Hajduk v Šibenik</p>
+//   <img src="../assets\imgs\hajduk.jpeg" alt="tim" />
+//   <button
+//     onclick="GoToSimulator()"
+//     class="bg-[#15caa7] border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50"
+//   >
+//     Quick simulate
+//   </button>
+// </div>
+  let upcomingMatchesContainer =document.getElementById('upcomingMatches')
+  fetch(`https://api.sportmonks.com/v3/football/teams/${teamid}?api_token=${sportMonksToken}&include=latest;upcoming;`).then(res => res.json()).then(data => {
     let latestGames = data.data.latest.slice(0,5);
+    let upcomingMatches = data.data.upcoming.slice(0,3)
     latestGames.forEach(el => {
       fetch(`https://api.sportmonks.com/v3/football/fixtures/${el.id}?api_token=${sportMonksToken}&include=scores;statistics.type;`).then(res=>res.json()).then(data=>{
         let fixture = data.data
@@ -92,6 +104,21 @@ function LoadLastGames(teamid){
   
         latestGamesTable.appendChild(fixtureItem);
       })
+    })
+    upcomingMatches.forEach(el=>{
+      let linkData={data:{hTeam:el.name.split(" vs ")[0],aTeam:el.name.split(" vs ")[1]},type:"prediction"}
+      let encodedLinkData=encodeURIComponent(JSON.stringify(linkData))
+      upcomingMatchesContainer.innerHTML+=`
+      <div class="h-[240px] text-center flex flex-col items-center m-2 justify-center w-[251px]">
+      <p>${el.name}</p>
+      <img src="../assets/imgs/hajduk.jpeg" alt="tim" />
+      <a
+        href="simulator.html?data=${encodedLinkData}"
+        class="bg-[#15caa7] border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 p-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50"
+      >
+        Quick simulate
+      </a>
+    </div>`
     })
   })
 }
@@ -136,4 +163,8 @@ function CloseNavSm(){
   document.getElementById('navsm').classList.toggle('hidden');
   document.getElementById('navbarmd').classList.toggle('blur-lg')
   document.getElementById('container').classList.toggle('blur-lg')
+}
+
+function GetUpcomingFixtures(){
+  fetch(`https://api.sportmonks.com/v3/football/teams/53?api_token=${sportMonksToken}&include=upcoming;`)
 }

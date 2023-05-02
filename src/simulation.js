@@ -22,8 +22,8 @@ function OnLoad(){
       let hTeam;
       let aTeam;
       fetch('../src/data/teamlist.json').then(res => res.json()).then(teams=> teams.data.forEach(el=> {
-        if(el.id == data.data.hTeam){hTeam=el; console.log(hTeam)}
-        else if(el.id == data.data.aTeam){aTeam=el; console.log(aTeam)}
+        if(el.id == data.data.hTeam || el.name==data.data.hTeam){hTeam=el; console.log(hTeam)}
+        else if(el.id == data.data.aTeam || el.name==data.data.aTeam){aTeam=el; console.log(aTeam)}
       })).then(res=>{
         if(hTeam==undefined||aTeam==undefined){
           container.innerHTML='<h1 class="text-white self-center">Trenutno nemamo ELOeve tih timova u našoj bazi</h1>'
@@ -34,7 +34,6 @@ function OnLoad(){
     else if(data.type=="gameinfo"){
       fetch(`https://api.sportmonks.com/v3/football/fixtures/${data.data}?api_token=${sportMonksToken}&include=participants;scores;statistics.type;lineups.type;`).then(res=>res.json()).then(fixtureData=>{
         fixture=fixtureData.data
-        console.log(fixture)
         let homeLabel = document.createElement('h3');
         let containerHome = document.getElementById('homeContainer');
         let containerAway = document.getElementById('awayContainer');
