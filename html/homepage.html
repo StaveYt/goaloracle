@@ -7,61 +7,59 @@
     <link href="../assets/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="../assets/index.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+     <!--Link za favicon-->
+    <link rel="icon" href="../assets/imgs/favicon.ico" type="image/x-icon">
     <title>Document</title>
   </head>
   
   <body class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]" onload="">
     <!--navbar za velike ekrane-->
-    <div
-      class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200"
-      id="navbarlg"
-    >
+    <div class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200" id="navbarlg">
       <div class="w-full" id="navlg">
         <div class="font-bold text-center my-2 w-full">
           <!--nav items-->
-          <a href="../index.html" class=" "
+          <a href="../index.html" class="flex items-center"
             ><img src="../assets/imgs/logotransparent.svg"
           /></a>
         </div>
-        <div class="font-bold text-center my-2 w-full hover:bg-stone-900">
+        <div class="font-bold text-center my-2 w-full hover:bg-stone-900"><!--ističe link kad se prelazi mišom-->
           <!--nav items-->
           <a href="simulator.html" class="flex items-center">
-            <img src="../assets\imgs\simulator.svg" class="h-10 mx-3" />
+            <img src="../assets\imgs\simulator.svg" class="h-10 mx-3"/><!--Svg ikona pored teksta poveznice-->
             <p>Predvidi</p>
           </a>
         </div>
-        <div class="font-bold my-2 w-full hover:bg-stone-900">
+        <div class="font-bold my-2 w-full hover:bg-stone-900"><!--ističe link kad se prelazi mišom-->
           <!--botun3-->
           <a href="ranking.html" class="flex items-center">
-            <img src="../assets\imgs\ranking.svg" class="h-10 mx-3" />
+            <img src="../assets\imgs\ranking.svg" class="h-10 mx-3" /><!--Svg ikona pored teksta poveznice-->
             <p>Ljestvica</p>
           </a>
         </div>
-        <div class="font-bold my-2 w-full hover:bg-stone-900">
+        <div class="font-bold my-2 w-full hover:bg-stone-900"><!--ističe link kad se prelazi mišom-->
           <!--botun3-->
           <a href="utakmice.html" class="flex items-center">
-            <img src="../assets\imgs\football-game.svg" class="h-10 mx-3" />
+            <img src="../assets\imgs\football-game.svg" class="h-10 mx-3" /><!--Svg ikona pored teksta poveznice-->
             <p>Utakmice</p>
           </a>
         </div>
         <div class="text-center" id="signin">
+          <!--poziva formu za prijavu-->
           <button
-            onclick="ShowSignForm('signup')"
-            class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-stone-500/50"
-          >
-            Sign Up
+            onclick="ShowSignForm('signup')" 
+            class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-stone-500/50">
+            Prijavite Se
           </button>
         </div>
         <div class="text-center" id="signin">
+          <!--poziva formu za prijavu-->
           <button
             onclick="ShowSignForm('signin')"
-            class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
-          >
-            Sign In
+            class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50">
+            Ulogirajte Se
           </button>
         </div>
       </div>
@@ -115,21 +113,23 @@
       </div>
       <div class="grid grid-cols-3 gap-4 m-10">
         <div class="flex">
-            <div class="flex w-full">
-              <div class="flex w-full flex-col">
-                <div class="flex flex-row">
-                  <img src="../assets\imgs\simulator.svg" class="h-20 mr-3 mb-2">
-                  <p class="flex justify-center flex-col">
-                    <span class="inline-flex text-slate-700 font-bold dark:text-slate-200 text-3xl">Simulator</span>
-                    <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Simulirajte utakmice!</span>
-                  </p>
-                </div>
-                <img src="../assets\imgs\indexPitch.webp" class="">
-                <a href="simulator.html" class="bg-[#4b4b4f] flex-1 text-slate-200 border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold text-2xl py-5 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
-                  Predviđanja
+          <div class="flex ">
+            <div class="flex w-full flex-col">
+              <div class="flex flex-row">
+                <img src="../assets/imgs/simulator.svg" class="h-20 mr-3 mb-2">
+                <p class="flex justify-center flex-col">
+                  <span class="inline-flex text-slate-700 font-bold dark:text-slate-200 text-3xl">Simulator</span>
+                  <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Simulirajte utakmice!</span>
+                </p>
+              </div>
+              <img src="../assets/imgs/indexPitch.webp" class="">
+              <div class="">
+                <a href="ranking.html" class="bg-[#4b4b4f] block flex-1 text-slate-200 border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold text-2xl py-5 text-center w-full rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+                  Simulator
                 </a>
               </div>
             </div>
+          </div>
         </div>
         <div class="flex">
           <div class="flex ">
@@ -157,7 +157,7 @@
                 <img src="../assets\imgs\football-game.svg" class="h-20 mr-3 mb-2">
                 <p class="flex justify-center flex-col">
                   <span class="inline-flex text-slate-700 font-bold dark:text-slate-200 text-3xl">Utakmice</span>
-                  <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Provjerite rezultate gotovih utakmica i predviđanje za buduće!</span>
+                  <span class="inline-flex text-slate-200 dark:text-slate-400 text-xl">Provjerite rezultate i predviđanja!</span>
                 </p>
               </div>
                   <img src="../assets\imgs\game.webp" class="">
