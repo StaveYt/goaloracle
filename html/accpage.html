@@ -144,7 +144,7 @@
       </div>
 
       <div
-        class="self-left dark:text-white items-center w-[750px] flex max-md:overflow-x-auto gap-4 mx-5"
+        class="self-left dark:text-white items-center w-[750px] max-md:max-h-[270px] flex gap-4 mx-5"
         id="upcomingMatches"
       ></div>
       <a
@@ -171,21 +171,28 @@
         </thead>
         <tbody id="latestGames" class=""></tbody>
       </table>
-      <h1>Zahvale SportMonks API timu što su nam dali da besplatno koristimo njihov API</h1>
-      <a href="https://www.sportmonks.com/" target="_blank">Njihova stranica</a>
+      <div class="text-center self-center dark:text-white text-black">
+        <h1 class="text-xl">
+          Zahvale SportMonks API timu što su nam dali da besplatno koristimo
+          njihov API
+        </h1>
+        <a
+          class="text-lg underline"
+          href="https://www.sportmonks.com/"
+          target="_blank"
+          >Njihova stranica</a
+        >
+      </div>
     </div>
     <!--nastavak za nav na malim ekranima-->
     <div
-      class="flex flex-wrap w-96 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200"
+      class="flex flex-wrap w-40 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200"
       id="navsm"
     >
-      <div class="w-full" id="navlg">
+      <div class="w-full" id="">
         <div class="flex gap-4 font-bold items-center text-center my-2 w-full">
           <!--nav items-->
-          <a href="../index.html" class=" "
-            ><img src="../assets/imgs/logotransparent.svg"
-          /></a>
-          <button onclick="CloseNavSm()">
+          <button onclick="CloseNavSm()" class="ml-auto">
             <img class="w-[64px] h-[64px]" src="../assets/imgs/close.svg" />
           </button>
         </div>

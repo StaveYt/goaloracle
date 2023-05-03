@@ -7,9 +7,12 @@
     <link href="../assets/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="../assets/index.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!--Link za favicon-->
-    <link rel="icon" href="../assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/imgs/favicon.ico" type="image/x-icon" />
     <title>Simulator</title>
   </head>
 
@@ -77,32 +80,50 @@
       </div>
     </div>
     <!--navbar za male ekrane-->
-    <div class="md:hidden flex p-2 flex-row flex-wrap w-full h-14 bg-stone-800 text-slate-200" id="navbarmd">
-      <div class="w-[60%] flex self-center items-center"> <!--top menu-->
+    <div
+      class="md:hidden flex p-2 flex-row flex-wrap w-full h-14 bg-stone-800 text-slate-200"
+      id="navbarmd"
+    >
+      <div class="w-[60%] flex self-center items-center">
+        <!--top menu-->
         <div class="m-1">
           <button class="" onclick="ShowNavSm()">
-            <img class="w-8" src="https://cdn-icons-png.flaticon.com/512/4254/4254068.png">
+            <img
+              class="w-8"
+              src="https://cdn-icons-png.flaticon.com/512/4254/4254068.png"
+            />
           </button>
         </div>
-        <div class="m-1 font-bold text-center object-contain w-40 shrink"> <!--nav items-->
-          <a href="../index.html" class=""><img src="../assets/imgs/logotransparent.svg"></a>
+        <div class="m-1 font-bold text-center object-contain w-40 shrink">
+          <!--nav items-->
+          <a href="../index.html" class=""
+            ><img src="../assets/imgs/logotransparent.svg"
+          /></a>
         </div>
-  
       </div>
-      <div class="ml-auto self-center flex text-center gap-5"> <!--bottom menu-->
+      <div class="ml-auto self-center flex text-center gap-5">
+        <!--bottom menu-->
         <div class="text-center hidden" id="signoutsm">
-          <button onclick="SignOut()"
-            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          <button
+            onclick="SignOut()"
+            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900 shadow-md hover:shadow-green-500/50"
+          >
             Odjava
           </button>
         </div>
         <div class="text-center hidden" id="signupsm">
-          <button onclick="ShowSignForm('signup')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          <button
+            onclick="ShowSignForm('signup')"
+            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900 shadow-md hover:shadow-green-500/50"
+          >
             Registrirajte se
           </button>
         </div>
         <div class="text-center hidden" id="signinsm">
-          <button onclick="ShowSignForm('signin')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          <button
+            onclick="ShowSignForm('signin')"
+            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900 shadow-md hover:shadow-green-500/50"
+          >
             Ulogirajte se
           </button>
         </div>
@@ -155,11 +176,11 @@
             class="mx-2 bg-[#15caa7] flex-1 border-t-0 border-y-4 border-teal-700 hover:bg-teal-600 text-black font-bold my-3 py-2 text-center w-full rounded shadow-slate-900 shadow-md hover:shadow-teal-400/50 dodatnibotuni"
             onclick="ShowStats()"
             id="statsBtn"
-            >
+          >
             Statistike
           </button>
         </div>
-        <hr/>
+        <hr />
         <div class="flex flex-1 justify-between text-white" id="infoContainer">
           <div class="m-auto min-w-[250px] flex flex-col" id="selectors">
             <select
@@ -188,16 +209,13 @@
 
     <!--nastavak za nav na malim ekranima-->
     <div
-      class="flex flex-wrap w-96 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200"
+      class="flex flex-wrap w-40 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200"
       id="navsm"
     >
-      <div class="w-full" id="navlg">
+      <div class="w-full" id="">
         <div class="flex gap-4 font-bold items-center text-center my-2 w-full">
           <!--nav items-->
-          <a href="../index.html" class=" "
-            ><img src="../assets/imgs/logotransparent.svg"
-          /></a>
-          <button onclick="CloseNavSm()">
+          <button onclick="CloseNavSm()" class="ml-auto">
             <img class="w-[64px] h-[64px]" src="../assets/imgs/close.svg" />
           </button>
         </div>

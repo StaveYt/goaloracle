@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="../assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/imgs/favicon.ico" type="image/x-icon" />
     <title>Utakmice</title>
   </head>
 
@@ -20,7 +20,10 @@
     onload="OnLoadMatchups();SwitchNav();OnLoadRegister();"
   >
     <!--navbar za velike ekrane-->
-    <div class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200" id="navbarlg">
+    <div
+      class="flex flex-wrap w-40 h-screen max-md:hidden bg-stone-800 text-slate-200"
+      id="navbarlg"
+    >
       <div class="w-full" id="navlg">
         <div class="font-bold text-center my-2 w-full">
           <!--nav items-->
@@ -58,53 +61,79 @@
           </button>
         </div>
         <div class="text-center hidden" id="signin">
-          <button onclick="ShowSignForm('signup')" class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-stone-500/50">
+          <button
+            onclick="ShowSignForm('signup')"
+            class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-stone-500/50"
+          >
             Registrirajte se
           </button>
         </div>
         <div class="text-center hidden" id="signup">
-          <button onclick="ShowSignForm('signin')" class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900  shadow-md hover:shadow-teal-500/50">
+          <button
+            onclick="ShowSignForm('signin')"
+            class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
+          >
             Ulogirajte se
           </button>
         </div>
       </div>
     </div>
     <!--navbar za male ekrane-->
-    <div class="md:hidden flex p-2 flex-row flex-wrap w-full h-14 bg-stone-800 text-slate-200" id="navbarmd">
-      <div class="w-[60%] flex self-center items-center"> <!--top menu-->
+    <div
+      class="md:hidden flex p-2 flex-row flex-wrap w-full h-14 bg-stone-800 text-slate-200"
+      id="navbarmd"
+    >
+      <div class="w-[60%] flex self-center items-center">
+        <!--top menu-->
         <div class="m-1">
           <button class="" onclick="ShowNavSm()">
-            <img class="w-8" src="https://cdn-icons-png.flaticon.com/512/4254/4254068.png">
+            <img
+              class="w-8"
+              src="https://cdn-icons-png.flaticon.com/512/4254/4254068.png"
+            />
           </button>
         </div>
-        <div class="m-1 font-bold text-center object-contain w-40 shrink"> <!--nav items-->
-          <a href="../index.html" class=""><img src="../assets/imgs/logotransparent.svg"></a>
+        <div class="m-1 font-bold text-center object-contain w-40 shrink">
+          <!--nav items-->
+          <a href="../index.html" class=""
+            ><img src="../assets/imgs/logotransparent.svg"
+          /></a>
         </div>
-  
       </div>
-      <div class="ml-auto self-center flex text-center gap-5"> <!--bottom menu-->
+      <div class="ml-auto self-center flex text-center gap-5">
+        <!--bottom menu-->
         <div class="text-center hidden" id="signoutsm">
-          <button onclick="SignOut()"
-            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          <button
+            onclick="SignOut()"
+            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900 shadow-md hover:shadow-green-500/50"
+          >
             Odjava
           </button>
         </div>
         <div class="text-center hidden" id="signupsm">
-          <button onclick="ShowSignForm('signup')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          <button
+            onclick="ShowSignForm('signup')"
+            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900 shadow-md hover:shadow-green-500/50"
+          >
             Registrirajte se
           </button>
         </div>
         <div class="text-center hidden" id="signinsm">
-          <button onclick="ShowSignForm('signin')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
+          <button
+            onclick="ShowSignForm('signin')"
+            class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900 shadow-md hover:shadow-green-500/50"
+          >
             Ulogirajte se
           </button>
         </div>
       </div>
     </div>
 
-
     <!--container-->
-    <div class="overflow-auto flex-1 my-5 w-full px-5 drop-shadow rounded-md" id="container">
+    <div
+      class="overflow-auto flex-1 my-5 w-full px-5 drop-shadow rounded-md"
+      id="container"
+    >
       <h1 class="text-3xl font-italic text-center text-white mb-10">
         Football games
       </h1>
@@ -118,7 +147,7 @@
       </div>
       <details class="m-4 bg-gray-300 open:bg-[#666666] duration-300">
         <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">
-          Live games
+          Utakmice uživo
         </summary>
         <div id="livematchupslist" class="overflow-scroll max-h-96">
           <table
@@ -140,7 +169,7 @@
       </details>
       <details class="m-4 bg-gray-300 open:bg-[#666666] duration-300">
         <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">
-          Finished games
+          Gotove Utakmice
         </summary>
         <div id="donematchupslist" class="overflow-scroll max-h-96">
           <table
@@ -162,7 +191,7 @@
       </details>
       <details class="m-4 bg-gray-300 open:bg-[#666666] duration-300">
         <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">
-          Schedualed games
+          Nadolazeće Utakmicegames
         </summary>
         <div id="currentmatchupslist" class="overflow-scroll max-h-96">
           <table
@@ -176,22 +205,22 @@
                 <th>Date</th>
               </tr>
             </thead>
-            <tbody id="schedualedGames"></tbody>
+            <tbody id="scheduledGames"></tbody>
           </table>
         </div>
       </details>
     </div>
 
     <!--nastavak za nav na malim ekranima-->
-    <div class="flex flex-wrap w-96 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200" id="navsm">
-      <div class="w-full" id="navlg">
+    <div
+      class="flex flex-wrap w-40 absolute top-0 left-0 h-screen hidden bg-stone-800 text-slate-200"
+      id="navsm"
+    >
+      <div class="w-full" id="">
         <div class="flex gap-4 font-bold items-center text-center my-2 w-full">
           <!--nav items-->
-          <a href="../index.html" class=" "
-            ><img src="../assets/imgs/logotransparent.svg"
-          /></a>
-          <button onclick="CloseNavSm()">
-            <img class="w-[64px] h-[64px]" src="../assets/imgs/close.svg">
+          <button onclick="CloseNavSm()" class="ml-auto">
+            <img class="w-[64px] h-[64px]" src="../assets/imgs/close.svg" />
           </button>
         </div>
         <div class="font-bold text-center my-2 w-full hover:bg-stone-900">
@@ -219,46 +248,83 @@
     </div>
 
     <!-- register -->
-    <div class="fixed top-[50%] blur-none left-[50%] translate-x-[-50%] translate-y-[-50%] hidden" id="signInBox">
-      <div class="flex flex-col m-auto p-4 w-96 text-slate-300 bg-stone-800 rounded-md" id="signInContainer">
-          <div class="m-4">
-              <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="text"
-                  id="usernameInput" placeholder="Username">
-          </div>
-          <div class="m-4 hidden" id="emailWrapper">
-              <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="email"
-                  id="emailInput" placeholder="Email">
-          </div>
-          <div class="m-4">
-              <input class="shadow-md shadow-slate-900 w-full p-2 text-center bg-stone-600 rounded-md" type="password"
-                  id="passwordInput" placeholder="Password">
-          </div>
-          <div class="m-4 hidden" id="passConfirmWrapper">
-              <input class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md" type="password"
-                  id="passConfirmInput" placeholder="Confirm Password">
-          </div>
-          <div class="m-4 hidden text-center" id="leagueSelectWrapper">
-              <label for="leagueSelect" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Liga</label>
-              <select id="leagueSelect"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                  <option selected hidden disabled>Izaberite nogometnu ligu</option>
-              </select>
-          </div>
-          <div class="m-4 hidden text-center" id="teamSelectWrapper">
-              <label for="teamSelect" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tim</label>
-              <select id="teamSelect"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                  <option selected hidden disabled>Izaberite Tim</option>
-              </select>
-          </div>
-          <button
-              class="my-4 mx-5 bg-[#1bb198] p-3 rounded-md shadow-slate-900  border-t-0 transition duration-300 border-y-4 border-green-800 shadow-md  font-bold text-lg [text-shadow:0_3px_3px_#000] hover:bg-green-700 text-slate-200 hover:shadow-green-500/50"
-              id="signInButton">
-              Ulogirajte se
-          </button>
-          <a class="my-2 self-center underline hover:cursor-pointer transition duration-200 hover:text-slate-700 [text-shadow:0_3px_3px_#000]"
-              id="createAccount">Napravite račun
-          </a>
+    <div
+      class="fixed top-[50%] blur-none left-[50%] translate-x-[-50%] translate-y-[-50%] hidden"
+      id="signInBox"
+    >
+      <div
+        class="flex flex-col m-auto p-4 w-96 text-slate-300 bg-stone-800 rounded-md"
+        id="signInContainer"
+      >
+        <div class="m-4">
+          <input
+            class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md"
+            type="text"
+            id="usernameInput"
+            placeholder="Username"
+          />
+        </div>
+        <div class="m-4 hidden" id="emailWrapper">
+          <input
+            class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md"
+            type="email"
+            id="emailInput"
+            placeholder="Email"
+          />
+        </div>
+        <div class="m-4">
+          <input
+            class="shadow-md shadow-slate-900 w-full p-2 text-center bg-stone-600 rounded-md"
+            type="password"
+            id="passwordInput"
+            placeholder="Password"
+          />
+        </div>
+        <div class="m-4 hidden" id="passConfirmWrapper">
+          <input
+            class="shadow-md shadow-slate-900 w-full p-2 bg-stone-600 text-center rounded-md"
+            type="password"
+            id="passConfirmInput"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <div class="m-4 hidden text-center" id="leagueSelectWrapper">
+          <label
+            for="leagueSelect"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Liga</label
+          >
+          <select
+            id="leagueSelect"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option selected hidden disabled>Izaberite nogometnu ligu</option>
+          </select>
+        </div>
+        <div class="m-4 hidden text-center" id="teamSelectWrapper">
+          <label
+            for="teamSelect"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Tim</label
+          >
+          <select
+            id="teamSelect"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option selected hidden disabled>Izaberite Tim</option>
+          </select>
+        </div>
+        <button
+          class="my-4 mx-5 bg-[#1bb198] p-3 rounded-md shadow-slate-900 border-t-0 transition duration-300 border-y-4 border-green-800 shadow-md font-bold text-lg [text-shadow:0_3px_3px_#000] hover:bg-green-700 text-slate-200 hover:shadow-green-500/50"
+          id="signInButton"
+        >
+          Ulogirajte se
+        </button>
+        <a
+          class="my-2 self-center underline hover:cursor-pointer transition duration-200 hover:text-slate-700 [text-shadow:0_3px_3px_#000]"
+          id="createAccount"
+          >Napravite račun
+        </a>
       </div>
     </div>
 

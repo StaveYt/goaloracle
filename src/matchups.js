@@ -10,7 +10,7 @@ const data = urlParams.get("data");
 
 const liveGamesContainer = document.getElementById("liveGames");
 const finishedGamesContainer = document.getElementById("finishedGames");
-const schedualedGamesContainer = document.getElementById("schedualedGames");
+const scheduledGamesContainer = document.getElementById("scheduledGames");
 
 /*Lista prikazanih utakmica koju koristimo za sortiranje utakmica u datumu/ligi*/
 let matchupList = []; 
@@ -190,7 +190,7 @@ function ParseMatchups(fixtures, league) {
       } else if (finished) {
         finishedGamesContainer.appendChild(currentFixture);
       } else {
-        schedualedGamesContainer.appendChild(currentFixture);
+        scheduledGamesContainer.appendChild(currentFixture);
       }
     }
   });
@@ -201,7 +201,7 @@ function DateChanged(e) {
   let date = e.target.value.split("-");
   let league = document.getElementById("leagueSelect").value;
   liveGamesContainer.innerHTML = "";
-  schedualedGamesContainer.innerHTML = "";
+  scheduledGamesContainer.innerHTML = "";
   finishedGamesContainer.innerHTML = "";
 
   GetMatchups(date[0], date[1], date[2], 1, league);
@@ -211,7 +211,7 @@ function DateChanged(e) {
 function LeagueChanged(event) {
   let fixturesSelDate = JSON.parse(sessionStorage.getItem("SHOWNMATCHUPS"));
   liveGamesContainer.innerHTML = "";
-  schedualedGamesContainer.innerHTML = "";
+  scheduledGamesContainer.innerHTML = "";
   finishedGamesContainer.innerHTML = "";
   ParseMatchups(fixturesSelDate, event.target.value);
 }
