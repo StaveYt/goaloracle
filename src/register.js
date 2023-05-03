@@ -1,12 +1,69 @@
 let signInButton = document.getElementById("signInButton");
 
-signInButton.addEventListener("click", SignIn);
-
 let createAccountButton = document.getElementById("createAccount");
-createAccountButton.addEventListener("click", RegisterForm);
 
 let curruser = null;
 
+function OnLoadRegister() {
+  signInButton.addEventListener("click", SignIn);
+  createAccountButton.addEventListener("click", RegisterForm);
+  fetch(`../src/data/leaguelist.json`)
+    .then((response) => response.json())
+    .then((data) => GetAllLeagues(data.data));
+  CreateTeamSelect();
+}
+
+/*Dodaje sve timove u izbornik za timove na formi za registriranje*/
+async function CreateTeamSelect() {
+  let allTeams = [];
+  let selectTeam = document.getElementById("teamSelect");
+  await fetch(`../src/data/teamlist.json`)
+  .then((response) => response.json())
+  .then((data) => {
+    let teams = data.data;
+    teams = teams.sort((a, b) => {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    });
+    allTeams.push(teams);
+    for (let i = 0; i < teams.length; i = i + 1) {
+      let team = teams[i];
+      let option = document.createElement("option");
+      option.value = `${team.name}|${team.id}|${team.image_path}|${team.elo}`;
+      option.innerHTML = team.name;
+      selectTeam.appendChild(option);
+    }
+  });
+}
+
+/*Dodaje sve lige u izbornik za lige na formi za registriranje*/
+function GetAllLeagues(data) {
+  let selectLeague = document.getElementById("leagueSelect");
+  data = data.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
+  for (let i = 0; i < data.length; i = i + 1) {
+    let league = data[i];
+
+    let option = document.createElement("option");
+    option.value = `${league.name}|${league.id}|${league.image_path}`;
+    option.innerHTML = league.name;
+    selectLeague.appendChild(option);
+  }
+}
+
+/*Prikazuje formu za registraciju/ulogrianje*/
 function ShowSignForm(type) {
   document.getElementById("signInBox").classList.toggle("hidden");
   document.getElementById("navbarlg").classList.toggle("blur-lg");
@@ -17,8 +74,8 @@ function ShowSignForm(type) {
   }
 }
 
+/*Minja između forme za registraciju i forme za ulogiranje*/
 function RegisterForm() {
-  console.log("pritisnuto");
   document.getElementById("emailWrapper").classList.toggle("hidden");
   document.getElementById("passConfirmWrapper").classList.toggle("hidden");
   document.getElementById("leagueSelectWrapper").classList.toggle("hidden");
@@ -39,10 +96,10 @@ function RegisterForm() {
   }
 }
 
+/*Upravlja registracijom korisnika*/
 function SignIn() {
   let username = document.getElementById("usernameInput").value;
   let password = document.getElementById("passwordInput").value;
-  console.log("pritisnuto")
   database
     .collection("users")
     .where("username", "==", username)
@@ -50,7 +107,9 @@ function SignIn() {
     .get()
     .then((querySnapshot) => {
       if (querySnapshot.length == 0) {
-        alert("Korisnik nije pronađen, molimo Vas provjerite šifru i korisničko ime");
+        alert(
+          "Korisnik nije pronađen, molimo Vas provjerite šifru i korisničko ime"
+        );
       }
       querySnapshot.forEach((doc) => {
         database
@@ -63,13 +122,14 @@ function SignIn() {
             user = {
               ...curruser,
             };
-            console.log(user, curruser);
-            window.location.href = "accpage.html"
+
+            window.location.href = "accpage.html";
           });
       });
     });
 }
 
+/*Upravlja ulogrianjem korisnika*/
 function SignUp() {
   let usernameTaken = false;
 
@@ -78,7 +138,6 @@ function SignUp() {
   let passConfirm = document.getElementById("passConfirmInput").value;
   let email = document.getElementById("emailInput").value;
   let team = document.getElementById("teamSelect").value.split("|");
-  console.log(team);
   let league = document.getElementById("leagueSelect").value.split("|");
 
   database
@@ -96,7 +155,6 @@ function SignUp() {
   } else if (password != passConfirm) {
     alert("Šifre se ne podudaraju");
   } else {
-    console.log("test")
     database
       .collection("users")
       .get()
@@ -119,66 +177,9 @@ function SignUp() {
               ...curruser,
             };
             localStorage.setItem("FAVTEAMELO", JSON.stringify(team[3]));
-            console.log("gotovo")
+
             window.location.href = "accpage.html";
           });
-      });
-  }
-}
-
-fetch(
-  `../src/data/leaguelist.json`
-)
-  .then((response) => response.json())
-  .then((data) => GetAllLeagues(data.data));
-function GetAllLeagues(data) {
-  let selectLeague = document.getElementById("leagueSelect");
-  console.log(data);
-  data = data.sort((a, b) => {
-    if (a.name < b.name) {
-      return -1;
-    }
-    if (a.name > b.name) {
-      return 1;
-    }
-    return 0;
-  });
-  for (let i = 0; i < data.length; i = i + 1) {
-    let league = data[i];
-    
-    let option = document.createElement("option");
-    option.value = `${league.name}|${league.id}|${league.image_path}`;
-    option.innerHTML = league.name;
-    selectLeague.appendChild(option);
-  }
-}
-
-CreateTeamSelect();
-async function CreateTeamSelect() {
-  let allTeams = [];
-  let selectTeam = document.getElementById("teamSelect");
-  for (let i = 1; i < 13; i = i + 1) {
-    await fetch(`../src/data/teamlist.json`)
-      .then((response) => response.json())
-      .then((data) => {
-        let teams = data.data;
-        teams = teams.sort((a, b) => {
-          if (a.name < b.name) {
-            return -1;
-          }
-          if (a.name > b.name) {
-            return 1;
-          }
-          return 0;
-        });
-        allTeams.push(teams);
-        for (let i = 0; i < teams.length; i = i + 1) {
-          let team = teams[i];
-          let option = document.createElement("option");
-          option.value = `${team.name}|${team.id}|${team.image_path}|${team.elo}`;
-          option.innerHTML = team.name;
-          selectTeam.appendChild(option);
-        }
       });
   }
 }

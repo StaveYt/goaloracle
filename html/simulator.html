@@ -11,12 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Simulator</title>
   </head>
 
   <body
     class="bg-[#1bb198] max-md:flex-col absolute inset-0 flex dark:bg-[#2e2e2e] font-[poppins]"
-    onload="OnLoad();"
+    onload="OnLoadSimulator();OnLoadRegister();"
   >
     <!--navbar za velike ekrane-->
     <div
@@ -64,7 +64,7 @@
             onclick="ShowSignForm('signup')"
             class="bg-[#4b4b4f] border-t-0 border-y-4 border-stone-800 hover:bg-stone-700 font-bold my-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-stone-500/50"
           >
-            Sign Up
+            Registrirajte se
           </button>
         </div>
         <div class="text-center hidden" id="signin">
@@ -72,7 +72,7 @@
             onclick="ShowSignForm('signin')"
             class="text-black bg-[#1bb198] border-t-0 border-y-4 border-teal-800 hover:bg-teal-700 font-bold mb-3 py-2 text-center w-20 rounded shadow-slate-900 shadow-md hover:shadow-teal-500/50"
           >
-            Sign In
+            Ulogirajte se
           </button>
         </div>
       </div>
@@ -99,12 +99,12 @@
         </div>
         <div class="text-center hidden" id="signupsm">
           <button onclick="ShowSignForm('signup')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-            Sign Up
+            Registrirajte se
           </button>
         </div>
         <div class="text-center hidden" id="signinsm">
           <button onclick="ShowSignForm('signin')" class="bg-green-600 border-t-0 border-y-4 p-2 border-green-800 hover:bg-green-700 text-white font-bold text-center text-sm rounded shadow-slate-900  shadow-md hover:shadow-green-500/50">
-            Sign In
+            Ulogirajte se
           </button>
         </div>
       </div>
@@ -296,7 +296,7 @@
           class="my-4 mx-5 bg-[#1bb198] p-3 rounded-md shadow-slate-900 border-t-0 transition duration-300 border-y-4 border-green-800 shadow-md font-bold text-lg [text-shadow:0_3px_3px_#000] hover:bg-green-700 text-slate-200 hover:shadow-green-500/50"
           id="signInButton"
         >
-          Sign in
+          Ulogirajte se
         </button>
         <a
           class="my-2 self-center underline hover:cursor-pointer transition duration-200 hover:text-slate-700 [text-shadow:0_3px_3px_#000]"
