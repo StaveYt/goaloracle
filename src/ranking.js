@@ -4,9 +4,9 @@ let teamsRanked = [];
 let filteredCountry = "all";
 let searchedTeam = "";
 
-function OnLoadRanking(){
+async function OnLoadRanking(){
   /*Dobivamo sve države za čije timove imamo elo i sortiramo ih po njihovom nazivu i dodavamo u izbornik*/
-  fetch('../src/data/countrylist.json').then(res=>res.json()).then((data)=>countries=data)
+  await fetch('../src/data/countrylist.json').then(res=>res.json()).then((data)=>countries=data.data)
   countries = countries.sort((a, b) => {
     if (a < b) {
       return -1;
